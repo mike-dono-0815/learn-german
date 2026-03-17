@@ -1112,18 +1112,6 @@ var KB_DATA = {
       "alternates_russian": []
     },
     {
-      "id": "v106",
-      "topic_ids": [
-        1,
-        2
-      ],
-      "german": "all-",
-      "grammar": "all-",
-      "russian": "все-",
-      "alternates_german": [],
-      "alternates_russian": []
-    },
-    {
       "id": "v107",
       "topic_ids": [
         1
@@ -1225,17 +1213,6 @@ var KB_DATA = {
       "german": "Stellenangebote",
       "grammar": "Stellenangebote",
       "russian": "предложения работы",
-      "alternates_german": [],
-      "alternates_russian": []
-    },
-    {
-      "id": "v117",
-      "topic_ids": [
-        2
-      ],
-      "german": "ander-",
-      "grammar": "ander-",
-      "russian": "в-",
       "alternates_german": [],
       "alternates_russian": []
     },
@@ -2852,19 +2829,6 @@ var KB_DATA = {
       "alternates_russian": []
     },
     {
-      "id": "v282",
-      "topic_ids": [
-        1,
-        2,
-        3
-      ],
-      "german": "eigen-",
-      "grammar": "eigen-",
-      "russian": "собственный",
-      "alternates_german": [],
-      "alternates_russian": []
-    },
-    {
       "id": "v283",
       "topic_ids": [
         1,
@@ -2925,17 +2889,6 @@ var KB_DATA = {
       "alternates_russian": []
     },
     {
-      "id": "v290",
-      "topic_ids": [
-        2
-      ],
-      "german": "einig-",
-      "grammar": "einig-",
-      "russian": "соглашаться-",
-      "alternates_german": [],
-      "alternates_russian": []
-    },
-    {
       "id": "v291",
       "topic_ids": [
         2,
@@ -2969,17 +2922,6 @@ var KB_DATA = {
       "german": "einverstanden",
       "grammar": "einverstanden, ist einverstanden",
       "russian": "согласованный",
-      "alternates_german": [],
-      "alternates_russian": []
-    },
-    {
-      "id": "v297",
-      "topic_ids": [
-        2
-      ],
-      "german": "einzel-",
-      "grammar": "einzel-",
-      "russian": "одинокий",
       "alternates_german": [],
       "alternates_russian": []
     },
@@ -4936,9 +4878,9 @@ var KB_DATA = {
         8,
         12
       ],
-      "german": "die Jugend-",
-      "grammar": "die Jugend-",
-      "russian": "молодежь-",
+      "german": "die Jugendherberge",
+      "grammar": "die Jugendherberge, -n",
+      "russian": "молодёжный хостел",
       "alternates_german": [],
       "alternates_russian": []
     },
@@ -5709,9 +5651,9 @@ var KB_DATA = {
       "topic_ids": [
         10
       ],
-      "german": "die Lebens-",
-      "grammar": "die Lebens-",
-      "russian": "жизнь",
+      "german": "die Lebensmittel",
+      "grammar": "die Lebensmittel (Pl.)",
+      "russian": "продукты питания",
       "alternates_german": [],
       "alternates_russian": []
     },
@@ -5752,17 +5694,6 @@ var KB_DATA = {
       "alternates_russian": []
     },
     {
-      "id": "v587",
-      "topic_ids": [
-        13
-      ],
-      "german": "letzt-",
-      "grammar": "letzt-",
-      "russian": "последний-",
-      "alternates_german": [],
-      "alternates_russian": []
-    },
-    {
       "id": "v588",
       "topic_ids": [
         8
@@ -5781,17 +5712,6 @@ var KB_DATA = {
       "german": "das Licht",
       "grammar": "das Licht, -er",
       "russian": "свет",
-      "alternates_german": [],
-      "alternates_russian": []
-    },
-    {
-      "id": "v590",
-      "topic_ids": [
-        2
-      ],
-      "german": "Lieblings-",
-      "grammar": "Lieblings-",
-      "russian": "любимый-",
       "alternates_german": [],
       "alternates_russian": []
     },
@@ -5840,17 +5760,6 @@ var KB_DATA = {
       "alternates_russian": []
     },
     {
-      "id": "v595",
-      "topic_ids": [
-        1
-      ],
-      "german": "manch-",
-      "grammar": "manch-",
-      "russian": "некоторый-",
-      "alternates_german": [],
-      "alternates_russian": []
-    },
-    {
       "id": "v596",
       "topic_ids": [
         2
@@ -5893,20 +5802,6 @@ var KB_DATA = {
       "german": "mehr",
       "grammar": "mehr",
       "russian": "более",
-      "alternates_german": [],
-      "alternates_russian": []
-    },
-    {
-      "id": "v604",
-      "topic_ids": [
-        2,
-        10,
-        12,
-        13
-      ],
-      "german": "meist-",
-      "grammar": "meist-",
-      "russian": "по большей части-",
       "alternates_german": [],
       "alternates_russian": []
     },
@@ -6062,9 +5957,9 @@ var KB_DATA = {
       "topic_ids": [
         2
       ],
-      "german": "das Mobil-",
-      "grammar": "das Mobil-, hat gemocht",
-      "russian": "мобильный",
+      "german": "das Mobiltelefon",
+      "grammar": "das Mobiltelefon, -e",
+      "russian": "мобильный телефон",
       "alternates_german": [],
       "alternates_russian": []
     },
@@ -6772,8 +6667,8 @@ var KB_DATA = {
         11,
         15
       ],
-      "german": "die Postleit-",
-      "grammar": "die Postleit-",
+      "german": "die Postleitzahl",
+      "grammar": "die Postleitzahl, -en",
       "russian": "почтовый индекс",
       "alternates_german": [],
       "alternates_russian": []
@@ -8037,9 +7932,9 @@ var KB_DATA = {
         11,
         13
       ],
-      "german": "der Spazier-",
-      "grammar": "der Spazier-, hat gespeichert",
-      "russian": "ходьба",
+      "german": "der Spaziergang",
+      "grammar": "der Spaziergang, ¨-e",
+      "russian": "прогулка",
       "alternates_german": [],
       "alternates_russian": []
     },
@@ -8114,9 +8009,9 @@ var KB_DATA = {
       "topic_ids": [
         13
       ],
-      "german": "die Sprech-",
-      "grammar": "die Sprech-",
-      "russian": "говорящий",
+      "german": "die Sprechstunde",
+      "grammar": "die Sprechstunde, -n",
+      "russian": "приёмные часы",
       "alternates_german": [],
       "alternates_russian": []
     },
@@ -8211,8 +8106,8 @@ var KB_DATA = {
       "topic_ids": [
         2
       ],
-      "german": "das Stipen-",
-      "grammar": "das Stipen-",
+      "german": "das Stipendium",
+      "grammar": "das Stipendium, Stipendien",
       "russian": "стипендия",
       "alternates_german": [],
       "alternates_russian": []
@@ -8267,9 +8162,9 @@ var KB_DATA = {
       "topic_ids": [
         6
       ],
-      "german": "die Straßen-",
-      "grammar": "die Straßen-, hat gestritten",
-      "russian": "улицы-",
+      "german": "die Straßenbahn",
+      "grammar": "die Straßenbahn, -en",
+      "russian": "трамвай",
       "alternates_german": [],
       "alternates_russian": []
     },
@@ -8919,9 +8814,9 @@ var KB_DATA = {
         10,
         12
       ],
-      "german": "die Über-",
-      "grammar": "die Über-, hat überwiesen",
-      "russian": "сверх-",
+      "german": "die Überweisung",
+      "grammar": "die Überweisung, -en",
+      "russian": "банковский перевод",
       "alternates_german": [],
       "alternates_russian": []
     },
@@ -9082,9 +8977,9 @@ var KB_DATA = {
         2,
         13
       ],
-      "german": "die Veranstal-",
-      "grammar": "die Veranstal-, hat verdient",
-      "russian": "событие",
+      "german": "die Veranstaltung",
+      "grammar": "die Veranstaltung, -en",
+      "russian": "мероприятие",
       "alternates_german": [],
       "alternates_russian": []
     },
@@ -9116,9 +9011,9 @@ var KB_DATA = {
       "topic_ids": [
         1
       ],
-      "german": "das Verkehrs-",
-      "grammar": "das Verkehrs-",
-      "russian": "трафик",
+      "german": "das Verkehrsmittel",
+      "grammar": "das Verkehrsmittel, -",
+      "russian": "транспортное средство",
       "alternates_german": [],
       "alternates_russian": []
     },
@@ -10024,18 +9919,6 @@ var KB_DATA = {
       "german": "zurück",
       "grammar": "zurück",
       "russian": "назад",
-      "alternates_german": [],
-      "alternates_russian": []
-    },
-    {
-      "id": "v1007",
-      "topic_ids": [
-        2,
-        8
-      ],
-      "german": "zurück-",
-      "grammar": "zurück-",
-      "russian": "назад-",
       "alternates_german": [],
       "alternates_russian": []
     },

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Deutsch_Russisch_Cut.txt",
-    "total_vocab": 861,
+    "total_vocab": 851,
     "total_sentences": 2036,
     "topics_count": 15,
     "generated": "2026-03-17"
@@ -1065,23 +1065,6 @@
       ]
     },
     {
-      "id": 106,
-      "word_de": "all-",
-      "grammar": "all-",
-      "word_ru": "все-",
-      "topic_ids": [
-        1,
-        2
-      ],
-      "sentence_ids": [
-        106,
-        107,
-        108,
-        109,
-        110
-      ]
-    },
-    {
       "id": 107,
       "word_de": "allein",
       "grammar": "allein",
@@ -1201,18 +1184,6 @@
       ],
       "sentence_ids": [
         135
-      ]
-    },
-    {
-      "id": 117,
-      "word_de": "ander-",
-      "grammar": "ander-",
-      "word_ru": "в-",
-      "topic_ids": [
-        2
-      ],
-      "sentence_ids": [
-        136
       ]
     },
     {
@@ -3086,20 +3057,6 @@
       ]
     },
     {
-      "id": 282,
-      "word_de": "eigen-",
-      "grammar": "eigen-",
-      "word_ru": "собственный",
-      "topic_ids": [
-        1,
-        2,
-        3
-      ],
-      "sentence_ids": [
-        696
-      ]
-    },
-    {
       "id": 283,
       "word_de": "eigentlich",
       "grammar": "eigentlich",
@@ -3169,18 +3126,6 @@
       ]
     },
     {
-      "id": 290,
-      "word_de": "einig-",
-      "grammar": "einig-",
-      "word_ru": "соглашаться-",
-      "topic_ids": [
-        2
-      ],
-      "sentence_ids": [
-        708
-      ]
-    },
-    {
       "id": 291,
       "word_de": "die Einladung",
       "grammar": "die Einladung, -en",
@@ -3219,18 +3164,6 @@
       "sentence_ids": [
         721,
         722
-      ]
-    },
-    {
-      "id": 297,
-      "word_de": "einzel-",
-      "grammar": "einzel-",
-      "word_ru": "одинокий",
-      "topic_ids": [
-        2
-      ],
-      "sentence_ids": [
-        727
       ]
     },
     {
@@ -5492,9 +5425,9 @@
     },
     {
       "id": 501,
-      "word_de": "die Jugend-",
-      "grammar": "die Jugend-",
-      "word_ru": "молодежь-",
+      "word_de": "die Jugendherberge",
+      "grammar": "die Jugendherberge, -n",
+      "word_ru": "молодёжный хостел",
       "topic_ids": [
         2,
         8,
@@ -6369,9 +6302,9 @@
     },
     {
       "id": 583,
-      "word_de": "die Lebens-",
-      "grammar": "die Lebens-",
-      "word_ru": "жизнь",
+      "word_de": "die Lebensmittel",
+      "grammar": "die Lebensmittel (Pl.)",
+      "word_ru": "продукты питания",
       "topic_ids": [
         10
       ],
@@ -6423,19 +6356,6 @@
       ]
     },
     {
-      "id": 587,
-      "word_de": "letzt-",
-      "grammar": "letzt-",
-      "word_ru": "последний-",
-      "topic_ids": [
-        13
-      ],
-      "sentence_ids": [
-        1263,
-        1264
-      ]
-    },
-    {
       "id": 588,
       "word_de": "die Leute",
       "grammar": "die Leute",
@@ -6458,18 +6378,6 @@
       "sentence_ids": [
         1266,
         1267
-      ]
-    },
-    {
-      "id": 590,
-      "word_de": "Lieblings-",
-      "grammar": "Lieblings-",
-      "word_ru": "Любимый-",
-      "topic_ids": [
-        2
-      ],
-      "sentence_ids": [
-        1268
       ]
     },
     {
@@ -6520,16 +6428,6 @@
       "sentence_ids": [
         1274
       ]
-    },
-    {
-      "id": 595,
-      "word_de": "manch-",
-      "grammar": "manch-",
-      "word_ru": "некоторый-",
-      "topic_ids": [
-        1
-      ],
-      "sentence_ids": []
     },
     {
       "id": 596,
@@ -6584,22 +6482,6 @@
         1294,
         1295,
         1296
-      ]
-    },
-    {
-      "id": 604,
-      "word_de": "meist-",
-      "grammar": "meist-",
-      "word_ru": "по большей части-",
-      "topic_ids": [
-        2,
-        10,
-        12,
-        13
-      ],
-      "sentence_ids": [
-        1297,
-        1298
       ]
     },
     {
@@ -6767,9 +6649,9 @@
     },
     {
       "id": 625,
-      "word_de": "das Mobil-",
-      "grammar": "das Mobil-, hat gemocht",
-      "word_ru": "мобильный",
+      "word_de": "das Mobiltelefon",
+      "grammar": "das Mobiltelefon, -e",
+      "word_ru": "мобильный телефон",
       "topic_ids": [
         2
       ],
@@ -7567,8 +7449,8 @@
     },
     {
       "id": 698,
-      "word_de": "die Postleit-",
-      "grammar": "die Postleit-",
+      "word_de": "die Postleitzahl",
+      "grammar": "die Postleitzahl, -en",
       "word_ru": "почтовый индекс",
       "topic_ids": [
         2,
@@ -9019,9 +8901,9 @@
     },
     {
       "id": 830,
-      "word_de": "der Spazier-",
-      "grammar": "der Spazier-, hat gespeichert",
-      "word_ru": "ходьба",
+      "word_de": "der Spaziergang",
+      "grammar": "der Spaziergang, ¨-e",
+      "word_ru": "прогулка",
       "topic_ids": [
         2,
         11,
@@ -9107,9 +8989,9 @@
     },
     {
       "id": 839,
-      "word_de": "die Sprech-",
-      "grammar": "die Sprech-",
-      "word_ru": "говорящий",
+      "word_de": "die Sprechstunde",
+      "grammar": "die Sprechstunde, -n",
+      "word_ru": "приёмные часы",
       "topic_ids": [
         13
       ],
@@ -9216,8 +9098,8 @@
     },
     {
       "id": 847,
-      "word_de": "das Stipen-",
-      "grammar": "das Stipen-",
+      "word_de": "das Stipendium",
+      "grammar": "das Stipendium, Stipendien",
       "word_ru": "стипендия",
       "topic_ids": [
         2
@@ -9279,9 +9161,9 @@
     },
     {
       "id": 853,
-      "word_de": "die Straßen-",
-      "grammar": "die Straßen-, hat gestritten",
-      "word_ru": "улицы-",
+      "word_de": "die Straßenbahn",
+      "grammar": "die Straßenbahn, -en",
+      "word_ru": "трамвай",
       "topic_ids": [
         6
       ],
@@ -10023,9 +9905,9 @@
     },
     {
       "id": 909,
-      "word_de": "die Über-",
-      "grammar": "die Über-, hat überwiesen",
-      "word_ru": "сверх-",
+      "word_de": "die Überweisung",
+      "grammar": "die Überweisung, -en",
+      "word_ru": "банковский перевод",
       "topic_ids": [
         2,
         10,
@@ -10221,9 +10103,9 @@
     },
     {
       "id": 923,
-      "word_de": "die Veranstal-",
-      "grammar": "die Veranstal-, hat verdient",
-      "word_ru": "событие",
+      "word_de": "die Veranstaltung",
+      "grammar": "die Veranstaltung, -en",
+      "word_ru": "мероприятие",
       "topic_ids": [
         2,
         13
@@ -10270,9 +10152,9 @@
     },
     {
       "id": 926,
-      "word_de": "das Verkehrs-",
-      "grammar": "das Verkehrs-",
-      "word_ru": "трафик",
+      "word_de": "das Verkehrsmittel",
+      "grammar": "das Verkehrsmittel, -",
+      "word_ru": "транспортное средство",
       "topic_ids": [
         1
       ],
@@ -11333,23 +11215,6 @@
       ],
       "sentence_ids": [
         2028
-      ]
-    },
-    {
-      "id": 1007,
-      "word_de": "zurück-",
-      "grammar": "zurück-",
-      "word_ru": "назад-",
-      "topic_ids": [
-        2,
-        8
-      ],
-      "sentence_ids": [
-        2029,
-        2030,
-        2031,
-        2032,
-        2033
       ]
     },
     {
