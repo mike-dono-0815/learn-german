@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Лесная Школа – Учим немецкий</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app">
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       SPLASH / LANDING SCREEN
+  ═══════════════════════════════════════════════════════════════ -->
+  <section id="screen-splash" class="screen active">
+    <div class="splash-inner">
+      <div class="splash-image-wrap">
+        <img src="TitlePage.png" alt="Лесная Школа" class="splash-image">
+      </div>
+      <div class="splash-content">
+        <p class="splash-cyrillic">Лесная Школа</p>
+        <p class="splash-sub">Ваш персональный тренер по немецкому</p>
+        <button class="splash-btn" onclick="App.navigate('home')">Начать учёбу →</button>
+      </div>
+      <footer class="splash-footer">
+        Учим немецкий · Шаг за шагом
+      </footer>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       HOME SCREEN
+  ═══════════════════════════════════════════════════════════════ -->
+  <section id="screen-home" class="screen">
+    <div class="screen-inner">
+
+      <header class="home-header">
+        <div class="app-logo" onclick="App.navigate('splash')" style="cursor:pointer">
+          <img src="TitlePage.png" alt="Logo" class="home-logo-img">
+          <div class="home-logo-text">
+            <span class="logo-name">Лесная Школа</span>
+            <span class="logo-sub">Учим немецкий</span>
+          </div>
+        </div>
+        <div class="home-global-stats">
+          <span id="home-xp"    class="stat-chip">⭐ 0 XP</span>
+          <span id="home-level" class="stat-chip level-chip">Lv.1</span>
+        </div>
+      </header>
+
+      <main class="home-main">
+
+        <!-- MODE -->
+        <div class="setting-group">
+          <label class="setting-label">Режим</label>
+          <div class="btn-group" id="mode-group">
+            <button class="btn-toggle active" data-mode="vocabulary" onclick="App.setMode('vocabulary')">Слова</button>
+            <button class="btn-toggle"        data-mode="sentences"  onclick="App.setMode('sentences')">Предложения</button>
+          </div>
+        </div>
+
+        <!-- TOPIC -->
+        <div class="setting-group">
+          <label class="setting-label">Тема</label>
+          <select id="topic-select" class="select-ctrl" onchange="App.setTopic(this.value)">
+            <!-- filled by JS -->
+          </select>
+          <p class="setting-hint" id="topic-hint">Enthält … Vokabeln</p>
+        </div>
+
+        <!-- DIRECTION -->
+        <div class="setting-group">
+          <label class="setting-label">Направление</label>
+          <div class="btn-group" id="dir-group">
+            <button class="btn-toggle active" data-dir="de-to-ru" onclick="App.setDirection('de-to-ru')">DE → RU</button>
+            <button class="btn-toggle"        data-dir="ru-to-de" onclick="App.setDirection('ru-to-de')">RU → DE</button>
+          </div>
+        </div>
+
+        <!-- START -->
+        <button id="start-btn" class="btn-primary btn-large" onclick="App.startSession()">
+          Начать учёбу →
+        </button>
+
+        <!-- SECONDARY NAVIGATION -->
+        <div class="home-nav">
+          <button class="btn-ghost" onclick="App.navigate('stats')">📊 Статистика</button>
+        </div>
+
+      </main>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       PRACTICE SCREEN
+  ═══════════════════════════════════════════════════════════════ -->
+  <section id="screen-practice" class="screen">
+    <div class="screen-inner">
+
+      <!-- Top bar -->
+      <header class="practice-header">
+        <div class="ph-streak">
+          <span class="streak-fire">🔥</span>
+          <span id="ph-streak">0</span>
+        </div>
+        <div class="ph-score">
+          <span id="ph-correct" class="score-c">0</span>
+          <span class="score-sep">/</span>
+          <span id="ph-total"   class="score-t">0</span>
+        </div>
+        <div class="ph-xp">
+          ⭐ <span id="ph-xp">0</span>
+        </div>
+      </header>
+
+      <main class="practice-main">
+
+        <!-- Question card -->
+        <div id="question-card" class="q-card">
+          <div id="q-direction" class="q-direction">DE → RU</div>
+          <div id="q-text"      class="q-text">—</div>
+          <div id="q-grammar"   class="q-grammar hidden"></div>
+          <div id="q-hint-line" class="q-hint-line hidden"></div>
+        </div>
+
+        <!-- Hint + quick-grade row -->
+        <div class="hint-row">
+          <button id="hint-btn" class="btn-hint" onclick="App.showHint()">💡 Подсказка</button>
+          <div class="quick-grade-btns-inline" id="quick-grade-inline" style="display:none">
+            <button class="btn-quick-compact btn-quick-no" onclick="App.autoGrade(0)">
+              <span class="qg-icon">🙈</span>
+              <span>Не знаю</span>
+            </button>
+            <button class="btn-quick-compact btn-quick-yes" onclick="App.autoGrade(2)">
+              <span class="qg-icon">👍</span>
+              <span>Знаю!</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- ── PHASE: Input (vocabulary auto-check) ── -->
+        <div id="phase-input" class="practice-phase active">
+          <input
+            id="answer-input"
+            type="text"
+            class="answer-input"
+            placeholder="Ваш ответ … (кириллица или транслит)"
+            autocomplete="off"
+            autocorrect="off"
+            autocapitalize="off"
+            spellcheck="false"
+            onkeydown="App.onInputKey(event)"
+          >
+          <button class="btn-primary" onclick="App.checkAnswer()">Проверить ✓</button>
+        </div>
+
+        <!-- ── PHASE: Auto-feedback (vocabulary) ── -->
+        <div id="phase-feedback" class="practice-phase">
+          <div id="fb-result"   class="fb-result"></div>
+          <div id="fb-correct"  class="fb-correct"></div>
+          <div id="fb-translit" class="fb-translit hidden"></div>
+          <div id="fb-grammar"  class="fb-grammar hidden"></div>
+          <div id="fb-alts"     class="fb-alts hidden"></div>
+          <button class="btn-primary" onclick="App.nextWord()">Далее →</button>
+        </div>
+
+        <!-- ── PHASE: Sentence input ── -->
+        <div id="phase-sentence-input" class="practice-phase">
+          <textarea
+            id="sentence-input"
+            class="sentence-input"
+            placeholder="Ваш перевод …"
+            rows="3"
+            autocomplete="off"
+            autocorrect="off"
+            autocapitalize="off"
+            spellcheck="false"
+          ></textarea>
+          <button class="btn-primary" onclick="App.revealSentence()">Показать ответ</button>
+          <button class="btn-ghost btn-sm" onclick="App.skipSentence()">Пропустить</button>
+        </div>
+
+        <!-- ── PHASE: Self-grade (sentences) ── -->
+        <div id="phase-selfgrade" class="practice-phase">
+          <div class="sg-label">Ваш ответ:</div>
+          <div id="sg-attempt"  class="sg-attempt"></div>
+          <div class="sg-divider">✦ Правильный ответ:</div>
+          <div id="sg-answer"   class="sg-answer"></div>
+          <div id="sg-translit" class="sg-translit hidden"></div>
+          <div class="sg-buttons">
+            <button class="btn-grade btn-wrong"   onclick="App.selfGrade(0)">❌ Неверно</button>
+            <button class="btn-grade btn-partial" onclick="App.selfGrade(1)">⚠️ Почти</button>
+            <button class="btn-grade btn-right"   onclick="App.selfGrade(2)">✅ Верно</button>
+          </div>
+        </div>
+
+      </main>
+
+      <footer class="practice-footer">
+        <button class="btn-ghost btn-sm" onclick="App.quitSession()">✕ Завершить сессию</button>
+      </footer>
+
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       SESSION-END SCREEN
+  ═══════════════════════════════════════════════════════════════ -->
+  <section id="screen-session-end" class="screen">
+    <div class="screen-inner">
+
+      <header class="simple-header">
+        <h1>Сессия завершена</h1>
+      </header>
+
+      <main class="se-main">
+        <div class="se-stats">
+          <div class="se-stat">
+            <span class="se-icon">✅</span>
+            <span id="se-correct" class="se-val">0</span>
+            <span class="se-lbl">Верно</span>
+          </div>
+          <div class="se-stat">
+            <span class="se-icon">❌</span>
+            <span id="se-wrong" class="se-val">0</span>
+            <span class="se-lbl">Неверно</span>
+          </div>
+          <div class="se-stat">
+            <span class="se-icon">🔥</span>
+            <span id="se-streak" class="se-val">0</span>
+            <span class="se-lbl">Лучшая серия</span>
+          </div>
+          <div class="se-stat">
+            <span class="se-icon">⭐</span>
+            <span id="se-xp" class="se-val">0</span>
+            <span class="se-lbl">XP заработано</span>
+          </div>
+        </div>
+
+        <div id="se-missed-section" class="se-missed hidden">
+          <h3>Повторить:</h3>
+          <ul id="se-missed-list" class="se-missed-list"></ul>
+        </div>
+
+        <div class="se-actions">
+          <button class="btn-primary"    onclick="App.startSession()">Ещё раз</button>
+          <button class="btn-secondary"  onclick="App.navigate('home')">← Главная</button>
+        </div>
+      </main>
+
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       STATS SCREEN
+  ═══════════════════════════════════════════════════════════════ -->
+  <section id="screen-stats" class="screen">
+    <div class="screen-inner">
+      <header class="simple-header">
+        <button class="btn-back" onclick="App.navigate('home')">← Назад</button>
+        <h1>Статистика</h1>
+        <button class="btn-icon danger" onclick="App.Stats.resetAll()" title="Сбросить всё">🗑</button>
+      </header>
+      <main id="stats-main" class="stats-main">
+        <!-- filled by JS -->
+      </main>
+    </div>
+  </section>
+
+</div><!-- #app -->
+
+
+<!-- ── OVERLAYS / GLOBAL UI ────────────────────────────────────── -->
+
+<div id="celebration-overlay" class="celebration-overlay hidden">
+  <div id="celebration-box" class="celebration-box"></div>
+</div>
+
+<canvas id="confetti-canvas" class="confetti-canvas"></canvas>
+
+<div id="toast" class="toast hidden"></div>
+
+
+<!-- ── SCRIPTS (order matters) ────────────────────────────────── -->
+<script src="data/knowledge-base.js"></script>
+<script src="js/data.js"></script>
+<script src="js/scoring.js"></script>
+<script src="js/checker.js"></script>
+<script src="js/celebration.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
