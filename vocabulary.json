@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Deutsch_Russisch_Cut.txt",
-    "total_vocab": 1009,
+    "total_vocab": 861,
     "total_sentences": 2036,
     "topics_count": 15,
     "generated": "2026-03-17"
@@ -84,56 +84,6 @@
     }
   ],
   "vocabulary": [
-    {
-      "id": 1,
-      "word_de": "ICE",
-      "grammar": "ICE",
-      "word_ru": "ЛЕД",
-      "topic_ids": [
-        1
-      ],
-      "sentence_ids": []
-    },
-    {
-      "id": 2,
-      "word_de": "Lkw",
-      "grammar": "Lkw, -s",
-      "word_ru": "Грузовик",
-      "topic_ids": [
-        11
-      ],
-      "sentence_ids": []
-    },
-    {
-      "id": 3,
-      "word_de": "PC",
-      "grammar": "PC, -s",
-      "word_ru": "ПК",
-      "topic_ids": [
-        11
-      ],
-      "sentence_ids": []
-    },
-    {
-      "id": 4,
-      "word_de": "SMS",
-      "grammar": "SMS",
-      "word_ru": "SMS",
-      "topic_ids": [
-        11
-      ],
-      "sentence_ids": []
-    },
-    {
-      "id": 5,
-      "word_de": "WC",
-      "grammar": "WC, -s",
-      "word_ru": "Туалет",
-      "topic_ids": [
-        1
-      ],
-      "sentence_ids": []
-    },
     {
       "id": 6,
       "word_de": "Bruder",
@@ -257,7 +207,7 @@
     {
       "id": 18,
       "word_de": "Onkel",
-      "grammar": "Onkel",
+      "grammar": "Onkel, -",
       "word_ru": "Дядя",
       "topic_ids": [
         1
@@ -267,18 +217,8 @@
     {
       "id": 19,
       "word_de": "Schwester",
-      "grammar": "Schwester",
+      "grammar": "Schwester, -n",
       "word_ru": "Сестра",
-      "topic_ids": [
-        1
-      ],
-      "sentence_ids": []
-    },
-    {
-      "id": 20,
-      "word_de": "-n",
-      "grammar": "-n",
-      "word_ru": "-н",
       "topic_ids": [
         1
       ],
@@ -311,18 +251,8 @@
     {
       "id": 23,
       "word_de": "Tochter",
-      "grammar": "Tochter, ¨Vater",
+      "grammar": "Tochter, ¨-",
       "word_ru": "Дочь",
-      "topic_ids": [
-        1
-      ],
-      "sentence_ids": []
-    },
-    {
-      "id": 24,
-      "word_de": "¨- (Papa)",
-      "grammar": "¨- (Papa)",
-      "word_ru": "папа)",
       "topic_ids": [
         1
       ],
@@ -341,7 +271,7 @@
     {
       "id": 26,
       "word_de": "Antwortbogen",
-      "grammar": "Antwortbogen",
+      "grammar": "Antwortbogen, ¨-",
       "word_ru": "Лист ответов",
       "topic_ids": [
         4
@@ -351,18 +281,8 @@
     {
       "id": 27,
       "word_de": "Angestellter",
-      "grammar": "Angestellter",
+      "grammar": "Angestellter, -e / Angestellte, -n",
       "word_ru": "сотрудник",
-      "topic_ids": [
-        4
-      ],
-      "sentence_ids": []
-    },
-    {
-      "id": 28,
-      "word_de": "-e / Angestellte",
-      "grammar": "-e / Angestellte, -",
-      "word_ru": "-е / сотрудники",
       "topic_ids": [
         4
       ],
@@ -371,7 +291,7 @@
     {
       "id": 29,
       "word_de": "Beispiel",
-      "grammar": "Beispiel, -e Auszubildender, -e/Auszubildende,-",
+      "grammar": "Beispiel, -e",
       "word_ru": "Пример",
       "topic_ids": [
         4
@@ -381,7 +301,7 @@
     {
       "id": 30,
       "word_de": "Lösung",
-      "grammar": "Lösung, -en Babysitter,markieren",
+      "grammar": "Lösung, -en",
       "word_ru": "Решение",
       "topic_ids": [
         4
@@ -411,18 +331,8 @@
     {
       "id": 33,
       "word_de": "Krankenpfleger",
-      "grammar": "Krankenpfleger, - / Krankenschwesledig",
+      "grammar": "Krankenpfleger, - / Krankenschwester, -n",
       "word_ru": "Медсестра",
-      "topic_ids": [
-        1
-      ],
-      "sentence_ids": []
-    },
-    {
-      "id": 34,
-      "word_de": "ter",
-      "grammar": "ter, -n",
-      "word_ru": "тер",
       "topic_ids": [
         1
       ],
@@ -461,9 +371,9 @@
     },
     {
       "id": 38,
-      "word_de": "rosa Himmelsrichtungen",
-      "grammar": "rosa Himmelsrichtungen",
-      "word_ru": "розовые кардинальные точки",
+      "word_de": "rosa",
+      "grammar": "rosa",
+      "word_ru": "розовый",
       "topic_ids": [
         15
       ],
@@ -483,9 +393,9 @@
     },
     {
       "id": 40,
-      "word_de": "schwarz Norden",
-      "grammar": "schwarz Norden",
-      "word_ru": "черный север",
+      "word_de": "schwarz",
+      "grammar": "schwarz",
+      "word_ru": "чёрный",
       "topic_ids": [
         15
       ],
@@ -493,9 +403,9 @@
     },
     {
       "id": 41,
-      "word_de": "weiß Süden",
-      "grammar": "weiß Süden",
-      "word_ru": "Белый юг",
+      "word_de": "weiß",
+      "grammar": "weiß",
+      "word_ru": "белый",
       "topic_ids": [
         15
       ],
@@ -523,9 +433,9 @@
     },
     {
       "id": 44,
-      "word_de": "Deutschland Abitur (Sg.)",
-      "grammar": "Deutschland Abitur (Sg.)",
-      "word_ru": "Германия Abitur (сержант)",
+      "word_de": "Deutschland",
+      "grammar": "Deutschland",
+      "word_ru": "Германия",
       "topic_ids": [
         5,
         15
@@ -535,7 +445,7 @@
     {
       "id": 45,
       "word_de": "Deutsche",
-      "grammar": "Deutsche, -n Direktor, -en",
+      "grammar": "Deutsche, -n",
       "word_ru": "немецкий",
       "topic_ids": [
         15
@@ -544,9 +454,9 @@
     },
     {
       "id": 46,
-      "word_de": "deutsch Hausaufgabe",
-      "grammar": "deutsch Hausaufgabe, -n",
-      "word_ru": "домашнее задание по немецкому языку",
+      "word_de": "deutsch",
+      "grammar": "deutsch",
+      "word_ru": "немецкий",
       "topic_ids": [
         5,
         15
@@ -555,9 +465,9 @@
     },
     {
       "id": 47,
-      "word_de": "Österreich Klassenfahrt",
-      "grammar": "Österreich Klassenfahrt, -en",
-      "word_ru": "Школьная поездка в Австрию",
+      "word_de": "Österreich",
+      "grammar": "Österreich",
+      "word_ru": "Австрия",
       "topic_ids": [
         5,
         15
@@ -566,9 +476,9 @@
     },
     {
       "id": 48,
-      "word_de": "österreichisch Stundenplan",
-      "grammar": "österreichisch Stundenplan, ¨-e",
-      "word_ru": "Австрийское расписание",
+      "word_de": "österreichisch",
+      "grammar": "österreichisch",
+      "word_ru": "австрийский",
       "topic_ids": [
         15
       ],
@@ -576,9 +486,9 @@
     },
     {
       "id": 49,
-      "word_de": "die Schweiz Biologie",
-      "grammar": "die Schweiz Biologie",
-      "word_ru": "Швейцария биология",
+      "word_de": "die Schweiz",
+      "grammar": "die Schweiz",
+      "word_ru": "Швейцария",
       "topic_ids": [
         15
       ],
@@ -586,9 +496,9 @@
     },
     {
       "id": 50,
-      "word_de": "schweizerisch Deutsch",
-      "grammar": "schweizerisch Deutsch",
-      "word_ru": "швейцарский немецкий",
+      "word_de": "schweizerisch",
+      "grammar": "schweizerisch",
+      "word_ru": "швейцарский",
       "topic_ids": [
         15
       ],
@@ -596,9 +506,9 @@
     },
     {
       "id": 51,
-      "word_de": "Luxemburg Englisch",
-      "grammar": "Luxemburg Englisch",
-      "word_ru": "Люксембургский английский",
+      "word_de": "Luxemburg",
+      "grammar": "Luxemburg",
+      "word_ru": "Люксембург",
       "topic_ids": [
         15
       ],
@@ -607,7 +517,7 @@
     {
       "id": 52,
       "word_de": "Luxemburger",
-      "grammar": "Luxemburger, - / Luxemburgerin, -Französisch",
+      "grammar": "Luxemburger, - / Luxemburgerin, -nen",
       "word_ru": "Люксембуржец",
       "topic_ids": [
         15
@@ -615,20 +525,10 @@
       "sentence_ids": []
     },
     {
-      "id": 53,
-      "word_de": "nen Geografie",
-      "grammar": "nen Geografie",
-      "word_ru": "география",
-      "topic_ids": [
-        15
-      ],
-      "sentence_ids": []
-    },
-    {
       "id": 54,
-      "word_de": "luxemburgisch Geschichte",
-      "grammar": "luxemburgisch Geschichte",
-      "word_ru": "История Люксембурга",
+      "word_de": "luxemburgisch",
+      "grammar": "luxemburgisch",
+      "word_ru": "люксембургский",
       "topic_ids": [
         15
       ],
@@ -636,9 +536,9 @@
     },
     {
       "id": 55,
-      "word_de": "Europa Kunst(erziehung)",
-      "grammar": "Europa Kunst(erziehung)",
-      "word_ru": "Европейское искусство(образование)",
+      "word_de": "Europa",
+      "grammar": "Europa",
+      "word_ru": "Европа",
       "topic_ids": [
         15
       ],
@@ -647,7 +547,7 @@
     {
       "id": 56,
       "word_de": "Europäer",
-      "grammar": "Europäer,- / Europäerin, -nen Latein",
+      "grammar": "Europäer, - / Europäerin, -nen",
       "word_ru": "Европейцы",
       "topic_ids": [
         15
@@ -656,9 +556,9 @@
     },
     {
       "id": 57,
-      "word_de": "europäisch Mathematik",
-      "grammar": "europäisch Mathematik",
-      "word_ru": "Европейская математика",
+      "word_de": "europäisch",
+      "grammar": "europäisch",
+      "word_ru": "европейский",
       "topic_ids": [
         15
       ],
@@ -717,7 +617,7 @@
     {
       "id": 63,
       "word_de": "Datum",
-      "grammar": "Datum",
+      "grammar": "Datum, Daten",
       "word_ru": "Дата",
       "topic_ids": [
         13
@@ -726,9 +626,9 @@
     },
     {
       "id": 64,
-      "word_de": "Karneval Januar",
-      "grammar": "Karneval Januar",
-      "word_ru": "Карнавал Январь",
+      "word_de": "Karneval",
+      "grammar": "Karneval, -e",
+      "word_ru": "карнавал",
       "topic_ids": [
         13
       ],
@@ -736,9 +636,9 @@
     },
     {
       "id": 65,
-      "word_de": "Ostern Februar",
-      "grammar": "Ostern Februar",
-      "word_ru": "Пасха февраль",
+      "word_de": "Ostern",
+      "grammar": "Ostern (Pl.)",
+      "word_ru": "Пасха",
       "topic_ids": [
         13
       ],
@@ -746,9 +646,9 @@
     },
     {
       "id": 66,
-      "word_de": "Weihnachten März",
-      "grammar": "Weihnachten März",
-      "word_ru": "Рождественский марш",
+      "word_de": "Weihnachten",
+      "grammar": "Weihnachten (Pl.)",
+      "word_ru": "Рождество",
       "topic_ids": [
         13
       ],
@@ -756,9 +656,9 @@
     },
     {
       "id": 67,
-      "word_de": "Neujahr/Silvester April",
-      "grammar": "Neujahr/Silvester April",
-      "word_ru": "Новый год/канун Нового года апрель",
+      "word_de": "Neujahr/Silvester",
+      "grammar": "Neujahr/Silvester",
+      "word_ru": "Новый год / Сильвестр",
       "topic_ids": [
         13
       ],
@@ -786,9 +686,9 @@
     },
     {
       "id": 70,
-      "word_de": "Frühling / Frühjahr August",
-      "grammar": "Frühling / Frühjahr August",
-      "word_ru": "Весна / Весна Август",
+      "word_de": "Frühling",
+      "grammar": "Frühling, -e",
+      "word_ru": "весна",
       "topic_ids": [
         12,
         13
@@ -797,9 +697,9 @@
     },
     {
       "id": 71,
-      "word_de": "Sommer September",
-      "grammar": "Sommer September",
-      "word_ru": "Лето сентябрь",
+      "word_de": "Sommer",
+      "grammar": "Sommer, -",
+      "word_ru": "лето",
       "topic_ids": [
         12,
         13
@@ -808,9 +708,9 @@
     },
     {
       "id": 72,
-      "word_de": "Herbst Oktober",
-      "grammar": "Herbst Oktober",
-      "word_ru": "Осень Октябрь",
+      "word_de": "Herbst",
+      "grammar": "Herbst, -e",
+      "word_ru": "осень",
       "topic_ids": [
         12,
         13
@@ -819,9 +719,9 @@
     },
     {
       "id": 73,
-      "word_de": "Winter November",
-      "grammar": "Winter November",
-      "word_ru": "Зимний ноябрь",
+      "word_de": "Winter",
+      "grammar": "Winter, -",
+      "word_ru": "зима",
       "topic_ids": [
         12,
         13
@@ -853,16 +753,6 @@
       "word_de": "Tag",
       "grammar": "Tag, -e",
       "word_ru": "день",
-      "topic_ids": [
-        13
-      ],
-      "sentence_ids": []
-    },
-    {
-      "id": 77,
-      "word_de": "-e",
-      "grammar": "-e",
-      "word_ru": "-е",
       "topic_ids": [
         13
       ],
@@ -926,7 +816,7 @@
     {
       "id": 83,
       "word_de": "täglich",
-      "grammar": "täglich, tagsüber",
+      "grammar": "täglich",
       "word_ru": "ежедневно",
       "topic_ids": [
         13
@@ -1113,96 +1003,6 @@
       ]
     },
     {
-      "id": 100,
-      "word_de": "Das",
-      "grammar": "Das, hat abgegeben, hat abgeholt",
-      "word_ru": "",
-      "topic_ids": [
-        2,
-        3
-      ],
-      "sentence_ids": [
-        21,
-        22,
-        23,
-        24,
-        25,
-        26,
-        27,
-        28,
-        29,
-        30,
-        31,
-        32,
-        33,
-        34,
-        35,
-        36,
-        37,
-        38,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46,
-        47,
-        48,
-        49,
-        50,
-        51,
-        52,
-        53,
-        54,
-        55,
-        56,
-        57,
-        58,
-        59,
-        60,
-        61,
-        62,
-        63,
-        64,
-        65,
-        66,
-        67,
-        68,
-        69,
-        70,
-        71,
-        72,
-        73,
-        74,
-        75,
-        76,
-        77,
-        78,
-        79,
-        80,
-        81,
-        82,
-        83,
-        84,
-        85,
-        86,
-        87,
-        88,
-        89,
-        90,
-        91,
-        92,
-        93,
-        94,
-        95,
-        96,
-        97,
-        98
-      ]
-    },
-    {
       "id": 101,
       "word_de": "Achtung",
       "grammar": "Achtung (Sg.)",
@@ -1375,26 +1175,6 @@
       ]
     },
     {
-      "id": 114,
-      "word_de": "Am",
-      "grammar": "Am",
-      "word_ru": "На",
-      "topic_ids": [
-        1,
-        13
-      ],
-      "sentence_ids": [
-        126,
-        127,
-        128,
-        129,
-        130,
-        131,
-        132,
-        133
-      ]
-    },
-    {
       "id": 115,
       "word_de": "das Angebot",
       "grammar": "das Angebot, -e",
@@ -1436,108 +1216,6 @@
       ]
     },
     {
-      "id": 118,
-      "word_de": "Die",
-      "grammar": "Die, hat geändert",
-      "word_ru": "",
-      "topic_ids": [
-        3,
-        4,
-        13
-      ],
-      "sentence_ids": [
-        137,
-        138,
-        139,
-        140,
-        141,
-        142,
-        143,
-        144,
-        145,
-        146,
-        147,
-        148,
-        149,
-        150,
-        151,
-        152,
-        153,
-        154,
-        155,
-        156,
-        157,
-        158,
-        159,
-        160,
-        161,
-        162,
-        163,
-        164,
-        165,
-        166,
-        167,
-        168,
-        169,
-        170,
-        171,
-        172,
-        173,
-        174,
-        175,
-        176,
-        177,
-        178,
-        179,
-        180,
-        181,
-        182,
-        183,
-        184,
-        185,
-        186,
-        187,
-        188,
-        189,
-        190,
-        191,
-        192,
-        193,
-        194,
-        195,
-        196,
-        197,
-        198,
-        199,
-        200,
-        201,
-        202,
-        203,
-        204,
-        205,
-        206,
-        207,
-        208,
-        209,
-        210,
-        211,
-        212,
-        213,
-        214,
-        215,
-        216,
-        217,
-        218,
-        219,
-        220,
-        221,
-        222,
-        223,
-        224,
-        225
-      ]
-    },
-    {
       "id": 119,
       "word_de": "anders",
       "grammar": "anders",
@@ -1547,23 +1225,6 @@
       ],
       "sentence_ids": [
         226
-      ]
-    },
-    {
-      "id": 120,
-      "word_de": "Oliver",
-      "grammar": "Oliver, hat angefangen",
-      "word_ru": "Оливер",
-      "topic_ids": [
-        5,
-        6
-      ],
-      "sentence_ids": [
-        227,
-        228,
-        229,
-        230,
-        231
       ]
     },
     {
@@ -1583,7 +1244,7 @@
     {
       "id": 122,
       "word_de": "die Angst",
-      "grammar": "die Angst, ¨-e, ist angekommen",
+      "grammar": "die Angst, ¨-e",
       "word_ru": "страх",
       "topic_ids": [
         6
@@ -1609,8 +1270,8 @@
     },
     {
       "id": 124,
-      "word_de": "der Anruf-",
-      "grammar": "der Anruf-, hat angerufen",
+      "word_de": "der Anruf",
+      "grammar": "der Anruf, -e",
       "word_ru": "звонок",
       "topic_ids": [
         1,
@@ -1650,25 +1311,6 @@
       ]
     },
     {
-      "id": 127,
-      "word_de": "In",
-      "grammar": "In",
-      "word_ru": "В",
-      "topic_ids": [
-        6
-      ],
-      "sentence_ids": [
-        244,
-        245,
-        246,
-        247,
-        248,
-        249,
-        250,
-        251
-      ]
-    },
-    {
       "id": 128,
       "word_de": "Zug",
       "grammar": "Zug",
@@ -1678,31 +1320,6 @@
       ],
       "sentence_ids": [
         252
-      ]
-    },
-    {
-      "id": 129,
-      "word_de": "Gibt",
-      "grammar": "Gibt, hat angesehen, hat geantwortet",
-      "word_ru": "дает",
-      "topic_ids": [
-        2,
-        3,
-        6
-      ],
-      "sentence_ids": [
-        253,
-        254,
-        255,
-        256,
-        257,
-        258,
-        259,
-        260,
-        261,
-        262,
-        263,
-        264
       ]
     },
     {
@@ -1771,7 +1388,7 @@
     {
       "id": 135,
       "word_de": "der Apparat",
-      "grammar": "der Apparat, -e, hat gearbeitet",
+      "grammar": "der Apparat, -e",
       "word_ru": "аппарат",
       "topic_ids": [
         7,
@@ -1801,7 +1418,7 @@
     {
       "id": 137,
       "word_de": "arbeitslos",
-      "grammar": "arbeitslos, hat geärgert",
+      "grammar": "arbeitslos",
       "word_ru": "безработный",
       "topic_ids": [
         4
@@ -1865,63 +1482,6 @@
       ]
     },
     {
-      "id": 142,
-      "word_de": "Maria",
-      "grammar": "Maria",
-      "word_ru": "Мэри",
-      "topic_ids": [
-        2,
-        3,
-        4,
-        5,
-        8,
-        13
-      ],
-      "sentence_ids": [
-        283,
-        284
-      ]
-    },
-    {
-      "id": 143,
-      "word_de": "Hat",
-      "grammar": "Hat",
-      "word_ru": "Имеет",
-      "topic_ids": [
-        2,
-        5,
-        10,
-        13
-      ],
-      "sentence_ids": [
-        285,
-        286,
-        287,
-        288,
-        289
-      ]
-    },
-    {
-      "id": 144,
-      "word_de": "Fall",
-      "grammar": "Fall, macht auf, hat aufgemacht, hat aufgepasst, räumt auf, hat aufgeräumt",
-      "word_ru": "случай",
-      "topic_ids": [
-        3
-      ],
-      "sentence_ids": [
-        290,
-        291,
-        292,
-        293,
-        294,
-        295,
-        296,
-        297,
-        298
-      ]
-    },
-    {
       "id": 145,
       "word_de": "aufregend",
       "grammar": "aufregend",
@@ -1932,85 +1492,6 @@
       ],
       "sentence_ids": [
         299
-      ]
-    },
-    {
-      "id": 146,
-      "word_de": "Der",
-      "grammar": "Der, steht auf, ist aufgestanden",
-      "word_ru": "",
-      "topic_ids": [
-        2,
-        3,
-        10,
-        13
-      ],
-      "sentence_ids": [
-        300,
-        301,
-        302,
-        303,
-        304,
-        305,
-        306,
-        307,
-        308,
-        309,
-        310,
-        311,
-        312,
-        313,
-        314,
-        315,
-        316,
-        317,
-        318,
-        319,
-        320,
-        321,
-        322,
-        323,
-        324,
-        325,
-        326,
-        327,
-        328,
-        329,
-        330,
-        331,
-        332,
-        333,
-        334,
-        335,
-        336,
-        337,
-        338,
-        339,
-        340,
-        341,
-        342,
-        343,
-        344,
-        345,
-        346,
-        347,
-        348,
-        349,
-        350,
-        351,
-        352,
-        353,
-        354,
-        355,
-        356,
-        357,
-        358,
-        359,
-        360,
-        361,
-        362,
-        363,
-        364
       ]
     },
     {
@@ -2052,32 +1533,6 @@
       ]
     },
     {
-      "id": 150,
-      "word_de": "Frau",
-      "grammar": "Frau",
-      "word_ru": "Женщина",
-      "topic_ids": [
-        2,
-        3,
-        4,
-        6,
-        12,
-        13
-      ],
-      "sentence_ids": [
-        370,
-        371,
-        372,
-        373,
-        374,
-        375,
-        376,
-        377,
-        378,
-        379
-      ]
-    },
-    {
       "id": 151,
       "word_de": "die Ausbildung",
       "grammar": "die Ausbildung,-en",
@@ -2095,7 +1550,7 @@
     {
       "id": 152,
       "word_de": "der Ausflug",
-      "grammar": "der Ausflug, ¨-e, füllt aus, hat ausgefüllt",
+      "grammar": "der Ausflug, ¨-e",
       "word_ru": "экскурсия",
       "topic_ids": [
         12
@@ -2108,7 +1563,7 @@
     {
       "id": 153,
       "word_de": "der Ausgang",
-      "grammar": "der Ausgang, ¨-e, hat ausgegeben, ist ausgegangen",
+      "grammar": "der Ausgang, ¨-e",
       "word_ru": "выход",
       "topic_ids": [
         2,
@@ -2141,7 +1596,7 @@
     {
       "id": 155,
       "word_de": "das Ausland",
-      "grammar": "das Ausland, macht aus, hat ausgemacht, packt aus, hat ausgepackt, hat ausgeruht, hat ausgesehen",
+      "grammar": "das Ausland",
       "word_ru": "чужая страна",
       "topic_ids": [
         6
@@ -2185,7 +1640,7 @@
     {
       "id": 158,
       "word_de": "außerhalb",
-      "grammar": "außerhalb, spricht aus, hat ausgesprochen, ist ausgestiegen",
+      "grammar": "außerhalb",
       "word_ru": "снаружи",
       "topic_ids": [
         15
@@ -2199,7 +1654,7 @@
     {
       "id": 159,
       "word_de": "die Ausstellung",
-      "grammar": "die Ausstellung,-en, trägt aus, hat ausgetragen",
+      "grammar": "die Ausstellung, -en",
       "word_ru": "выставка",
       "topic_ids": [
         2,
@@ -2300,25 +1755,6 @@
       ]
     },
     {
-      "id": 167,
-      "word_de": "Familie",
-      "grammar": "Familie, hat gebacken",
-      "word_ru": "Семья",
-      "topic_ids": [
-        1,
-        2
-      ],
-      "sentence_ids": [
-        413,
-        414,
-        415,
-        416,
-        417,
-        418,
-        419
-      ]
-    },
-    {
       "id": 168,
       "word_de": "die Bäckerei",
       "grammar": "die Bäckerei, -en",
@@ -2341,31 +1777,6 @@
       ],
       "sentence_ids": [
         421
-      ]
-    },
-    {
-      "id": 170,
-      "word_de": "Im",
-      "grammar": "Im, hat gebadet",
-      "word_ru": "В",
-      "topic_ids": [
-        2,
-        3,
-        8,
-        13
-      ],
-      "sentence_ids": [
-        422,
-        423,
-        424,
-        425,
-        426,
-        427,
-        428,
-        429,
-        430,
-        431,
-        432
       ]
     },
     {
@@ -2497,7 +1908,7 @@
     {
       "id": 181,
       "word_de": "der Basketball",
-      "grammar": "der Basketball, ¨-e, hat gebastelt",
+      "grammar": "der Basketball, ¨-e",
       "word_ru": "баскетбол",
       "topic_ids": [
         8
@@ -2510,7 +1921,7 @@
     {
       "id": 182,
       "word_de": "der Bauch",
-      "grammar": "der Bauch, ¨-e, hat gebaut",
+      "grammar": "der Bauch, ¨-e",
       "word_ru": "желудок",
       "topic_ids": [
         3,
@@ -2538,7 +1949,7 @@
     {
       "id": 184,
       "word_de": "die Baustelle",
-      "grammar": "die Baustelle, -n, hat beantwortet, hat bedankt, hat bedeutet",
+      "grammar": "die Baustelle, -n",
       "word_ru": "строительная площадка",
       "topic_ids": [
         2,
@@ -2558,26 +1969,6 @@
       ]
     },
     {
-      "id": 185,
-      "word_de": "beeilt",
-      "grammar": "beeilt, gleich ab!, hat beeilt, hat beendet, hat begonnen, hat begründet",
-      "word_ru": "торопиться",
-      "topic_ids": [
-        2,
-        4
-      ],
-      "sentence_ids": [
-        458,
-        459,
-        460,
-        461,
-        462,
-        463,
-        464,
-        465
-      ]
-    },
-    {
       "id": 186,
       "word_de": "beide",
       "grammar": "beide",
@@ -2587,26 +1978,6 @@
       ],
       "sentence_ids": [
         466
-      ]
-    },
-    {
-      "id": 187,
-      "word_de": "Welche",
-      "grammar": "Welche",
-      "word_ru": "Который",
-      "topic_ids": [
-        2
-      ],
-      "sentence_ids": [
-        467,
-        468,
-        469,
-        470,
-        471,
-        472,
-        473,
-        474,
-        475
       ]
     },
     {
@@ -2670,22 +2041,9 @@
       ]
     },
     {
-      "id": 192,
-      "word_de": "Schuhe",
-      "grammar": "Schuhe, hat beraten",
-      "word_ru": "Обувь",
-      "topic_ids": [
-        1
-      ],
-      "sentence_ids": [
-        486,
-        487
-      ]
-    },
-    {
       "id": 193,
       "word_de": "der Berg",
-      "grammar": "der Berg, -e, hat berichtet",
+      "grammar": "der Berg, -e",
       "word_ru": "гора",
       "topic_ids": [
         6
@@ -2737,35 +2095,6 @@
       ]
     },
     {
-      "id": 197,
-      "word_de": "Kannst",
-      "grammar": "Kannst, hat beschrieben, hat beschwert",
-      "word_ru": "Может",
-      "topic_ids": [
-        3,
-        8
-      ],
-      "sentence_ids": [
-        495,
-        496,
-        497,
-        498,
-        499,
-        500,
-        501,
-        502,
-        503,
-        504,
-        505,
-        506,
-        507,
-        508,
-        509,
-        510,
-        511
-      ]
-    },
-    {
       "id": 198,
       "word_de": "besetzt",
       "grammar": "besetzt",
@@ -2781,7 +2110,7 @@
     {
       "id": 199,
       "word_de": "besonders",
-      "grammar": "besonders, hat bestätigt, hat bestanden, hat bestellt",
+      "grammar": "besonders",
       "word_ru": "особенно",
       "topic_ids": [
         8
@@ -2800,7 +2129,7 @@
     {
       "id": 200,
       "word_de": "der Besuch",
-      "grammar": "der Besuch, -e, hat besucht",
+      "grammar": "der Besuch, -e",
       "word_ru": "визит",
       "topic_ids": [
         7
@@ -2815,7 +2144,7 @@
     {
       "id": 201,
       "word_de": "das Bett",
-      "grammar": "das Bett, -en, hat beworben",
+      "grammar": "das Bett, -en",
       "word_ru": "кровать",
       "topic_ids": [
         4
@@ -2842,7 +2171,7 @@
     {
       "id": 203,
       "word_de": "die Wolke",
-      "grammar": "die Wolke, -n, hat bezahlt",
+      "grammar": "die Wolke, -n",
       "word_ru": "облако",
       "topic_ids": [
         2
@@ -3069,7 +2398,7 @@
     {
       "id": 220,
       "word_de": "böse",
-      "grammar": "böse, hat gebraten",
+      "grammar": "böse",
       "word_ru": "зло",
       "topic_ids": [
         2
@@ -3120,24 +2449,6 @@
       ],
       "sentence_ids": [
         571
-      ]
-    },
-    {
-      "id": 224,
-      "word_de": "Mit",
-      "grammar": "Mit, hat gebracht",
-      "word_ru": "С",
-      "topic_ids": [
-        2,
-        7
-      ],
-      "sentence_ids": [
-        572,
-        573,
-        574,
-        575,
-        576,
-        577
       ]
     },
     {
@@ -3192,7 +2503,7 @@
     {
       "id": 229,
       "word_de": "der Buchstabe",
-      "grammar": "der Buchstabe, -n, hat buchstabiert",
+      "grammar": "der Buchstabe, -n",
       "word_ru": "письмо",
       "topic_ids": [
         2
@@ -3254,21 +2565,9 @@
       ]
     },
     {
-      "id": 234,
-      "word_de": "Kaffee",
-      "grammar": "Kaffee",
-      "word_ru": "Кофе",
-      "topic_ids": [
-        2
-      ],
-      "sentence_ids": [
-        592
-      ]
-    },
-    {
       "id": 235,
       "word_de": "die Cafeteria",
-      "grammar": "die Cafeteria, -s, hat gechattet",
+      "grammar": "die Cafeteria, -s",
       "word_ru": "столовая",
       "topic_ids": [
         11
@@ -3294,7 +2593,7 @@
     {
       "id": 237,
       "word_de": "der Club",
-      "grammar": "der Club, -s/",
+      "grammar": "der Club, -s",
       "word_ru": "клуб",
       "topic_ids": [
         2,
@@ -3314,22 +2613,6 @@
       ],
       "sentence_ids": [
         598
-      ]
-    },
-    {
-      "id": 239,
-      "word_de": "einen",
-      "grammar": "einen",
-      "word_ru": "а",
-      "topic_ids": [
-        2,
-        8
-      ],
-      "sentence_ids": [
-        599,
-        600,
-        601,
-        602
       ]
     },
     {
@@ -3382,19 +2665,6 @@
       ]
     },
     {
-      "id": 244,
-      "word_de": "Sehr",
-      "grammar": "Sehr",
-      "word_ru": "Очень",
-      "topic_ids": [
-        1
-      ],
-      "sentence_ids": [
-        607,
-        608
-      ]
-    },
-    {
       "id": 245,
       "word_de": "daneben",
       "grammar": "daneben",
@@ -3411,7 +2681,7 @@
     {
       "id": 246,
       "word_de": "der Dank",
-      "grammar": "der Dank, hat gedankt",
+      "grammar": "der Dank",
       "word_ru": "спасибо",
       "topic_ids": [
         11
@@ -3444,37 +2714,13 @@
     {
       "id": 248,
       "word_de": "das Datum",
-      "grammar": "das Datum, -en",
+      "grammar": "das Datum, Daten",
       "word_ru": "дата",
       "topic_ids": [
         13
       ],
       "sentence_ids": [
         620
-      ]
-    },
-    {
-      "id": 249,
-      "word_de": "Welches",
-      "grammar": "Welches, hat gedauert, hat gedacht",
-      "word_ru": "Который",
-      "topic_ids": [
-        13
-      ],
-      "sentence_ids": [
-        621,
-        622,
-        623,
-        624,
-        625,
-        626,
-        627,
-        628,
-        629,
-        630,
-        631,
-        632,
-        633
       ]
     },
     {
@@ -3568,18 +2814,6 @@
       ]
     },
     {
-      "id": 257,
-      "word_de": "Geh",
-      "grammar": "Geh",
-      "word_ru": "Идти",
-      "topic_ids": [
-        8
-      ],
-      "sentence_ids": [
-        643
-      ]
-    },
-    {
       "id": 258,
       "word_de": "das Doppelzimmer",
       "grammar": "das Doppelzimmer, -",
@@ -3607,45 +2841,6 @@
       ]
     },
     {
-      "id": 260,
-      "word_de": "Minuten",
-      "grammar": "Minuten",
-      "word_ru": "минуты",
-      "topic_ids": [
-        2,
-        3,
-        4,
-        13
-      ],
-      "sentence_ids": [
-        648,
-        649,
-        650
-      ]
-    },
-    {
-      "id": 261,
-      "word_de": "Kommst",
-      "grammar": "Kommst",
-      "word_ru": "Ну давай же",
-      "topic_ids": [
-        8,
-        13
-      ],
-      "sentence_ids": [
-        651,
-        652,
-        653,
-        654,
-        655,
-        656,
-        657,
-        658,
-        659,
-        660
-      ]
-    },
-    {
       "id": 262,
       "word_de": "draußen",
       "grammar": "draußen",
@@ -3655,19 +2850,6 @@
       ],
       "sentence_ids": [
         661
-      ]
-    },
-    {
-      "id": 263,
-      "word_de": "Hunde",
-      "grammar": "Hunde",
-      "word_ru": "собаки",
-      "topic_ids": [
-        2,
-        12
-      ],
-      "sentence_ids": [
-        662
       ]
     },
     {
@@ -3787,7 +2969,7 @@
     {
       "id": 272,
       "word_de": "schwer",
-      "grammar": "schwer, er ist zu dünn.",
+      "grammar": "schwer",
       "word_ru": "трудный",
       "topic_ids": [
         1
@@ -3877,18 +3059,6 @@
       ],
       "sentence_ids": [
         692
-      ]
-    },
-    {
-      "id": 279,
-      "word_de": "Willst",
-      "grammar": "Willst",
-      "word_ru": "Хотеть",
-      "topic_ids": [
-        2
-      ],
-      "sentence_ids": [
-        693
       ]
     },
     {
@@ -3986,30 +3156,6 @@
       ]
     },
     {
-      "id": 287,
-      "word_de": "Hin",
-      "grammar": "Hin",
-      "word_ru": "Там",
-      "topic_ids": [
-        2
-      ],
-      "sentence_ids": [
-        705
-      ]
-    },
-    {
-      "id": 288,
-      "word_de": "Fahrt",
-      "grammar": "Fahrt",
-      "word_ru": "Водить машину",
-      "topic_ids": [
-        1
-      ],
-      "sentence_ids": [
-        706
-      ]
-    },
-    {
       "id": 289,
       "word_de": "der Eingang",
       "grammar": "der Eingang, ¨-e",
@@ -4048,41 +3194,6 @@
       ]
     },
     {
-      "id": 292,
-      "word_de": "Diese",
-      "grammar": "Diese",
-      "word_ru": "Этот",
-      "topic_ids": [
-        2,
-        5,
-        8,
-        13
-      ],
-      "sentence_ids": [
-        710,
-        711,
-        712
-      ]
-    },
-    {
-      "id": 293,
-      "word_de": "Warst",
-      "grammar": "Warst, hat eingepackt, ist eingestiegen",
-      "word_ru": "Ты был",
-      "topic_ids": [
-        6
-      ],
-      "sentence_ids": [
-        713,
-        714,
-        715,
-        716,
-        717,
-        718,
-        719
-      ]
-    },
-    {
       "id": 294,
       "word_de": "der Eintritt",
       "grammar": "der Eintritt, -e",
@@ -4111,24 +3222,6 @@
       ]
     },
     {
-      "id": 296,
-      "word_de": "gewesen",
-      "grammar": "gewesen",
-      "word_ru": "был",
-      "topic_ids": [
-        1,
-        2,
-        8,
-        15
-      ],
-      "sentence_ids": [
-        723,
-        724,
-        725,
-        726
-      ]
-    },
-    {
       "id": 297,
       "word_de": "einzel-",
       "grammar": "einzel-",
@@ -4138,39 +3231,6 @@
       ],
       "sentence_ids": [
         727
-      ]
-    },
-    {
-      "id": 298,
-      "word_de": "Florian",
-      "grammar": "Florian",
-      "word_ru": "Флориан",
-      "topic_ids": [
-        1,
-        2
-      ],
-      "sentence_ids": [
-        728
-      ]
-    },
-    {
-      "id": 299,
-      "word_de": "Ein",
-      "grammar": "Ein, ist eingezogen",
-      "word_ru": "А",
-      "topic_ids": [
-        3,
-        13
-      ],
-      "sentence_ids": [
-        729,
-        730,
-        731,
-        732,
-        733,
-        734,
-        735,
-        736
       ]
     },
     {
@@ -4206,7 +3266,7 @@
     {
       "id": 302,
       "word_de": "das Ende",
-      "grammar": "das Ende, -n, hat geendet",
+      "grammar": "das Ende, -n",
       "word_ru": "конец",
       "topic_ids": [
         13
@@ -4245,18 +3305,6 @@
       ]
     },
     {
-      "id": 305,
-      "word_de": "Nummer",
-      "grammar": "Nummer",
-      "word_ru": "число",
-      "topic_ids": [
-        1
-      ],
-      "sentence_ids": [
-        749
-      ]
-    },
-    {
       "id": 306,
       "word_de": "entschuldigen",
       "grammar": "entschuldigen, hat entschuldigt",
@@ -4268,19 +3316,6 @@
         750,
         751,
         752
-      ]
-    },
-    {
-      "id": 307,
-      "word_de": "die Entschuldi-",
-      "grammar": "die Entschuldi-",
-      "word_ru": "извинения",
-      "topic_ids": [
-        2
-      ],
-      "sentence_ids": [
-        753,
-        754
       ]
     },
     {
@@ -4311,20 +3346,6 @@
       ]
     },
     {
-      "id": 310,
-      "word_de": "erinnert",
-      "grammar": "erinnert, nicht an ihn, tut mir leid., hat erinnert, ist erkältet",
-      "word_ru": "вспомнил",
-      "topic_ids": [
-        13
-      ],
-      "sentence_ids": [
-        758,
-        759,
-        760
-      ]
-    },
-    {
       "id": 311,
       "word_de": "die Erlaubnis",
       "grammar": "die Erlaubnis",
@@ -4340,7 +3361,7 @@
     {
       "id": 312,
       "word_de": "die Ermäßigung",
-      "grammar": "die Ermäßigung,-enFür",
+      "grammar": "die Ermäßigung, -en",
       "word_ru": "скидка",
       "topic_ids": [
         2,
@@ -4381,19 +3402,6 @@
       ]
     },
     {
-      "id": 315,
-      "word_de": "Dina",
-      "grammar": "Dina",
-      "word_ru": "Дина",
-      "topic_ids": [
-        2,
-        13
-      ],
-      "sentence_ids": [
-        767
-      ]
-    },
-    {
       "id": 316,
       "word_de": "der Erwachsene",
       "grammar": "der Erwachsene,-n",
@@ -4403,34 +3411,6 @@
       ],
       "sentence_ids": [
         768
-      ]
-    },
-    {
-      "id": 317,
-      "word_de": "Eintritt",
-      "grammar": "Eintritt",
-      "word_ru": "Допуск",
-      "topic_ids": [
-        2
-      ],
-      "sentence_ids": [
-        769
-      ]
-    },
-    {
-      "id": 318,
-      "word_de": "Dieser",
-      "grammar": "Dieser, hat erzählt, hat gegessen",
-      "word_ru": "Этот",
-      "topic_ids": [
-        2
-      ],
-      "sentence_ids": [
-        770,
-        771,
-        772,
-        773,
-        774
       ]
     },
     {
@@ -4504,7 +3484,7 @@
     {
       "id": 324,
       "word_de": "der Fahrplan",
-      "grammar": "der Fahrplan, ¨-e, ist gefallen",
+      "grammar": "der Fahrplan, ¨-e",
       "word_ru": "расписание",
       "topic_ids": [
         2,
@@ -4547,7 +3527,7 @@
     {
       "id": 327,
       "word_de": "Familienname",
-      "grammar": "Familienname",
+      "grammar": "der Familienname, -n",
       "word_ru": "фамилия",
       "topic_ids": [
         1
@@ -4568,18 +3548,6 @@
       ],
       "sentence_ids": [
         795
-      ]
-    },
-    {
-      "id": 329,
-      "word_de": "Bella",
-      "grammar": "Bella",
-      "word_ru": "Белла",
-      "topic_ids": [
-        2
-      ],
-      "sentence_ids": [
-        796
       ]
     },
     {
@@ -4624,7 +3592,7 @@
     {
       "id": 333,
       "word_de": "faul",
-      "grammar": "faul, hat gefehlt",
+      "grammar": "faul",
       "word_ru": "ленивый",
       "topic_ids": [
         2,
@@ -4655,7 +3623,7 @@
     {
       "id": 335,
       "word_de": "die Feier",
-      "grammar": "die Feier, -n, hat gefeiert",
+      "grammar": "die Feier, -n",
       "word_ru": "вечеринка",
       "topic_ids": [
         13
@@ -4692,29 +3660,9 @@
       ]
     },
     {
-      "id": 338,
-      "word_de": "Fährst",
-      "grammar": "Fährst, hat ferngesehen",
-      "word_ru": "Водить машину",
-      "topic_ids": [
-        1,
-        2,
-        3,
-        8,
-        13
-      ],
-      "sentence_ids": [
-        812,
-        813,
-        814,
-        815,
-        816
-      ]
-    },
-    {
       "id": 339,
       "word_de": "Fernseher",
-      "grammar": "Fernseher",
+      "grammar": "der Fernseher, -",
       "word_ru": "ТВ",
       "topic_ids": [
         2
@@ -4777,7 +3725,7 @@
     {
       "id": 344,
       "word_de": "der Film",
-      "grammar": "der Film, -e, hat gefunden",
+      "grammar": "der Film, -e",
       "word_ru": "фильм",
       "topic_ids": [
         2,
@@ -4872,18 +3820,6 @@
       ]
     },
     {
-      "id": 351,
-      "word_de": "Diesen",
-      "grammar": "Diesen",
-      "word_ru": "Вот этот",
-      "topic_ids": [
-        10
-      ],
-      "sentence_ids": [
-        840
-      ]
-    },
-    {
       "id": 352,
       "word_de": "der Flug",
       "grammar": "der Flug, ¨-e",
@@ -4899,7 +3835,7 @@
     {
       "id": 353,
       "word_de": "der Flughafen",
-      "grammar": "der Flughafen, ¨",
+      "grammar": "der Flughafen, ¨-",
       "word_ru": "аэропорт",
       "topic_ids": [
         6
@@ -4948,7 +3884,7 @@
     {
       "id": 357,
       "word_de": "der Fotoapparat",
-      "grammar": "der Fotoapparat, -e, hat fotografiert",
+      "grammar": "der Fotoapparat, -e",
       "word_ru": "камера",
       "topic_ids": [
         11
@@ -4975,7 +3911,7 @@
     {
       "id": 359,
       "word_de": "die Frage",
-      "grammar": "die Frage, -n, hat gefragt",
+      "grammar": "die Frage, -n",
       "word_ru": "вопрос",
       "topic_ids": [
         2
@@ -5044,7 +3980,7 @@
     {
       "id": 364,
       "word_de": "fremd",
-      "grammar": "fremd, hat gefreut",
+      "grammar": "fremd",
       "word_ru": "иностранный",
       "topic_ids": [
         1,
@@ -5057,20 +3993,6 @@
         862,
         863,
         864
-      ]
-    },
-    {
-      "id": 365,
-      "word_de": "Fußball",
-      "grammar": "Fußball",
-      "word_ru": "футбол",
-      "topic_ids": [
-        8,
-        9
-      ],
-      "sentence_ids": [
-        865,
-        866
       ]
     },
     {
@@ -5123,18 +4045,6 @@
       ]
     },
     {
-      "id": 370,
-      "word_de": "Frohes",
-      "grammar": "Frohes",
-      "word_ru": "Счастливый",
-      "topic_ids": [
-        1
-      ],
-      "sentence_ids": [
-        871
-      ]
-    },
-    {
       "id": 371,
       "word_de": "früh",
       "grammar": "früh",
@@ -5163,7 +4073,7 @@
     {
       "id": 373,
       "word_de": "das Frühstück",
-      "grammar": "das Frühstück, hat gefrühstückt",
+      "grammar": "das Frühstück",
       "word_ru": "завтрак",
       "topic_ids": [
         2
@@ -5236,22 +4146,6 @@
       ],
       "sentence_ids": [
         886
-      ]
-    },
-    {
-      "id": 379,
-      "word_de": "zur",
-      "grammar": "zur",
-      "word_ru": "к",
-      "topic_ids": [
-        2,
-        4,
-        10
-      ],
-      "sentence_ids": [
-        887,
-        888,
-        889
       ]
     },
     {
@@ -5343,7 +4237,7 @@
     {
       "id": 386,
       "word_de": "der Garten",
-      "grammar": "der Garten, ¨",
+      "grammar": "der Garten, ¨-",
       "word_ru": "сад",
       "topic_ids": [
         2,
@@ -5356,7 +4250,7 @@
     {
       "id": 387,
       "word_de": "der Gast",
-      "grammar": "der Gast, ¨-e, hat gegeben",
+      "grammar": "der Gast, ¨-e",
       "word_ru": "гость",
       "topic_ids": [
         2,
@@ -5370,48 +4264,9 @@
       ]
     },
     {
-      "id": 388,
-      "word_de": "geboren",
-      "grammar": "geboren",
-      "word_ru": "рожденный",
-      "topic_ids": [
-        1
-      ],
-      "sentence_ids": [
-        905,
-        906
-      ]
-    },
-    {
-      "id": 389,
-      "word_de": "Geburts-",
-      "grammar": "Geburts-",
-      "word_ru": "рождение",
-      "topic_ids": [
-        13
-      ],
-      "sentence_ids": [
-        907,
-        908,
-        909
-      ]
-    },
-    {
-      "id": 390,
-      "word_de": "geehrt-",
-      "grammar": "geehrt-",
-      "word_ru": "заслуженный-",
-      "topic_ids": [
-        1
-      ],
-      "sentence_ids": [
-        910
-      ]
-    },
-    {
       "id": 391,
       "word_de": "gefährlich",
-      "grammar": "gefährlich, hat gefallen",
+      "grammar": "gefährlich",
       "word_ru": "опасный",
       "topic_ids": [
         2,
@@ -5465,7 +4320,7 @@
     {
       "id": 395,
       "word_de": "das Gehalt",
-      "grammar": "das Gehalt, ¨-er, ist gegangen",
+      "grammar": "das Gehalt, ¨-er",
       "word_ru": "зарплата",
       "topic_ids": [
         4
@@ -5479,24 +4334,9 @@
       ]
     },
     {
-      "id": 396,
-      "word_de": "Nimmst",
-      "grammar": "Nimmst",
-      "word_ru": "Брать",
-      "topic_ids": [
-        2,
-        6,
-        14,
-        15
-      ],
-      "sentence_ids": [
-        925
-      ]
-    },
-    {
       "id": 397,
       "word_de": "zu",
-      "grammar": "zu, hat gehört",
+      "grammar": "zu",
       "word_ru": "к",
       "topic_ids": [
         1,
@@ -5547,18 +4387,6 @@
       ],
       "sentence_ids": [
         936
-      ]
-    },
-    {
-      "id": 401,
-      "word_de": "Tomaten",
-      "grammar": "Tomaten",
-      "word_ru": "Помидоры",
-      "topic_ids": [
-        2
-      ],
-      "sentence_ids": [
-        937
       ]
     },
     {
@@ -5693,20 +4521,6 @@
       ]
     },
     {
-      "id": 412,
-      "word_de": "Paul",
-      "grammar": "Paul",
-      "word_ru": "Пол",
-      "topic_ids": [
-        3,
-        5
-      ],
-      "sentence_ids": [
-        954,
-        955
-      ]
-    },
-    {
       "id": 413,
       "word_de": "das Geschirr",
       "grammar": "das Geschirr",
@@ -5796,18 +4610,6 @@
       ]
     },
     {
-      "id": 420,
-      "word_de": "glaube",
-      "grammar": "glaube, es gibt heute ein",
-      "word_ru": "полагать",
-      "topic_ids": [
-        12
-      ],
-      "sentence_ids": [
-        965
-      ]
-    },
-    {
       "id": 421,
       "word_de": "die Gitarre",
       "grammar": "die Gitarre, -n",
@@ -5822,7 +4624,7 @@
     {
       "id": 422,
       "word_de": "das Glas",
-      "grammar": "das Glas, ¨-er, hat geglaubt",
+      "grammar": "das Glas, ¨-er",
       "word_ru": "стакан",
       "topic_ids": [
         2
@@ -5877,18 +4679,6 @@
       ]
     },
     {
-      "id": 426,
-      "word_de": "Schirm",
-      "grammar": "Schirm",
-      "word_ru": "экран",
-      "topic_ids": [
-        2
-      ],
-      "sentence_ids": [
-        976
-      ]
-    },
-    {
       "id": 427,
       "word_de": "glücklich",
       "grammar": "glücklich",
@@ -5903,7 +4693,7 @@
     {
       "id": 428,
       "word_de": "Glückwunsch",
-      "grammar": "Glückwunsch, hat gratuliert, hat gegrillt",
+      "grammar": "Glückwunsch, ¨-e",
       "word_ru": "поздравления",
       "topic_ids": [
         13
@@ -5943,37 +4733,6 @@
       ]
     },
     {
-      "id": 431,
-      "word_de": "Frankfurt",
-      "grammar": "Frankfurt",
-      "word_ru": "Франкфурт",
-      "topic_ids": [
-        2,
-        10,
-        13,
-        15
-      ],
-      "sentence_ids": [
-        984,
-        985
-      ]
-    },
-    {
-      "id": 432,
-      "word_de": "Unsere",
-      "grammar": "Unsere",
-      "word_ru": "Наш",
-      "topic_ids": [
-        1,
-        2,
-        3
-      ],
-      "sentence_ids": [
-        986,
-        987
-      ]
-    },
-    {
       "id": 433,
       "word_de": "die Größe",
       "grammar": "die Größe, -n",
@@ -6010,18 +4769,6 @@
       ]
     },
     {
-      "id": 436,
-      "word_de": "Liebe",
-      "grammar": "Liebe",
-      "word_ru": "Любовь",
-      "topic_ids": [
-        14
-      ],
-      "sentence_ids": [
-        991
-      ]
-    },
-    {
       "id": 437,
       "word_de": "günstig",
       "grammar": "günstig",
@@ -6036,21 +4783,6 @@
         994,
         995,
         996
-      ]
-    },
-    {
-      "id": 438,
-      "word_de": "Dieses",
-      "grammar": "Dieses",
-      "word_ru": "Этот",
-      "topic_ids": [
-        2,
-        7
-      ],
-      "sentence_ids": [
-        997,
-        998,
-        999
       ]
     },
     {
@@ -6071,7 +4803,7 @@
     {
       "id": 440,
       "word_de": "Hähnchen",
-      "grammar": "Hähnchen",
+      "grammar": "das Hähnchen, -",
       "word_ru": "курица",
       "topic_ids": [
         1
@@ -6097,7 +4829,7 @@
     {
       "id": 442,
       "word_de": "der Hals",
-      "grammar": "der Hals, ¨-e, hat gehalten",
+      "grammar": "der Hals, ¨-e",
       "word_ru": "шея",
       "topic_ids": [
         7
@@ -6251,7 +4983,7 @@
     {
       "id": 454,
       "word_de": "die Heimat",
-      "grammar": "die Heimat, hat geheiratet",
+      "grammar": "die Heimat",
       "word_ru": "Родина",
       "topic_ids": [
         1
@@ -6276,30 +5008,9 @@
       ]
     },
     {
-      "id": 456,
-      "word_de": "Mir",
-      "grammar": "Mir, hat geheißen",
-      "word_ru": "Мне",
-      "topic_ids": [
-        3,
-        7
-      ],
-      "sentence_ids": [
-        1028,
-        1029,
-        1030,
-        1031,
-        1032,
-        1033,
-        1034,
-        1035,
-        1036
-      ]
-    },
-    {
       "id": 457,
       "word_de": "die Heizung",
-      "grammar": "die Heizung, -en, hat geholfen",
+      "grammar": "die Heizung, -en",
       "word_ru": "система отопления",
       "topic_ids": [
         2,
@@ -6341,36 +5052,6 @@
       ]
     },
     {
-      "id": 460,
-      "word_de": "Woher",
-      "grammar": "Woher",
-      "word_ru": "Откуда",
-      "topic_ids": [
-        12
-      ],
-      "sentence_ids": [
-        1045,
-        1046,
-        1047,
-        1048
-      ]
-    },
-    {
-      "id": 461,
-      "word_de": "Möchtest",
-      "grammar": "Möchtest",
-      "word_ru": "хотелось бы",
-      "topic_ids": [
-        2
-      ],
-      "sentence_ids": [
-        1049,
-        1050,
-        1051,
-        1052
-      ]
-    },
-    {
       "id": 462,
       "word_de": "der Herd",
       "grammar": "der Herd, -e",
@@ -6385,7 +5066,7 @@
     {
       "id": 463,
       "word_de": "der Herr",
-      "grammar": "der Herr, -en, stellt her, hat hergestellt, hat heruntergeladen",
+      "grammar": "der Herr, -en",
       "word_ru": "Господь",
       "topic_ids": [
         4
@@ -6454,23 +5135,6 @@
       ]
     },
     {
-      "id": 468,
-      "word_de": "Wohin",
-      "grammar": "Wohin",
-      "word_ru": "Где",
-      "topic_ids": [
-        3
-      ],
-      "sentence_ids": [
-        1069,
-        1070,
-        1071,
-        1072,
-        1073,
-        1074
-      ]
-    },
-    {
       "id": 469,
       "word_de": "hinten",
       "grammar": "hinten",
@@ -6523,7 +5187,7 @@
     {
       "id": 473,
       "word_de": "die Hochzeit",
-      "grammar": "die Hochzeit, -en, hat gehofft",
+      "grammar": "die Hochzeit, -en",
       "word_ru": "свадьба",
       "topic_ids": [
         1,
@@ -6538,7 +5202,7 @@
     {
       "id": 474,
       "word_de": "hoffentlich",
-      "grammar": "hoffentlich, hat geholt",
+      "grammar": "hoffentlich",
       "word_ru": "с надеждой",
       "topic_ids": [
         2
@@ -6558,18 +5222,6 @@
       ],
       "sentence_ids": [
         1084
-      ]
-    },
-    {
-      "id": 476,
-      "word_de": "wichtigen",
-      "grammar": "wichtigen",
-      "word_ru": "важный",
-      "topic_ids": [
-        15
-      ],
-      "sentence_ids": [
-        1085
       ]
     },
     {
@@ -6617,7 +5269,7 @@
     {
       "id": 480,
       "word_de": "der Hunger",
-      "grammar": "der Hunger, hat gehustet",
+      "grammar": "der Hunger",
       "word_ru": "голод",
       "topic_ids": [
         2,
@@ -6640,22 +5292,6 @@
       "sentence_ids": [
         1092,
         1093
-      ]
-    },
-    {
-      "id": 482,
-      "word_de": "Komm",
-      "grammar": "Komm, wir",
-      "word_ru": "Приходить",
-      "topic_ids": [
-        3,
-        6,
-        8,
-        12
-      ],
-      "sentence_ids": [
-        1094,
-        1095
       ]
     },
     {
@@ -6694,18 +5330,6 @@
       ],
       "sentence_ids": [
         1099
-      ]
-    },
-    {
-      "id": 486,
-      "word_de": "Rügen",
-      "grammar": "Rügen",
-      "word_ru": "Выговоры",
-      "topic_ids": [
-        5
-      ],
-      "sentence_ids": [
-        1100
       ]
     },
     {
@@ -6798,21 +5422,6 @@
       ]
     },
     {
-      "id": 494,
-      "word_de": "deinem",
-      "grammar": "deinem",
-      "word_ru": "твой",
-      "topic_ids": [
-        2,
-        4
-      ],
-      "sentence_ids": [
-        1111,
-        1112,
-        1113
-      ]
-    },
-    {
       "id": 495,
       "word_de": "die Jacke",
       "grammar": "die Jacke, -n",
@@ -6847,19 +5456,6 @@
       ],
       "sentence_ids": [
         1116
-      ]
-    },
-    {
-      "id": 498,
-      "word_de": "Jedes",
-      "grammar": "Jedes",
-      "word_ru": "Каждый",
-      "topic_ids": [
-        1,
-        2
-      ],
-      "sentence_ids": [
-        1117
       ]
     },
     {
@@ -7002,18 +5598,6 @@
       ]
     },
     {
-      "id": 509,
-      "word_de": "Kamera",
-      "grammar": "Kamera",
-      "word_ru": "камера",
-      "topic_ids": [
-        11
-      ],
-      "sentence_ids": [
-        1137
-      ]
-    },
-    {
       "id": 510,
       "word_de": "kaputt",
       "grammar": "kaputt",
@@ -7036,31 +5620,6 @@
       ],
       "sentence_ids": [
         1139
-      ]
-    },
-    {
-      "id": 512,
-      "word_de": "dem",
-      "grammar": "dem",
-      "word_ru": "дем",
-      "topic_ids": [
-        1
-      ],
-      "sentence_ids": [
-        1140
-      ]
-    },
-    {
-      "id": 513,
-      "word_de": "Wollen",
-      "grammar": "Wollen",
-      "word_ru": "Хотеть",
-      "topic_ids": [
-        8
-      ],
-      "sentence_ids": [
-        1141,
-        1142
       ]
     },
     {
@@ -7103,7 +5662,7 @@
     {
       "id": 517,
       "word_de": "die Katze",
-      "grammar": "die Katze, -n, hat gekauft",
+      "grammar": "die Katze, -n",
       "word_ru": "кот",
       "topic_ids": [
         1,
@@ -7190,7 +5749,7 @@
     {
       "id": 523,
       "word_de": "der Kindergarten",
-      "grammar": "der Kindergarten,¨-Die",
+      "grammar": "der Kindergarten, ¨-",
       "word_ru": "детский сад",
       "topic_ids": [
         1,
@@ -7296,20 +5855,6 @@
       ]
     },
     {
-      "id": 531,
-      "word_de": "und",
-      "grammar": "und",
-      "word_ru": "и",
-      "topic_ids": [
-        13
-      ],
-      "sentence_ids": [
-        1169,
-        1170,
-        1171
-      ]
-    },
-    {
       "id": 532,
       "word_de": "klein",
       "grammar": "klein",
@@ -7323,19 +5868,6 @@
       ]
     },
     {
-      "id": 533,
-      "word_de": "Jahre",
-      "grammar": "Jahre",
-      "word_ru": "Годы",
-      "topic_ids": [
-        13
-      ],
-      "sentence_ids": [
-        1173,
-        1174
-      ]
-    },
-    {
       "id": 534,
       "word_de": "klug",
       "grammar": "klug",
@@ -7345,19 +5877,6 @@
       ],
       "sentence_ids": [
         1175
-      ]
-    },
-    {
-      "id": 535,
-      "word_de": "Lisa",
-      "grammar": "Lisa",
-      "word_ru": "Лиза",
-      "topic_ids": [
-        1
-      ],
-      "sentence_ids": [
-        1176,
-        1177
       ]
     },
     {
@@ -7398,35 +5917,6 @@
       ]
     },
     {
-      "id": 539,
-      "word_de": "Eine",
-      "grammar": "Eine",
-      "word_ru": "Один",
-      "topic_ids": [
-        2
-      ],
-      "sentence_ids": [
-        1181,
-        1182,
-        1183
-      ]
-    },
-    {
-      "id": 540,
-      "word_de": "konnte",
-      "grammar": "konnte, ich nicht., hat gekonnt",
-      "word_ru": "мог",
-      "topic_ids": [
-        6
-      ],
-      "sentence_ids": [
-        1184,
-        1185,
-        1186,
-        1187
-      ]
-    },
-    {
       "id": 541,
       "word_de": "der Kontakt",
       "grammar": "der Kontakt, -e",
@@ -7443,7 +5933,7 @@
     {
       "id": 542,
       "word_de": "das Konto",
-      "grammar": "das Konto, -en",
+      "grammar": "das Konto, -s",
       "word_ru": "счет",
       "topic_ids": [
         2,
@@ -7452,30 +5942,6 @@
       "sentence_ids": [
         1190,
         1191
-      ]
-    },
-    {
-      "id": 543,
-      "word_de": "kontrolliert",
-      "grammar": "kontrolliert, kontrollieren?, hat kontrolliert",
-      "word_ru": "контролируемый",
-      "topic_ids": [
-        6
-      ],
-      "sentence_ids": [
-        1192
-      ]
-    },
-    {
-      "id": 544,
-      "word_de": "Gepäck",
-      "grammar": "Gepäck",
-      "word_ru": "Багаж",
-      "topic_ids": [
-        6
-      ],
-      "sentence_ids": [
-        1193
       ]
     },
     {
@@ -7518,7 +5984,7 @@
     {
       "id": 548,
       "word_de": "tun",
-      "grammar": "tun, z.",
+      "grammar": "tun",
       "word_ru": "делать",
       "topic_ids": [
         6
@@ -7571,20 +6037,6 @@
       ]
     },
     {
-      "id": 552,
-      "word_de": "welcher",
-      "grammar": "welcher",
-      "word_ru": "который",
-      "topic_ids": [
-        7,
-        10
-      ],
-      "sentence_ids": [
-        1202,
-        1203
-      ]
-    },
-    {
       "id": 553,
       "word_de": "die Krankheit",
       "grammar": "die Krankheit, -en",
@@ -7624,7 +6076,7 @@
     {
       "id": 556,
       "word_de": "die Kreuzung",
-      "grammar": "die Kreuzung, -en, hat gekriegt",
+      "grammar": "die Kreuzung, -en",
       "word_ru": "переправа",
       "topic_ids": [
         2,
@@ -7650,22 +6102,6 @@
       ]
     },
     {
-      "id": 558,
-      "word_de": "Schauen",
-      "grammar": "Schauen",
-      "word_ru": "Смотреть",
-      "topic_ids": [
-        2,
-        8,
-        9,
-        13
-      ],
-      "sentence_ids": [
-        1212,
-        1213
-      ]
-    },
-    {
       "id": 559,
       "word_de": "die Küche",
       "grammar": "die Küche, -n",
@@ -7676,19 +6112,6 @@
       ],
       "sentence_ids": [
         1214
-      ]
-    },
-    {
-      "id": 560,
-      "word_de": "Küche",
-      "grammar": "Küche",
-      "word_ru": "Кухня",
-      "topic_ids": [
-        2,
-        3
-      ],
-      "sentence_ids": [
-        1215
       ]
     },
     {
@@ -7706,7 +6129,7 @@
     {
       "id": 562,
       "word_de": "Schokoladenkuchen",
-      "grammar": "Schokoladenkuchen",
+      "grammar": "der Schokoladenkuchen, -",
       "word_ru": "Шоколадный торт",
       "topic_ids": [
         2
@@ -7743,7 +6166,7 @@
     {
       "id": 565,
       "word_de": "Woche",
-      "grammar": "Woche, hat gekümmert",
+      "grammar": "die Woche, -n",
       "word_ru": "Неделя",
       "topic_ids": [
         8
@@ -7752,18 +6175,6 @@
         1221,
         1222,
         1223
-      ]
-    },
-    {
-      "id": 566,
-      "word_de": "Essen",
-      "grammar": "Essen",
-      "word_ru": "Есть",
-      "topic_ids": [
-        2
-      ],
-      "sentence_ids": [
-        1224
       ]
     },
     {
@@ -7791,18 +6202,6 @@
       ]
     },
     {
-      "id": 569,
-      "word_de": "Kunst",
-      "grammar": "Kunst",
-      "word_ru": "Искусство",
-      "topic_ids": [
-        5
-      ],
-      "sentence_ids": [
-        1227
-      ]
-    },
-    {
       "id": 570,
       "word_de": "der Kurs",
       "grammar": "der Kurs, -e",
@@ -7819,7 +6218,7 @@
     {
       "id": 571,
       "word_de": "kurz",
-      "grammar": "kurz, hat gelacht",
+      "grammar": "kurz",
       "word_ru": "короткий",
       "topic_ids": [
         1
@@ -7842,18 +6241,6 @@
       ],
       "sentence_ids": [
         1233
-      ]
-    },
-    {
-      "id": 573,
-      "word_de": "Laden",
-      "grammar": "Laden",
-      "word_ru": "Нагрузка",
-      "topic_ids": [
-        10
-      ],
-      "sentence_ids": [
-        1234
       ]
     },
     {
@@ -7936,7 +6323,7 @@
     {
       "id": 580,
       "word_de": "langweilig",
-      "grammar": "langweilig, hat gelassen, ist gelaufen",
+      "grammar": "langweilig",
       "word_ru": "скучный",
       "topic_ids": [
         9,
@@ -7957,7 +6344,7 @@
     {
       "id": 581,
       "word_de": "laut",
-      "grammar": "laut, hat gelebt",
+      "grammar": "laut",
       "word_ru": "громкий",
       "topic_ids": [
         1
@@ -7996,7 +6383,7 @@
     {
       "id": 584,
       "word_de": "leer",
-      "grammar": "leer, hat gelegt",
+      "grammar": "leer",
       "word_ru": "пустой",
       "topic_ids": [
         2,
@@ -8023,7 +6410,7 @@
     {
       "id": 586,
       "word_de": "leise",
-      "grammar": "leise, hat gelernt, hat gelesen",
+      "grammar": "leise",
       "word_ru": "тихий",
       "topic_ids": [
         5,
@@ -8088,7 +6475,7 @@
     {
       "id": 591,
       "word_de": "das Lied",
-      "grammar": "das Lied, -er, hat geliefert",
+      "grammar": "das Lied, -er",
       "word_ru": "песня",
       "topic_ids": [
         3
@@ -8172,68 +6559,6 @@
       ]
     },
     {
-      "id": 598,
-      "word_de": "Glaub",
-      "grammar": "Glaub",
-      "word_ru": "Полагать",
-      "topic_ids": [
-        2,
-        8
-      ],
-      "sentence_ids": [
-        1279,
-        1280,
-        1281,
-        1282,
-        1283,
-        1284,
-        1285
-      ]
-    },
-    {
-      "id": 599,
-      "word_de": "Sag",
-      "grammar": "Sag",
-      "word_ru": "Сказать",
-      "topic_ids": [
-        2
-      ],
-      "sentence_ids": [
-        1286,
-        1287
-      ]
-    },
-    {
-      "id": 600,
-      "word_de": "Manche",
-      "grammar": "Manche",
-      "word_ru": "Некоторый",
-      "topic_ids": [
-        1,
-        3,
-        10,
-        14
-      ],
-      "sentence_ids": [
-        1288
-      ]
-    },
-    {
-      "id": 601,
-      "word_de": "Rauchen",
-      "grammar": "Rauchen",
-      "word_ru": "Дым",
-      "topic_ids": [
-        2,
-        4
-      ],
-      "sentence_ids": [
-        1289,
-        1290,
-        1291
-      ]
-    },
-    {
       "id": 602,
       "word_de": "die Mannschaft",
       "grammar": "die Mannschaft,-en",
@@ -8249,7 +6574,7 @@
     {
       "id": 603,
       "word_de": "mehr",
-      "grammar": "mehr, hat gemeint",
+      "grammar": "mehr",
       "word_ru": "более",
       "topic_ids": [
         2
@@ -8275,47 +6600,6 @@
       "sentence_ids": [
         1297,
         1298
-      ]
-    },
-    {
-      "id": 605,
-      "word_de": "Samstags",
-      "grammar": "Samstags",
-      "word_ru": "Суббота",
-      "topic_ids": [
-        10,
-        13
-      ],
-      "sentence_ids": [
-        1299
-      ]
-    },
-    {
-      "id": 606,
-      "word_de": "Nehmen",
-      "grammar": "Nehmen",
-      "word_ru": "Брать",
-      "topic_ids": [
-        2,
-        7,
-        12
-      ],
-      "sentence_ids": [
-        1300,
-        1301
-      ]
-    },
-    {
-      "id": 607,
-      "word_de": "Ichbinneuhierim",
-      "grammar": "Ichbinneuhierim",
-      "word_ru": "я здесь новенький",
-      "topic_ids": [
-        3
-      ],
-      "sentence_ids": [
-        1302,
-        1303
       ]
     },
     {
@@ -8357,18 +6641,6 @@
       ]
     },
     {
-      "id": 611,
-      "word_de": "Merkst",
-      "grammar": "Merkst",
-      "word_ru": "Уведомление",
-      "topic_ids": [
-        1
-      ],
-      "sentence_ids": [
-        1308
-      ]
-    },
-    {
       "id": 612,
       "word_de": "die Messe",
       "grammar": "die Messe, -n",
@@ -8384,7 +6656,7 @@
     {
       "id": 613,
       "word_de": "Messer",
-      "grammar": "Messer",
+      "grammar": "das Messer, -",
       "word_ru": "Нож",
       "topic_ids": [
         2
@@ -8397,7 +6669,7 @@
     {
       "id": 614,
       "word_de": "die Miete",
-      "grammar": "die Miete, -n, hat gemietet",
+      "grammar": "die Miete, -n",
       "word_ru": "арендная плата",
       "topic_ids": [
         3
@@ -8430,54 +6702,6 @@
       ],
       "sentence_ids": [
         1315
-      ]
-    },
-    {
-      "id": 617,
-      "word_de": "Ihrem",
-      "grammar": "Ihrem",
-      "word_ru": "твой",
-      "topic_ids": [
-        6
-      ],
-      "sentence_ids": [
-        1316
-      ]
-    },
-    {
-      "id": 618,
-      "word_de": "Schreiben",
-      "grammar": "Schreiben",
-      "word_ru": "Писать",
-      "topic_ids": [
-        11
-      ],
-      "sentence_ids": [
-        1317,
-        1318,
-        1319
-      ]
-    },
-    {
-      "id": 619,
-      "word_de": "Glas",
-      "grammar": "Glas",
-      "word_ru": "Стекло",
-      "topic_ids": [
-        2,
-        6,
-        8
-      ],
-      "sentence_ids": [
-        1320,
-        1321,
-        1322,
-        1323,
-        1324,
-        1325,
-        1326,
-        1327,
-        1328
       ]
     },
     {
@@ -8607,20 +6831,6 @@
       ]
     },
     {
-      "id": 630,
-      "word_de": "Warten",
-      "grammar": "Warten",
-      "word_ru": "Ждать",
-      "topic_ids": [
-        13
-      ],
-      "sentence_ids": [
-        1342,
-        1343,
-        1344
-      ]
-    },
-    {
       "id": 631,
       "word_de": "der Motor",
       "grammar": "der Motor, -en",
@@ -8685,21 +6895,9 @@
       ]
     },
     {
-      "id": 636,
-      "word_de": "Hals",
-      "grammar": "Hals",
-      "word_ru": "Шея",
-      "topic_ids": [
-        1
-      ],
-      "sentence_ids": [
-        1351
-      ]
-    },
-    {
       "id": 637,
       "word_de": "das Museum",
-      "grammar": "das Museum, -een",
+      "grammar": "das Museum, Museen",
       "word_ru": "музей",
       "topic_ids": [
         8
@@ -8719,32 +6917,6 @@
       "sentence_ids": [
         1353
       ]
-    },
-    {
-      "id": 639,
-      "word_de": "Spanische",
-      "grammar": "Spanische",
-      "word_ru": "испанский",
-      "topic_ids": [
-        2,
-        4,
-        8,
-        13
-      ],
-      "sentence_ids": [
-        1354,
-        1355
-      ]
-    },
-    {
-      "id": 640,
-      "word_de": "musste",
-      "grammar": "musste",
-      "word_ru": "пришлось",
-      "topic_ids": [
-        1
-      ],
-      "sentence_ids": []
     },
     {
       "id": 641,
@@ -8870,7 +7042,7 @@
     {
       "id": 650,
       "word_de": "neblig",
-      "grammar": "neblig, hat genommen",
+      "grammar": "neblig",
       "word_ru": "туманный",
       "topic_ids": [
         2
@@ -8924,22 +7096,6 @@
       "sentence_ids": [
         1381,
         1382
-      ]
-    },
-    {
-      "id": 654,
-      "word_de": "Zeig",
-      "grammar": "Zeig",
-      "word_ru": "Показывать",
-      "topic_ids": [
-        2,
-        11,
-        13
-      ],
-      "sentence_ids": [
-        1383,
-        1384,
-        1385
       ]
     },
     {
@@ -9018,7 +7174,7 @@
     {
       "id": 660,
       "word_de": "die Note",
-      "grammar": "die Note, -n, hat notiert",
+      "grammar": "die Note, -n",
       "word_ru": "записка",
       "topic_ids": [
         5,
@@ -9143,21 +7299,9 @@
       ]
     },
     {
-      "id": 670,
-      "word_de": "Entweder",
-      "grammar": "Entweder",
-      "word_ru": "Или",
-      "topic_ids": [
-        6
-      ],
-      "sentence_ids": [
-        1411
-      ]
-    },
-    {
       "id": 671,
       "word_de": "offen",
-      "grammar": "offen, hat geöffnet",
+      "grammar": "offen",
       "word_ru": "открыть",
       "topic_ids": [
         1
@@ -9206,102 +7350,6 @@
       ],
       "sentence_ids": [
         1413
-      ]
-    },
-    {
-      "id": 676,
-      "word_de": "Schaffst",
-      "grammar": "Schaffst",
-      "word_ru": "Создавать",
-      "topic_ids": [
-        2,
-        7
-      ],
-      "sentence_ids": [
-        1414,
-        1415,
-        1416,
-        1417,
-        1418,
-        1419
-      ]
-    },
-    {
-      "id": 677,
-      "word_de": "Vergessen",
-      "grammar": "Vergessen",
-      "word_ru": "Забывать",
-      "topic_ids": [
-        2,
-        13
-      ],
-      "sentence_ids": [
-        1420
-      ]
-    },
-    {
-      "id": 678,
-      "word_de": "Brief",
-      "grammar": "Brief",
-      "word_ru": "письмо",
-      "topic_ids": [
-        11
-      ],
-      "sentence_ids": [
-        1421
-      ]
-    },
-    {
-      "id": 679,
-      "word_de": "Romeo",
-      "grammar": "Romeo",
-      "word_ru": "Ромео",
-      "topic_ids": [
-        6,
-        13
-      ],
-      "sentence_ids": [
-        1422,
-        1423,
-        1424,
-        1425,
-        1426
-      ]
-    },
-    {
-      "id": 680,
-      "word_de": "Bringst",
-      "grammar": "Bringst",
-      "word_ru": "Приносить",
-      "topic_ids": [
-        2,
-        11,
-        12,
-        15
-      ],
-      "sentence_ids": [
-        1427,
-        1428,
-        1429,
-        1430,
-        1431,
-        1432,
-        1433
-      ]
-    },
-    {
-      "id": 681,
-      "word_de": "Veronika",
-      "grammar": "Veronika",
-      "word_ru": "Вероника",
-      "topic_ids": [
-        2,
-        8,
-        13
-      ],
-      "sentence_ids": [
-        1434,
-        1435
       ]
     },
     {
@@ -9397,7 +7445,7 @@
     {
       "id": 689,
       "word_de": "der Plan",
-      "grammar": "der Plan, ¨-e, hat geplant",
+      "grammar": "der Plan, ¨-e",
       "word_ru": "план",
       "topic_ids": [
         2,
@@ -9535,7 +7583,7 @@
     {
       "id": 699,
       "word_de": "das Praktikum",
-      "grammar": "das Praktikum, -a",
+      "grammar": "das Praktikum, Praktika",
       "word_ru": "стажировка",
       "topic_ids": [
         2
@@ -9568,18 +7616,6 @@
       ],
       "sentence_ids": [
         1465
-      ]
-    },
-    {
-      "id": 702,
-      "word_de": "Weiß",
-      "grammar": "Weiß",
-      "word_ru": "Белый",
-      "topic_ids": [
-        13
-      ],
-      "sentence_ids": [
-        1466
       ]
     },
     {
@@ -9630,19 +7666,6 @@
       ],
       "sentence_ids": [
         1470
-      ]
-    },
-    {
-      "id": 707,
-      "word_de": "Hey",
-      "grammar": "Hey, du",
-      "word_ru": "Привет",
-      "topic_ids": [
-        8,
-        13
-      ],
-      "sentence_ids": [
-        1471
       ]
     },
     {
@@ -9710,21 +7733,9 @@
       ]
     },
     {
-      "id": 713,
-      "word_de": "unserer",
-      "grammar": "unserer",
-      "word_ru": "наш",
-      "topic_ids": [
-        15
-      ],
-      "sentence_ids": [
-        1480
-      ]
-    },
-    {
       "id": 714,
       "word_de": "der Prospekt",
-      "grammar": "der Prospekt, -e, hat geprüft",
+      "grammar": "der Prospekt, -e",
       "word_ru": "проспект",
       "topic_ids": [
         2,
@@ -9759,19 +7770,6 @@
       ],
       "sentence_ids": [
         1484
-      ]
-    },
-    {
-      "id": 717,
-      "word_de": "Herr",
-      "grammar": "Herr, hat geputzt",
-      "word_ru": "Господин",
-      "topic_ids": [
-        3
-      ],
-      "sentence_ids": [
-        1485,
-        1486
       ]
     },
     {
@@ -9818,20 +7816,6 @@
       ]
     },
     {
-      "id": 721,
-      "word_de": "Rate",
-      "grammar": "Rate",
-      "word_ru": "ставка",
-      "topic_ids": [
-        2,
-        4,
-        13
-      ],
-      "sentence_ids": [
-        1493
-      ]
-    },
-    {
       "id": 722,
       "word_de": "das Rathaus",
       "grammar": "das Rathaus, ¨-er",
@@ -9848,7 +7832,7 @@
     {
       "id": 723,
       "word_de": "das Rätsel",
-      "grammar": "das Rätsel,-, hat geraucht",
+      "grammar": "das Rätsel, -",
       "word_ru": "головоломка",
       "topic_ids": [
         2
@@ -9862,7 +7846,7 @@
     {
       "id": 724,
       "word_de": "der Raum",
-      "grammar": "der Raum, ¨-e, hat gerechnet",
+      "grammar": "der Raum, ¨-e",
       "word_ru": "пространство",
       "topic_ids": [
         5,
@@ -9891,7 +7875,7 @@
     {
       "id": 726,
       "word_de": "rechts",
-      "grammar": "rechts, hat geredet",
+      "grammar": "rechts",
       "word_ru": "верно",
       "topic_ids": [
         1,
@@ -9906,7 +7890,7 @@
     {
       "id": 727,
       "word_de": "der Regen",
-      "grammar": "der Regen, hat geregnet",
+      "grammar": "der Regen",
       "word_ru": "дождь",
       "topic_ids": [
         2,
@@ -9955,19 +7939,6 @@
       ],
       "sentence_ids": [
         1512
-      ]
-    },
-    {
-      "id": 731,
-      "word_de": "dritten",
-      "grammar": "dritten",
-      "word_ru": "третий",
-      "topic_ids": [
-        2
-      ],
-      "sentence_ids": [
-        1513,
-        1514
       ]
     },
     {
@@ -10025,7 +7996,7 @@
     {
       "id": 736,
       "word_de": "der Reiseführer",
-      "grammar": "der Reiseführer,-, ist gereist, ist geritten, hat renoviert",
+      "grammar": "der Reiseführer, -",
       "word_ru": "путеводитель",
       "topic_ids": [
         2,
@@ -10042,21 +8013,9 @@
       ]
     },
     {
-      "id": 737,
-      "word_de": "de",
-      "grammar": "de",
-      "word_ru": "де",
-      "topic_ids": [
-        4
-      ],
-      "sentence_ids": [
-        1527
-      ]
-    },
-    {
       "id": 738,
       "word_de": "die Reparatur",
-      "grammar": "die Reparatur, -en, hat repariert",
+      "grammar": "die Reparatur, -en",
       "word_ru": "ремонт",
       "topic_ids": [
         3
@@ -10067,16 +8026,6 @@
         1530,
         1531
       ]
-    },
-    {
-      "id": 739,
-      "word_de": "reservierte",
-      "grammar": "reservierte, reservieren., hat reserviert",
-      "word_ru": "сдержанный",
-      "topic_ids": [
-        1
-      ],
-      "sentence_ids": []
     },
     {
       "id": 740,
@@ -10119,7 +8068,7 @@
     {
       "id": 743,
       "word_de": "die Rezeption",
-      "grammar": "die Rezeption, en",
+      "grammar": "die Rezeption, -en",
       "word_ru": "прием",
       "topic_ids": [
         2,
@@ -10144,7 +8093,7 @@
     {
       "id": 745,
       "word_de": "das Rind",
-      "grammar": "das Rind",
+      "grammar": "das Rind, -er",
       "word_ru": "говядина",
       "topic_ids": [
         2
@@ -10228,20 +8177,6 @@
       ]
     },
     {
-      "id": 752,
-      "word_de": "Koffer",
-      "grammar": "Koffer, hat gerufen",
-      "word_ru": "Чемодан",
-      "topic_ids": [
-        2
-      ],
-      "sentence_ids": [
-        1547,
-        1548,
-        1549
-      ]
-    },
-    {
       "id": 753,
       "word_de": "die Ruhe",
       "grammar": "die Ruhe",
@@ -10307,21 +8242,9 @@
       ]
     },
     {
-      "id": 758,
-      "word_de": "Nimm",
-      "grammar": "Nimm",
-      "word_ru": "Брать",
-      "topic_ids": [
-        2
-      ],
-      "sentence_ids": [
-        1556
-      ]
-    },
-    {
       "id": 759,
       "word_de": "der Saft",
-      "grammar": "der Saft, ¨-e, hat gesagt",
+      "grammar": "der Saft, ¨-e",
       "word_ru": "сок",
       "topic_ids": [
         2,
@@ -10349,7 +8272,7 @@
     {
       "id": 761,
       "word_de": "das Salz",
-      "grammar": "das Salz, -e, hat gesammelt",
+      "grammar": "das Salz, -e",
       "word_ru": "соль",
       "topic_ids": [
         2,
@@ -10401,19 +8324,6 @@
       ]
     },
     {
-      "id": 765,
-      "word_de": "Freunden",
-      "grammar": "Freunden",
-      "word_ru": "друзья",
-      "topic_ids": [
-        1,
-        8
-      ],
-      "sentence_ids": [
-        1569
-      ]
-    },
-    {
       "id": 766,
       "word_de": "schade",
       "grammar": "schade",
@@ -10455,7 +8365,7 @@
     {
       "id": 769,
       "word_de": "scharf",
-      "grammar": "scharf, hat geschienen, hat geschenkt",
+      "grammar": "scharf",
       "word_ru": "острый",
       "topic_ids": [
         2
@@ -10471,7 +8381,7 @@
     {
       "id": 770,
       "word_de": "die Schere",
-      "grammar": "die Schere, -n, hat geschickt",
+      "grammar": "die Schere, -n",
       "word_ru": "ножницы",
       "topic_ids": [
         2,
@@ -10511,20 +8421,6 @@
       ]
     },
     {
-      "id": 773,
-      "word_de": "schimpft",
-      "grammar": "schimpft, mich über mein, hat geschimpft",
-      "word_ru": "ругается",
-      "topic_ids": [
-        6,
-        12
-      ],
-      "sentence_ids": [
-        1586,
-        1587
-      ]
-    },
-    {
       "id": 774,
       "word_de": "der Schirm",
       "grammar": "der Schirm, hat geschlafen",
@@ -10541,22 +8437,9 @@
       ]
     },
     {
-      "id": 775,
-      "word_de": "Gute",
-      "grammar": "Gute",
-      "word_ru": "Хороший",
-      "topic_ids": [
-        1
-      ],
-      "sentence_ids": [
-        1591,
-        1592
-      ]
-    },
-    {
       "id": 776,
       "word_de": "das Schlafzimmer",
-      "grammar": "das Schlafzimmer, -Hier",
+      "grammar": "das Schlafzimmer, -",
       "word_ru": "спальня",
       "topic_ids": [
         3
@@ -10617,22 +8500,6 @@
       ]
     },
     {
-      "id": 781,
-      "word_de": "gebe",
-      "grammar": "gebe, hat geschmeckt",
-      "word_ru": "давать",
-      "topic_ids": [
-        2
-      ],
-      "sentence_ids": [
-        1599,
-        1600,
-        1601,
-        1602,
-        1603
-      ]
-    },
-    {
       "id": 782,
       "word_de": "der Schmerz",
       "grammar": "der Schmerz, -en",
@@ -10660,7 +8527,7 @@
     {
       "id": 784,
       "word_de": "der Schnee",
-      "grammar": "der Schnee, hat geschnitten, hat geschneit",
+      "grammar": "der Schnee",
       "word_ru": "снег",
       "topic_ids": [
         12
@@ -10727,21 +8594,9 @@
       ]
     },
     {
-      "id": 789,
-      "word_de": "Legst",
-      "grammar": "Legst",
-      "word_ru": "Класть",
-      "topic_ids": [
-        3
-      ],
-      "sentence_ids": [
-        1620
-      ]
-    },
-    {
       "id": 790,
       "word_de": "schrecklich",
-      "grammar": "schrecklich, hat geschrieben",
+      "grammar": "schrecklich",
       "word_ru": "ужасный",
       "topic_ids": [
         2,
@@ -10873,20 +8728,6 @@
       ]
     },
     {
-      "id": 800,
-      "word_de": "das Schwimm-",
-      "grammar": "das Schwimm-, ist geschwommen",
-      "word_ru": "плавание",
-      "topic_ids": [
-        9
-      ],
-      "sentence_ids": [
-        1635,
-        1636,
-        1637
-      ]
-    },
-    {
       "id": 801,
       "word_de": "der See",
       "grammar": "der See, -n",
@@ -10920,23 +8761,9 @@
       ]
     },
     {
-      "id": 803,
-      "word_de": "die Sehens-",
-      "grammar": "die Sehens-",
-      "word_ru": "видение",
-      "topic_ids": [
-        2,
-        10
-      ],
-      "sentence_ids": [
-        1645,
-        1646
-      ]
-    },
-    {
       "id": 804,
       "word_de": "die Seife",
-      "grammar": "die Seife, -n, ist gewesen",
+      "grammar": "die Seife, -n",
       "word_ru": "мыло",
       "topic_ids": [
         4
@@ -10945,19 +8772,6 @@
         1647,
         1648,
         1649
-      ]
-    },
-    {
-      "id": 805,
-      "word_de": "Um",
-      "grammar": "Um",
-      "word_ru": "Хм",
-      "topic_ids": [
-        13
-      ],
-      "sentence_ids": [
-        1650,
-        1651
       ]
     },
     {
@@ -10971,18 +8785,6 @@
       ],
       "sentence_ids": [
         1652
-      ]
-    },
-    {
-      "id": 807,
-      "word_de": "linken",
-      "grammar": "linken",
-      "word_ru": "левый",
-      "topic_ids": [
-        2
-      ],
-      "sentence_ids": [
-        1653
       ]
     },
     {
@@ -11024,19 +8826,6 @@
       ]
     },
     {
-      "id": 811,
-      "word_de": "Rufst",
-      "grammar": "Rufst",
-      "word_ru": "ты звонишь",
-      "topic_ids": [
-        2
-      ],
-      "sentence_ids": [
-        1657,
-        1658
-      ]
-    },
-    {
       "id": 812,
       "word_de": "setzt",
       "grammar": "setzt, hat gesetzt",
@@ -11049,7 +8838,7 @@
     {
       "id": 813,
       "word_de": "sicher",
-      "grammar": "sicher, hat gesungen",
+      "grammar": "sicher",
       "word_ru": "безопасный",
       "topic_ids": [
         2,
@@ -11073,19 +8862,6 @@
       ],
       "sentence_ids": [
         1663
-      ]
-    },
-    {
-      "id": 815,
-      "word_de": "Lesen",
-      "grammar": "Lesen",
-      "word_ru": "Читать",
-      "topic_ids": [
-        2,
-        8
-      ],
-      "sentence_ids": [
-        1664
       ]
     },
     {
@@ -11144,20 +8920,6 @@
       ]
     },
     {
-      "id": 820,
-      "word_de": "sollte",
-      "grammar": "sollte",
-      "word_ru": "должен",
-      "topic_ids": [
-        2,
-        4,
-        7
-      ],
-      "sentence_ids": [
-        1673
-      ]
-    },
-    {
       "id": 821,
       "word_de": "die Sonne",
       "grammar": "die Sonne, -n",
@@ -11198,21 +8960,9 @@
       ]
     },
     {
-      "id": 824,
-      "word_de": "Beeil",
-      "grammar": "Beeil",
-      "word_ru": "Торопиться",
-      "topic_ids": [
-        2
-      ],
-      "sentence_ids": [
-        1677
-      ]
-    },
-    {
       "id": 825,
       "word_de": "spannend",
-      "grammar": "spannend, hat gespart",
+      "grammar": "spannend",
       "word_ru": "захватывающий",
       "topic_ids": [
         2,
@@ -11239,20 +8989,6 @@
       "sentence_ids": [
         1680,
         1681
-      ]
-    },
-    {
-      "id": 827,
-      "word_de": "Viel",
-      "grammar": "Viel",
-      "word_ru": "Много",
-      "topic_ids": [
-        2,
-        8
-      ],
-      "sentence_ids": [
-        1682,
-        1683
       ]
     },
     {
@@ -11322,22 +9058,6 @@
       ]
     },
     {
-      "id": 833,
-      "word_de": "Monopoly",
-      "grammar": "Monopoly, hat gespielt",
-      "word_ru": "Монополия",
-      "topic_ids": [
-        1,
-        8
-      ],
-      "sentence_ids": [
-        1693,
-        1694,
-        1695,
-        1696
-      ]
-    },
-    {
       "id": 834,
       "word_de": "der Sport",
       "grammar": "der Sport",
@@ -11383,20 +9103,6 @@
       ],
       "sentence_ids": [
         1700
-      ]
-    },
-    {
-      "id": 838,
-      "word_de": "Englisch",
-      "grammar": "Englisch, hat gesprochen",
-      "word_ru": "Английский",
-      "topic_ids": [
-        2
-      ],
-      "sentence_ids": [
-        1701,
-        1702,
-        1703
       ]
     },
     {
@@ -11467,7 +9173,7 @@
     {
       "id": 844,
       "word_de": "die Stelle",
-      "grammar": "die Stelle, -n, hat gestellt",
+      "grammar": "die Stelle, -n",
       "word_ru": "место",
       "topic_ids": [
         2,
@@ -11535,7 +9241,7 @@
     {
       "id": 849,
       "word_de": "das Stockwerk",
-      "grammar": "das Stockwerk, -e, hat gestört",
+      "grammar": "das Stockwerk, -e",
       "word_ru": "пол",
       "topic_ids": [
         15
@@ -11544,19 +9250,6 @@
         1718,
         1719,
         1720
-      ]
-    },
-    {
-      "id": 850,
-      "word_de": "Mach",
-      "grammar": "Mach",
-      "word_ru": "Делать",
-      "topic_ids": [
-        3
-      ],
-      "sentence_ids": [
-        1721,
-        1722
       ]
     },
     {
@@ -11667,7 +9360,7 @@
     {
       "id": 859,
       "word_de": "der Stuhl",
-      "grammar": "der Stuhl, ¨-e, hat gesucht",
+      "grammar": "der Stuhl, ¨-e",
       "word_ru": "стул",
       "topic_ids": [
         3
@@ -11695,7 +9388,7 @@
     {
       "id": 861,
       "word_de": "der Supermarkt",
-      "grammar": "der Supermarkt, ¨-eIch",
+      "grammar": "der Supermarkt, ¨-e",
       "word_ru": "супермаркет",
       "topic_ids": [
         10
@@ -11872,7 +9565,7 @@
     {
       "id": 874,
       "word_de": "der Tee",
-      "grammar": "der Tee, -s, hat geteilt, hat teilgenommen",
+      "grammar": "der Tee, -s",
       "word_ru": "чай",
       "topic_ids": [
         2,
@@ -11889,7 +9582,7 @@
     {
       "id": 875,
       "word_de": "das Telefon",
-      "grammar": "das Telefon, -e, hat telefoniert",
+      "grammar": "das Telefon, -e",
       "word_ru": "телефон",
       "topic_ids": [
         11
@@ -12113,18 +9806,6 @@
       ]
     },
     {
-      "id": 893,
-      "word_de": "Kartoffeln",
-      "grammar": "Kartoffeln",
-      "word_ru": "картофель",
-      "topic_ids": [
-        2
-      ],
-      "sentence_ids": [
-        1789
-      ]
-    },
-    {
       "id": 894,
       "word_de": "die Torte",
       "grammar": "die Torte, -n",
@@ -12198,7 +9879,7 @@
     {
       "id": 899,
       "word_de": "der Traum",
-      "grammar": "der Traum, ¨-e, hat geträumt",
+      "grammar": "der Traum, ¨-e",
       "word_ru": "мечта",
       "topic_ids": [
         3
@@ -12212,7 +9893,7 @@
     {
       "id": 900,
       "word_de": "traurig",
-      "grammar": "traurig, hat getroffen",
+      "grammar": "traurig",
       "word_ru": "грустный",
       "topic_ids": [
         2,
@@ -12232,7 +9913,7 @@
     {
       "id": 901,
       "word_de": "die Treppe",
-      "grammar": "die Treppe, -n, hat getrunken",
+      "grammar": "die Treppe, -n",
       "word_ru": "лестница",
       "topic_ids": [
         3
@@ -12455,7 +10136,7 @@
     {
       "id": 917,
       "word_de": "unter",
-      "grammar": "unter, hat unterhalten",
+      "grammar": "unter",
       "word_ru": "под",
       "topic_ids": [
         1
@@ -12469,7 +10150,7 @@
     {
       "id": 918,
       "word_de": "die Unterkunft",
-      "grammar": "die Unterkunft, ¨-e, hat unternommen",
+      "grammar": "die Unterkunft, ¨-e",
       "word_ru": "размещение",
       "topic_ids": [
         6
@@ -12496,7 +10177,7 @@
     {
       "id": 920,
       "word_de": "der Unterschied",
-      "grammar": "der Unterschied, -e, hat unterschrieben",
+      "grammar": "der Unterschied, -e",
       "word_ru": "разница",
       "topic_ids": [
         2,
@@ -12511,7 +10192,7 @@
     {
       "id": 921,
       "word_de": "die Unterschrift",
-      "grammar": "die Unterschrift,-en, hat untersucht",
+      "grammar": "die Unterschrift, -en",
       "word_ru": "подпись",
       "topic_ids": [
         7
@@ -12557,7 +10238,7 @@
     {
       "id": 924,
       "word_de": "der Verein",
-      "grammar": "der Verein, -e, hat vereinbart, hat vergessen, hat verglichen, hat verkauft",
+      "grammar": "der Verein, -e",
       "word_ru": "Союз",
       "topic_ids": [
         2,
@@ -12600,26 +10281,6 @@
       ]
     },
     {
-      "id": 927,
-      "word_de": "mittel",
-      "grammar": "mittel, verletzen, hat verletzt, hat verliebt, hat verloren, hat vermietet",
-      "word_ru": "середина",
-      "topic_ids": [
-        3,
-        7
-      ],
-      "sentence_ids": [
-        1869,
-        1870,
-        1871,
-        1872,
-        1873,
-        1874,
-        1875,
-        1876
-      ]
-    },
-    {
       "id": 928,
       "word_de": "der Vermieter",
       "grammar": "der Vermieter, -",
@@ -12649,7 +10310,7 @@
     {
       "id": 930,
       "word_de": "die Verspätung",
-      "grammar": "die Verspätung,-en, hat verstanden",
+      "grammar": "die Verspätung, -en",
       "word_ru": "задержка",
       "topic_ids": [
         2,
@@ -12694,7 +10355,7 @@
     {
       "id": 933,
       "word_de": "der Vogel",
-      "grammar": "der Vogel, ¨-Nadine",
+      "grammar": "der Vogel, ¨-",
       "word_ru": "птица",
       "topic_ids": [
         12
@@ -12893,7 +10554,7 @@
     {
       "id": 948,
       "word_de": "der Wald",
-      "grammar": "der Wald, ¨-er, ist gewandert",
+      "grammar": "der Wald, ¨-er",
       "word_ru": "лес",
       "topic_ids": [
         3,
@@ -12925,7 +10586,7 @@
     {
       "id": 950,
       "word_de": "die Wäsche",
-      "grammar": "die Wäsche, -n, hat gewaschen",
+      "grammar": "die Wäsche",
       "word_ru": "прачечная",
       "topic_ids": [
         1
@@ -12951,7 +10612,7 @@
     {
       "id": 952,
       "word_de": "die Webseite",
-      "grammar": "die Webseite, -n, hat gewechselt, hat geweckt",
+      "grammar": "die Webseite, -n",
       "word_ru": "сайт",
       "topic_ids": [
         5,
@@ -13027,7 +10688,7 @@
     {
       "id": 957,
       "word_de": "der Wein",
-      "grammar": "der Wein, -e, hat geweint",
+      "grammar": "der Wein, -e",
       "word_ru": "вино",
       "topic_ids": [
         2
@@ -13123,7 +10784,7 @@
     {
       "id": 964,
       "word_de": "der Wettbewerb",
-      "grammar": "der Wettbewerb, -eMein",
+      "grammar": "der Wettbewerb, -e",
       "word_ru": "соревнование",
       "topic_ids": [
         1,
@@ -13320,19 +10981,6 @@
       ]
     },
     {
-      "id": 978,
-      "word_de": "meiner",
-      "grammar": "meiner",
-      "word_ru": "мой",
-      "topic_ids": [
-        2,
-        4
-      ],
-      "sentence_ids": [
-        1985
-      ]
-    },
-    {
       "id": 979,
       "word_de": "das Wort",
       "grammar": "das Wort,¨-er",
@@ -13405,7 +11053,7 @@
     {
       "id": 984,
       "word_de": "die Zahl",
-      "grammar": "die Zahl, -en, hat gezahlt",
+      "grammar": "die Zahl, -en",
       "word_ru": "число",
       "topic_ids": [
         1
@@ -13417,7 +11065,7 @@
     {
       "id": 985,
       "word_de": "der Zahn",
-      "grammar": "der Zahn, ¨-e, hat gezeichnet, hat gezeigt",
+      "grammar": "der Zahn, ¨-e",
       "word_ru": "зуб",
       "topic_ids": [
         6,
@@ -13494,19 +11142,6 @@
       ]
     },
     {
-      "id": 991,
-      "word_de": "Wohnst",
-      "grammar": "Wohnst",
-      "word_ru": "Резиденция",
-      "topic_ids": [
-        2,
-        15
-      ],
-      "sentence_ids": [
-        2006
-      ]
-    },
-    {
       "id": 992,
       "word_de": "der Zettel",
       "grammar": "der Zettel,-",
@@ -13550,7 +11185,7 @@
     {
       "id": 995,
       "word_de": "Zimmer",
-      "grammar": "Zimmer",
+      "grammar": "das Zimmer, -",
       "word_ru": "Комната",
       "topic_ids": [
         3
@@ -13650,7 +11285,7 @@
     {
       "id": 1003,
       "word_de": "der Zug",
-      "grammar": "der Zug, ¨-e, hat zugehört",
+      "grammar": "der Zug, ¨-e",
       "word_ru": "поезд",
       "topic_ids": [
         6
@@ -13676,7 +11311,7 @@
     {
       "id": 1005,
       "word_de": "zum",
-      "grammar": "zum, macht zu, hat zugemacht",
+      "grammar": "zum",
       "word_ru": "для",
       "topic_ids": [
         8

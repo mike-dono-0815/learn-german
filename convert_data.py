@@ -63,4 +63,4 @@ with open(dst, 'w', encoding='utf-8') as f:
 print('Topics:    ', len(converted_topics))
 print('Vocab:     ', len(converted_vocab))
 print('Sentences: ', len(converted_sents))
-print('Written →  ', dst)
+print('Written -> ', dst)
