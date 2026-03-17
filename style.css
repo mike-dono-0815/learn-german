@@ -522,7 +522,7 @@ img { max-width: 100%; display: block; }
   word-break: break-word;
 }
 .q-grammar {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: var(--text3);
   font-style: italic;
 }
@@ -579,7 +579,7 @@ img { max-width: 100%; display: block; }
 
 .fb-correct  { text-align: center; font-size: 1.3rem; font-weight: 800; color: var(--text); }
 .fb-translit { text-align: center; font-size: .9rem; color: var(--text3); font-style: italic; margin-top: -4px; }
-.fb-grammar  { text-align: center; font-size: 1rem; color: var(--text3); font-style: italic; }
+.fb-grammar  { text-align: center; font-size: 1.2rem; color: var(--text3); font-style: italic; }
 .fb-alts     { text-align: center; font-size: .78rem; color: var(--text3); }
 
 /* Self-grade */
