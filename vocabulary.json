@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Deutsch_Russisch_Cut.txt",
-    "total_vocab": 851,
+    "total_vocab": 847,
     "total_sentences": 2036,
     "topics_count": 15,
     "generated": "2026-03-17"
@@ -414,7 +414,7 @@
     {
       "id": 42,
       "word_de": "Osten",
-      "grammar": "Osten",
+      "grammar": "der Osten",
       "word_ru": "восток",
       "topic_ids": [
         15
@@ -424,7 +424,7 @@
     {
       "id": 43,
       "word_de": "Westen",
-      "grammar": "Westen",
+      "grammar": "der Westen",
       "word_ru": "запад",
       "topic_ids": [
         15
@@ -1106,18 +1106,6 @@
       ]
     },
     {
-      "id": 110,
-      "word_de": "Köln",
-      "grammar": "Köln",
-      "word_ru": "Кёльн",
-      "topic_ids": [
-        2
-      ],
-      "sentence_ids": [
-        119
-      ]
-    },
-    {
       "id": 111,
       "word_de": "das Alter",
       "grammar": "das Alter",
@@ -1279,18 +1267,6 @@
       ],
       "sentence_ids": [
         243
-      ]
-    },
-    {
-      "id": 128,
-      "word_de": "Zug",
-      "grammar": "Zug",
-      "word_ru": "Тренироваться",
-      "topic_ids": [
-        6
-      ],
-      "sentence_ids": [
-        252
       ]
     },
     {
@@ -2883,8 +2859,8 @@
     {
       "id": 268,
       "word_de": "Drucker",
-      "grammar": "Drucker",
-      "word_ru": "Принтер",
+      "grammar": "der Drucker, -",
+      "word_ru": "принтер",
       "topic_ids": [
         11
       ],
@@ -3073,9 +3049,9 @@
     },
     {
       "id": 284,
-      "word_de": "Kennst",
-      "grammar": "Kennst",
-      "word_ru": "Знать",
+      "word_de": "kennen",
+      "grammar": "kennen, hat gekannt",
+      "word_ru": "знать",
       "topic_ids": [
         5
       ],
@@ -4141,8 +4117,8 @@
     {
       "id": 384,
       "word_de": "Montag",
-      "grammar": "Montag",
-      "word_ru": "Понедельник",
+      "grammar": "der Montag, -e",
+      "word_ru": "понедельник",
       "topic_ids": [
         2,
         7
@@ -5030,9 +5006,9 @@
     },
     {
       "id": 465,
-      "word_de": "Unterschreiben",
-      "grammar": "Unterschreiben",
-      "word_ru": "Знак",
+      "word_de": "unterschreiben",
+      "grammar": "unterschreiben, hat unterschrieben",
+      "word_ru": "подписывать",
       "topic_ids": [
         2,
         11
@@ -5996,9 +5972,9 @@
     },
     {
       "id": 555,
-      "word_de": "Bezahlen",
-      "grammar": "Bezahlen",
-      "word_ru": "Платить",
+      "word_de": "bezahlen",
+      "grammar": "bezahlen, hat bezahlt",
+      "word_ru": "оплачивать",
       "topic_ids": [
         10
       ],
@@ -9933,9 +9909,9 @@
     },
     {
       "id": 911,
-      "word_de": "Geht",
-      "grammar": "Geht",
-      "word_ru": "Идет",
+      "word_de": "gehen",
+      "grammar": "gehen, ist gegangen",
+      "word_ru": "идти / ходить",
       "topic_ids": [
         2,
         13
@@ -10611,18 +10587,6 @@
       ]
     },
     {
-      "id": 960,
-      "word_de": "Welchen",
-      "grammar": "Welchen",
-      "word_ru": "Который",
-      "topic_ids": [
-        5
-      ],
-      "sentence_ids": [
-        1945
-      ]
-    },
-    {
       "id": 961,
       "word_de": "die Welt",
       "grammar": "die Welt, -en",
@@ -11099,19 +11063,6 @@
       ],
       "sentence_ids": [
         2016
-      ]
-    },
-    {
-      "id": 998,
-      "word_de": "Lucia",
-      "grammar": "Lucia",
-      "word_ru": "Люсия",
-      "topic_ids": [
-        2,
-        12
-      ],
-      "sentence_ids": [
-        2017
       ]
     },
     {

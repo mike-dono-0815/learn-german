@@ -437,7 +437,7 @@ var KB_DATA = {
         15
       ],
       "german": "Osten",
-      "grammar": "Osten",
+      "grammar": "der Osten",
       "russian": "восток",
       "alternates_german": [],
       "alternates_russian": []
@@ -448,7 +448,7 @@ var KB_DATA = {
         15
       ],
       "german": "Westen",
-      "grammar": "Westen",
+      "grammar": "der Westen",
       "russian": "запад",
       "alternates_german": [],
       "alternates_russian": []
@@ -1145,17 +1145,6 @@ var KB_DATA = {
       "alternates_russian": []
     },
     {
-      "id": "v110",
-      "topic_ids": [
-        2
-      ],
-      "german": "Köln",
-      "grammar": "Köln",
-      "russian": "кёльн",
-      "alternates_german": [],
-      "alternates_russian": []
-    },
-    {
       "id": "v111",
       "topic_ids": [
         13
@@ -1295,17 +1284,6 @@ var KB_DATA = {
       "german": "der Anschluss",
       "grammar": "der Anschluss, ¨-e",
       "russian": "связь",
-      "alternates_german": [],
-      "alternates_russian": []
-    },
-    {
-      "id": "v128",
-      "topic_ids": [
-        6
-      ],
-      "german": "Zug",
-      "grammar": "Zug",
-      "russian": "тренироваться",
       "alternates_german": [],
       "alternates_russian": []
     },
@@ -2682,7 +2660,7 @@ var KB_DATA = {
         11
       ],
       "german": "Drucker",
-      "grammar": "Drucker",
+      "grammar": "der Drucker, -",
       "russian": "принтер",
       "alternates_german": [],
       "alternates_russian": []
@@ -2847,8 +2825,8 @@ var KB_DATA = {
       "topic_ids": [
         5
       ],
-      "german": "Kennst",
-      "grammar": "Kennst",
+      "german": "kennen",
+      "grammar": "kennen, hat gekannt",
       "russian": "знать",
       "alternates_german": [],
       "alternates_russian": []
@@ -3770,7 +3748,7 @@ var KB_DATA = {
         7
       ],
       "german": "Montag",
-      "grammar": "Montag",
+      "grammar": "der Montag, -e",
       "russian": "понедельник",
       "alternates_german": [],
       "alternates_russian": []
@@ -4529,9 +4507,9 @@ var KB_DATA = {
         2,
         11
       ],
-      "german": "Unterschreiben",
-      "grammar": "Unterschreiben",
-      "russian": "знак",
+      "german": "unterschreiben",
+      "grammar": "unterschreiben, hat unterschrieben",
+      "russian": "подписывать",
       "alternates_german": [],
       "alternates_russian": []
     },
@@ -5388,9 +5366,9 @@ var KB_DATA = {
       "topic_ids": [
         10
       ],
-      "german": "Bezahlen",
-      "grammar": "Bezahlen",
-      "russian": "платить",
+      "german": "bezahlen",
+      "grammar": "bezahlen, hat bezahlt",
+      "russian": "оплачивать",
       "alternates_german": [],
       "alternates_russian": []
     },
@@ -8837,9 +8815,9 @@ var KB_DATA = {
         2,
         13
       ],
-      "german": "Geht",
-      "grammar": "Geht",
-      "russian": "идет",
+      "german": "gehen",
+      "grammar": "gehen, ist gegangen",
+      "russian": "идти / ходить",
       "alternates_german": [],
       "alternates_russian": []
     },
@@ -9398,17 +9376,6 @@ var KB_DATA = {
       "alternates_russian": []
     },
     {
-      "id": "v960",
-      "topic_ids": [
-        5
-      ],
-      "german": "Welchen",
-      "grammar": "Welchen",
-      "russian": "который",
-      "alternates_german": [],
-      "alternates_russian": []
-    },
-    {
       "id": "v961",
       "topic_ids": [
         2
@@ -9815,18 +9782,6 @@ var KB_DATA = {
       "german": "die Zitrone",
       "grammar": "die Zitrone, -n",
       "russian": "лимон",
-      "alternates_german": [],
-      "alternates_russian": []
-    },
-    {
-      "id": "v998",
-      "topic_ids": [
-        2,
-        12
-      ],
-      "german": "Lucia",
-      "grammar": "Lucia",
-      "russian": "люсия",
       "alternates_german": [],
       "alternates_russian": []
     },
