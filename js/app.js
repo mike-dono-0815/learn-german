@@ -47,15 +47,13 @@ App._populateTopicSelect = function () {
   if (!sel || sel.dataset.populated) return;
   sel.dataset.populated = '1';
 
-  var topics = App.Data.getTopics();
-  topics.forEach(function (t) {
+  App.Data.getTopics().forEach(function (t) {
     var opt = document.createElement('option');
     opt.value       = t.id;
     opt.textContent = t.name_de + (t.id === 0 ? '' : ' \u2014 ' + t.name_ru);
     sel.appendChild(opt);
   });
 
-  // Restore last topic
   try {
     var saved = localStorage.getItem('ru_last_topic');
     if (saved !== null) {
@@ -69,6 +67,12 @@ App.setTopic = function (topicId) {
   App.state.topicId = parseInt(topicId, 10) || 0;
   try { localStorage.setItem('ru_last_topic', App.state.topicId); } catch(e) {}
   App._updateTopicHint();
+};
+
+App._updateTopicHint = function () {
+  var hint = el('topic-hint');
+  if (!hint) return;
+  hint.textContent = 'Содержит ' + App.Data.getVocabCount(App.state.topicId) + ' слов';
 };
 
 App.setDirection = function (dir) {
@@ -92,7 +96,7 @@ App.startSession = function () {
   var items   = App.Data.getVocabulary(topicId);
 
   if (!items || items.length === 0) {
-    App.Celebration.showToast('\u26A0\uFE0F Записей не найдено', 'info');
+    App.Celebration.showToast('\u26A0\uFE0F Нет слов для этой темы', 'info');
     return;
   }
 
