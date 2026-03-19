@@ -97,7 +97,9 @@ var KB_DATA = {
     },
     {
       "id": "w0003",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "abgeben",
       "grammar": "gibt ab, hat abgegeben",
       "russian": "сдавать, отдавать",
@@ -106,7 +108,10 @@ var KB_DATA = {
     },
     {
       "id": "w0004",
-      "topic_ids": [],
+      "topic_ids": [
+        1,
+        6
+      ],
       "german": "abholen",
       "grammar": "holt ab, hat abgeholt",
       "russian": "забирать, встречать (кого-то)",
@@ -115,7 +120,10 @@ var KB_DATA = {
     },
     {
       "id": "w0005",
-      "topic_ids": [],
+      "topic_ids": [
+        4,
+        5
+      ],
       "german": "abschließen",
       "grammar": "schließt ab, hat abgeschlossen",
       "russian": "завершать, заканчивать (учёбу, обучение)",
@@ -133,7 +141,10 @@ var KB_DATA = {
     },
     {
       "id": "w0007",
-      "topic_ids": [],
+      "topic_ids": [
+        11,
+        15
+      ],
       "german": "die Adresse",
       "grammar": "die Adresse, die Adressen",
       "russian": "адрес",
@@ -151,7 +162,9 @@ var KB_DATA = {
     },
     {
       "id": "w0009",
-      "topic_ids": [],
+      "topic_ids": [
+        9
+      ],
       "german": "aktiv",
       "grammar": null,
       "russian": "активный",
@@ -232,7 +245,10 @@ var KB_DATA = {
     },
     {
       "id": "w0018",
-      "topic_ids": [],
+      "topic_ids": [
+        6,
+        15
+      ],
       "german": "die Ampel",
       "grammar": "die Ampel, die Ampeln",
       "russian": "светофор",
@@ -250,7 +266,10 @@ var KB_DATA = {
     },
     {
       "id": "w0020",
-      "topic_ids": [],
+      "topic_ids": [
+        4,
+        10
+      ],
       "german": "anbieten",
       "grammar": "bietet an, hat angeboten",
       "russian": "предлагать",
@@ -259,7 +278,9 @@ var KB_DATA = {
     },
     {
       "id": "w0021",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "das Angebot",
       "grammar": "das Angebot, die Angebote",
       "russian": "предложение; акция, скидка",
@@ -313,7 +334,9 @@ var KB_DATA = {
     },
     {
       "id": "w0027",
-      "topic_ids": [],
+      "topic_ids": [
+        14
+      ],
       "german": "die Angst",
       "grammar": "die Angst, die Ängste",
       "russian": "страх",
@@ -322,7 +345,9 @@ var KB_DATA = {
     },
     {
       "id": "w0028",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "ankommen",
       "grammar": "kommt an, ist angekommen",
       "russian": "приезжать, прибывать",
@@ -331,7 +356,9 @@ var KB_DATA = {
     },
     {
       "id": "w0029",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "die Ankunft",
       "grammar": "die Ankunft, die Ankünfte",
       "russian": "прибытие",
@@ -340,7 +367,9 @@ var KB_DATA = {
     },
     {
       "id": "w0030",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "anmachen",
       "grammar": "macht an, hat angemacht",
       "russian": "включать",
@@ -349,7 +378,10 @@ var KB_DATA = {
     },
     {
       "id": "w0031",
-      "topic_ids": [],
+      "topic_ids": [
+        4,
+        5
+      ],
       "german": "anmelden (sich)",
       "grammar": "meldet an, hat angemeldet",
       "russian": "регистрировать(ся), записываться",
@@ -358,7 +390,10 @@ var KB_DATA = {
     },
     {
       "id": "w0032",
-      "topic_ids": [],
+      "topic_ids": [
+        4,
+        5
+      ],
       "german": "die Anmeldung",
       "grammar": "die Anmeldung, die Anmeldungen",
       "russian": "регистрация, запись",
@@ -367,7 +402,9 @@ var KB_DATA = {
     },
     {
       "id": "w0033",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "der Anrufbeantworter",
       "grammar": "der Anrufbeantworter, die Anrufbeantworter",
       "russian": "автоответчик",
@@ -376,7 +413,9 @@ var KB_DATA = {
     },
     {
       "id": "w0034",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "anrufen",
       "grammar": "ruft an, hat angerufen",
       "russian": "звонить (по телефону)",
@@ -385,7 +424,9 @@ var KB_DATA = {
     },
     {
       "id": "w0035",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "der Anruf",
       "grammar": "der Anruf, die Anrufe",
       "russian": "звонок (телефонный)",
@@ -394,7 +435,10 @@ var KB_DATA = {
     },
     {
       "id": "w0036",
-      "topic_ids": [],
+      "topic_ids": [
+        6,
+        11
+      ],
       "german": "der Anschluss",
       "grammar": "der Anschluss, die Anschlüsse",
       "russian": "пересадка; подключение",
@@ -403,7 +447,9 @@ var KB_DATA = {
     },
     {
       "id": "w0037",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "ansehen",
       "grammar": "sieht an, hat angesehen",
       "russian": "смотреть на, рассматривать",
@@ -412,7 +458,9 @@ var KB_DATA = {
     },
     {
       "id": "w0038",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "antworten",
       "grammar": "antwortet, hat geantwortet",
       "russian": "отвечать",
@@ -421,7 +469,9 @@ var KB_DATA = {
     },
     {
       "id": "w0039",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "die Antwort",
       "grammar": "die Antwort, die Antworten",
       "russian": "ответ",
@@ -430,7 +480,10 @@ var KB_DATA = {
     },
     {
       "id": "w0040",
-      "topic_ids": [],
+      "topic_ids": [
+        4,
+        10
+      ],
       "german": "die Anzeige",
       "grammar": "die Anzeige, die Anzeigen",
       "russian": "объявление",
@@ -439,7 +492,9 @@ var KB_DATA = {
     },
     {
       "id": "w0041",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "der Anzug",
       "grammar": "der Anzug, die Anzüge",
       "russian": "костюм",
@@ -448,7 +503,9 @@ var KB_DATA = {
     },
     {
       "id": "w0042",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "der Apfel",
       "grammar": "der Apfel, die Äpfel",
       "russian": "яблоко",
@@ -457,7 +514,10 @@ var KB_DATA = {
     },
     {
       "id": "w0043",
-      "topic_ids": [],
+      "topic_ids": [
+        7,
+        15
+      ],
       "german": "die Apotheke",
       "grammar": "die Apotheke, die Apotheken",
       "russian": "аптека",
@@ -466,7 +526,9 @@ var KB_DATA = {
     },
     {
       "id": "w0044",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "der Apparat",
       "grammar": "der Apparat, die Apparate",
       "russian": "аппарат, устройство",
@@ -475,7 +537,9 @@ var KB_DATA = {
     },
     {
       "id": "w0045",
-      "topic_ids": [],
+      "topic_ids": [
+        4
+      ],
       "german": "arbeiten",
       "grammar": "arbeitet, hat gearbeitet",
       "russian": "работать",
@@ -484,7 +548,9 @@ var KB_DATA = {
     },
     {
       "id": "w0046",
-      "topic_ids": [],
+      "topic_ids": [
+        4
+      ],
       "german": "die Arbeit",
       "grammar": "die Arbeit, die Arbeiten",
       "russian": "работа",
@@ -493,7 +559,9 @@ var KB_DATA = {
     },
     {
       "id": "w0047",
-      "topic_ids": [],
+      "topic_ids": [
+        4
+      ],
       "german": "arbeitslos",
       "grammar": null,
       "russian": "безработный",
@@ -502,7 +570,9 @@ var KB_DATA = {
     },
     {
       "id": "w0048",
-      "topic_ids": [],
+      "topic_ids": [
+        14
+      ],
       "german": "ärgern (sich)",
       "grammar": "ärgert, hat geärgert",
       "russian": "злить(ся), расстраивать(ся)",
@@ -520,7 +590,9 @@ var KB_DATA = {
     },
     {
       "id": "w0050",
-      "topic_ids": [],
+      "topic_ids": [
+        7
+      ],
       "german": "der Arm",
       "grammar": "der Arm, die Arme",
       "russian": "рука (от плеча до кисти)",
@@ -529,7 +601,9 @@ var KB_DATA = {
     },
     {
       "id": "w0051",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "der Artikel",
       "grammar": "der Artikel, die Artikel",
       "russian": "артикль; статья",
@@ -592,7 +666,9 @@ var KB_DATA = {
     },
     {
       "id": "w0058",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "aufräumen",
       "grammar": "räumt auf, hat aufgeräumt",
       "russian": "убирать (комнату, вещи)",
@@ -601,7 +677,9 @@ var KB_DATA = {
     },
     {
       "id": "w0059",
-      "topic_ids": [],
+      "topic_ids": [
+        14
+      ],
       "german": "aufregend",
       "grammar": null,
       "russian": "волнующий, захватывающий",
@@ -619,7 +697,10 @@ var KB_DATA = {
     },
     {
       "id": "w0061",
-      "topic_ids": [],
+      "topic_ids": [
+        3,
+        15
+      ],
       "german": "der Aufzug",
       "grammar": "der Aufzug, die Aufzüge",
       "russian": "лифт",
@@ -628,7 +709,9 @@ var KB_DATA = {
     },
     {
       "id": "w0062",
-      "topic_ids": [],
+      "topic_ids": [
+        7
+      ],
       "german": "das Auge",
       "grammar": "das Auge, die Augen",
       "russian": "глаз",
@@ -646,7 +729,10 @@ var KB_DATA = {
     },
     {
       "id": "w0064",
-      "topic_ids": [],
+      "topic_ids": [
+        4,
+        5
+      ],
       "german": "die Ausbildung",
       "grammar": "die Ausbildung, die Ausbildungen",
       "russian": "профессиональное обучение, подготовка",
@@ -655,7 +741,10 @@ var KB_DATA = {
     },
     {
       "id": "w0065",
-      "topic_ids": [],
+      "topic_ids": [
+        6,
+        8
+      ],
       "german": "der Ausflug",
       "grammar": "der Ausflug, die Ausflüge",
       "russian": "экскурсия, прогулка",
@@ -664,7 +753,9 @@ var KB_DATA = {
     },
     {
       "id": "w0066",
-      "topic_ids": [],
+      "topic_ids": [
+        4
+      ],
       "german": "ausfüllen",
       "grammar": "füllt aus, hat ausgefüllt",
       "russian": "заполнять (форму, бланк)",
@@ -673,7 +764,9 @@ var KB_DATA = {
     },
     {
       "id": "w0067",
-      "topic_ids": [],
+      "topic_ids": [
+        15
+      ],
       "german": "der Ausgang",
       "grammar": "der Ausgang, die Ausgänge",
       "russian": "выход",
@@ -682,7 +775,9 @@ var KB_DATA = {
     },
     {
       "id": "w0068",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "ausgeben",
       "grammar": "gibt aus, hat ausgegeben",
       "russian": "тратить (деньги)",
@@ -691,7 +786,9 @@ var KB_DATA = {
     },
     {
       "id": "w0069",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "ausgehen",
       "grammar": "geht aus, ist ausgegangen",
       "russian": "выходить (развлечься); гаснуть",
@@ -700,7 +797,10 @@ var KB_DATA = {
     },
     {
       "id": "w0070",
-      "topic_ids": [],
+      "topic_ids": [
+        11,
+        15
+      ],
       "german": "die Auskunft",
       "grammar": "die Auskunft, die Auskünfte",
       "russian": "справка, информация",
@@ -709,7 +809,9 @@ var KB_DATA = {
     },
     {
       "id": "w0071",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "das Ausland (Sg.)",
       "grammar": null,
       "russian": "заграница, зарубежье",
@@ -718,7 +820,9 @@ var KB_DATA = {
     },
     {
       "id": "w0072",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "ausmachen",
       "grammar": "macht aus, hat ausgemacht",
       "russian": "выключать",
@@ -727,7 +831,9 @@ var KB_DATA = {
     },
     {
       "id": "w0073",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "auspacken",
       "grammar": "packt aus, hat ausgepackt",
       "russian": "распаковывать",
@@ -736,7 +842,10 @@ var KB_DATA = {
     },
     {
       "id": "w0074",
-      "topic_ids": [],
+      "topic_ids": [
+        7,
+        8
+      ],
       "german": "ausruhen (sich)",
       "grammar": "ruht aus, hat ausgeruht",
       "russian": "отдыхать",
@@ -772,7 +881,9 @@ var KB_DATA = {
     },
     {
       "id": "w0078",
-      "topic_ids": [],
+      "topic_ids": [
+        15
+      ],
       "german": "außerhalb",
       "grammar": null,
       "russian": "за пределами, снаружи",
@@ -781,7 +892,9 @@ var KB_DATA = {
     },
     {
       "id": "w0079",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "aussprechen",
       "grammar": "spricht aus, hat ausgesprochen",
       "russian": "произносить",
@@ -790,7 +903,9 @@ var KB_DATA = {
     },
     {
       "id": "w0080",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "aussteigen",
       "grammar": "steigt aus, ist ausgestiegen",
       "russian": "выходить (из транспорта)",
@@ -799,7 +914,10 @@ var KB_DATA = {
     },
     {
       "id": "w0081",
-      "topic_ids": [],
+      "topic_ids": [
+        8,
+        15
+      ],
       "german": "die Ausstellung",
       "grammar": "die Ausstellung, die Ausstellungen",
       "russian": "выставка",
@@ -826,7 +944,9 @@ var KB_DATA = {
     },
     {
       "id": "w0084",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "das Auto",
       "grammar": "das Auto, die Autos",
       "russian": "автомобиль, машина",
@@ -835,7 +955,9 @@ var KB_DATA = {
     },
     {
       "id": "w0085",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "die Autobahn",
       "grammar": "die Autobahn, die Autobahnen",
       "russian": "автобан, скоростная дорога",
@@ -844,7 +966,10 @@ var KB_DATA = {
     },
     {
       "id": "w0086",
-      "topic_ids": [],
+      "topic_ids": [
+        6,
+        10
+      ],
       "german": "der Automat",
       "grammar": "der Automat, die Automaten",
       "russian": "автомат, вендинговый аппарат",
@@ -853,7 +978,9 @@ var KB_DATA = {
     },
     {
       "id": "w0087",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "automatisch",
       "grammar": null,
       "russian": "автоматически, автоматический",
@@ -862,7 +989,9 @@ var KB_DATA = {
     },
     {
       "id": "w0088",
-      "topic_ids": [],
+      "topic_ids": [
+        1
+      ],
       "german": "das Baby",
       "grammar": "das Baby, die Babys",
       "russian": "малыш, младенец",
@@ -871,7 +1000,9 @@ var KB_DATA = {
     },
     {
       "id": "w0089",
-      "topic_ids": [],
+      "topic_ids": [
+        1
+      ],
       "german": "der Babysitter",
       "grammar": "der Babysitter, die Babysitter",
       "russian": "няня, бебиситтер",
@@ -880,7 +1011,9 @@ var KB_DATA = {
     },
     {
       "id": "w0090",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "backen",
       "grammar": "bäckt/backt, hat gebacken",
       "russian": "печь, выпекать",
@@ -889,7 +1022,10 @@ var KB_DATA = {
     },
     {
       "id": "w0091",
-      "topic_ids": [],
+      "topic_ids": [
+        2,
+        15
+      ],
       "german": "die Bäckerei",
       "grammar": "die Bäckerei, die Bäckereien",
       "russian": "булочная, пекарня",
@@ -898,7 +1034,9 @@ var KB_DATA = {
     },
     {
       "id": "w0092",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "das Bad",
       "grammar": "das Bad, die Bäder",
       "russian": "ванная комната; ванна",
@@ -907,7 +1045,9 @@ var KB_DATA = {
     },
     {
       "id": "w0093",
-      "topic_ids": [],
+      "topic_ids": [
+        9
+      ],
       "german": "baden",
       "grammar": "badet, hat gebadet",
       "russian": "купаться, принимать ванну",
@@ -916,7 +1056,9 @@ var KB_DATA = {
     },
     {
       "id": "w0094",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "die Bahn",
       "grammar": "die Bahn, die Bahnen",
       "russian": "поезд; железная дорога",
@@ -925,7 +1067,10 @@ var KB_DATA = {
     },
     {
       "id": "w0095",
-      "topic_ids": [],
+      "topic_ids": [
+        6,
+        15
+      ],
       "german": "der Bahnhof",
       "grammar": "der Bahnhof, die Bahnhöfe",
       "russian": "вокзал",
@@ -934,7 +1079,9 @@ var KB_DATA = {
     },
     {
       "id": "w0096",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "der Bahnsteig",
       "grammar": "der Bahnsteig, die Bahnsteige",
       "russian": "перрон, платформа",
@@ -943,7 +1090,9 @@ var KB_DATA = {
     },
     {
       "id": "w0097",
-      "topic_ids": [],
+      "topic_ids": [
+        13
+      ],
       "german": "bald",
       "grammar": null,
       "russian": "скоро, вскоре",
@@ -952,7 +1101,9 @@ var KB_DATA = {
     },
     {
       "id": "w0098",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "der Balkon",
       "grammar": "der Balkon, die Balkone",
       "russian": "балкон",
@@ -961,7 +1112,9 @@ var KB_DATA = {
     },
     {
       "id": "w0099",
-      "topic_ids": [],
+      "topic_ids": [
+        9
+      ],
       "german": "der Ball",
       "grammar": "der Ball, die Bälle",
       "russian": "мяч",
@@ -970,7 +1123,9 @@ var KB_DATA = {
     },
     {
       "id": "w0100",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "die Banane",
       "grammar": "die Banane, die Bananen",
       "russian": "банан",
@@ -979,7 +1134,9 @@ var KB_DATA = {
     },
     {
       "id": "w0101",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "die Band",
       "grammar": "die Band, die Bands",
       "russian": "группа (музыкальная)",
@@ -988,7 +1145,10 @@ var KB_DATA = {
     },
     {
       "id": "w0102",
-      "topic_ids": [],
+      "topic_ids": [
+        10,
+        15
+      ],
       "german": "die Bank",
       "grammar": "die Bank, die Banken",
       "russian": "банк; скамейка",
@@ -997,7 +1157,9 @@ var KB_DATA = {
     },
     {
       "id": "w0103",
-      "topic_ids": [],
+      "topic_ids": [
+        15
+      ],
       "german": "die Bank",
       "grammar": "die Bank, die Bänke",
       "russian": "банк; скамейка",
@@ -1006,7 +1168,9 @@ var KB_DATA = {
     },
     {
       "id": "w0104",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "bar",
       "grammar": null,
       "russian": "наличными",
@@ -1015,7 +1179,9 @@ var KB_DATA = {
     },
     {
       "id": "w0105",
-      "topic_ids": [],
+      "topic_ids": [
+        9
+      ],
       "german": "der Basketball",
       "grammar": "der Basketball, die Basketbälle",
       "russian": "баскетбол",
@@ -1024,7 +1190,9 @@ var KB_DATA = {
     },
     {
       "id": "w0106",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "basteln",
       "grammar": "bastelt, hat gebastelt",
       "russian": "мастерить, делать поделки своими руками",
@@ -1033,7 +1201,9 @@ var KB_DATA = {
     },
     {
       "id": "w0107",
-      "topic_ids": [],
+      "topic_ids": [
+        7
+      ],
       "german": "der Bauch",
       "grammar": "der Bauch, die Bäuche",
       "russian": "живот, брюхо",
@@ -1042,7 +1212,9 @@ var KB_DATA = {
     },
     {
       "id": "w0108",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "bauen",
       "grammar": "baut, hat gebaut",
       "russian": "строить",
@@ -1051,7 +1223,9 @@ var KB_DATA = {
     },
     {
       "id": "w0109",
-      "topic_ids": [],
+      "topic_ids": [
+        12
+      ],
       "german": "der Baum",
       "grammar": "der Baum, die Bäume",
       "russian": "дерево",
@@ -1060,7 +1234,9 @@ var KB_DATA = {
     },
     {
       "id": "w0110",
-      "topic_ids": [],
+      "topic_ids": [
+        15
+      ],
       "german": "die Baustelle",
       "grammar": "die Baustelle, die Baustellen",
       "russian": "стройка, строительная площадка",
@@ -1069,7 +1245,10 @@ var KB_DATA = {
     },
     {
       "id": "w0111",
-      "topic_ids": [],
+      "topic_ids": [
+        5,
+        11
+      ],
       "german": "beantworten",
       "grammar": "beantwortet, hat beantwortet",
       "russian": "отвечать на (вопрос, письмо)",
@@ -1150,7 +1329,9 @@ var KB_DATA = {
     },
     {
       "id": "w0120",
-      "topic_ids": [],
+      "topic_ids": [
+        7
+      ],
       "german": "das Bein",
       "grammar": "das Bein, die Beine",
       "russian": "нога",
@@ -1168,7 +1349,9 @@ var KB_DATA = {
     },
     {
       "id": "w0122",
-      "topic_ids": [],
+      "topic_ids": [
+        1
+      ],
       "german": "der/die Bekannte, die Bekannten",
       "grammar": null,
       "russian": "знакомый / знакомая",
@@ -1213,7 +1396,9 @@ var KB_DATA = {
     },
     {
       "id": "w0127",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "beraten",
       "grammar": "berät, hat beraten",
       "russian": "консультировать, давать совет",
@@ -1222,7 +1407,10 @@ var KB_DATA = {
     },
     {
       "id": "w0128",
-      "topic_ids": [],
+      "topic_ids": [
+        12,
+        6
+      ],
       "german": "der Berg",
       "grammar": "der Berg, die Berge",
       "russian": "гора",
@@ -1231,7 +1419,9 @@ var KB_DATA = {
     },
     {
       "id": "w0129",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "berichten",
       "grammar": "berichtet, hat berichtet",
       "russian": "сообщать, докладывать, рассказывать",
@@ -1240,7 +1430,9 @@ var KB_DATA = {
     },
     {
       "id": "w0130",
-      "topic_ids": [],
+      "topic_ids": [
+        4
+      ],
       "german": "der Beruf",
       "grammar": "der Beruf, die Berufe",
       "russian": "профессия, специальность",
@@ -1285,7 +1477,9 @@ var KB_DATA = {
     },
     {
       "id": "w0135",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "besetzt",
       "grammar": null,
       "russian": "занято (место, номер телефона)",
@@ -1294,7 +1488,10 @@ var KB_DATA = {
     },
     {
       "id": "w0136",
-      "topic_ids": [],
+      "topic_ids": [
+        8,
+        6
+      ],
       "german": "besichtigen",
       "grammar": "besichtigt, hat besichtigt",
       "russian": "осматривать (достопримечательности)",
@@ -1321,7 +1518,9 @@ var KB_DATA = {
     },
     {
       "id": "w0139",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "bestehen",
       "grammar": "besteht, hat bestanden",
       "russian": "сдавать (экзамен); состоять (из чего-то)",
@@ -1330,7 +1529,10 @@ var KB_DATA = {
     },
     {
       "id": "w0140",
-      "topic_ids": [],
+      "topic_ids": [
+        2,
+        10
+      ],
       "german": "bestellen",
       "grammar": "bestellt, hat bestellt",
       "russian": "заказывать",
@@ -1339,7 +1541,9 @@ var KB_DATA = {
     },
     {
       "id": "w0141",
-      "topic_ids": [],
+      "topic_ids": [
+        1
+      ],
       "german": "der Besuch",
       "grammar": "der Besuch, die Besuche",
       "russian": "визит, посещение; гости",
@@ -1348,7 +1552,10 @@ var KB_DATA = {
     },
     {
       "id": "w0142",
-      "topic_ids": [],
+      "topic_ids": [
+        1,
+        8
+      ],
       "german": "besuchen",
       "grammar": "besucht, hat besucht",
       "russian": "навещать, посещать",
@@ -1357,7 +1564,9 @@ var KB_DATA = {
     },
     {
       "id": "w0143",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "das Bett",
       "grammar": "das Bett, die Betten",
       "russian": "кровать, постель",
@@ -1366,7 +1575,9 @@ var KB_DATA = {
     },
     {
       "id": "w0144",
-      "topic_ids": [],
+      "topic_ids": [
+        4
+      ],
       "german": "bewerben (sich)",
       "grammar": "bewirbt, hat beworben",
       "russian": "подавать заявление о приёме на работу",
@@ -1375,7 +1586,9 @@ var KB_DATA = {
     },
     {
       "id": "w0145",
-      "topic_ids": [],
+      "topic_ids": [
+        4
+      ],
       "german": "die Bewerbung",
       "grammar": "die Bewerbung, die Bewerbungen",
       "russian": "заявление о приёме на работу, резюме",
@@ -1384,7 +1597,9 @@ var KB_DATA = {
     },
     {
       "id": "w0146",
-      "topic_ids": [],
+      "topic_ids": [
+        12
+      ],
       "german": "bewölkt / die Wolke, die Wolken",
       "grammar": null,
       "russian": "облачно; облако / облака",
@@ -1393,7 +1608,9 @@ var KB_DATA = {
     },
     {
       "id": "w0147",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "bezahlen",
       "grammar": "bezahlt, hat bezahlt",
       "russian": "платить, оплачивать",
@@ -1402,7 +1619,10 @@ var KB_DATA = {
     },
     {
       "id": "w0148",
-      "topic_ids": [],
+      "topic_ids": [
+        5,
+        15
+      ],
       "german": "die Bibliothek",
       "grammar": "die Bibliothek, die Bibliotheken",
       "russian": "библиотека",
@@ -1411,7 +1631,9 @@ var KB_DATA = {
     },
     {
       "id": "w0149",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "das Bier",
       "grammar": "das Bier, die Biere",
       "russian": "пиво",
@@ -1420,7 +1642,9 @@ var KB_DATA = {
     },
     {
       "id": "w0150",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "das Bild",
       "grammar": "das Bild, die Bilder",
       "russian": "картина, изображение, фотография",
@@ -1429,7 +1653,9 @@ var KB_DATA = {
     },
     {
       "id": "w0151",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "billig",
       "grammar": null,
       "russian": "дешёвый",
@@ -1438,7 +1664,9 @@ var KB_DATA = {
     },
     {
       "id": "w0152",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "die Birne",
       "grammar": "die Birne, die Birnen",
       "russian": "груша",
@@ -1447,7 +1675,9 @@ var KB_DATA = {
     },
     {
       "id": "w0153",
-      "topic_ids": [],
+      "topic_ids": [
+        13
+      ],
       "german": "bis",
       "grammar": null,
       "russian": "до; к (времени); пока",
@@ -1492,7 +1722,9 @@ var KB_DATA = {
     },
     {
       "id": "w0158",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "bitter",
       "grammar": null,
       "russian": "горький",
@@ -1501,7 +1733,10 @@ var KB_DATA = {
     },
     {
       "id": "w0159",
-      "topic_ids": [],
+      "topic_ids": [
+        12,
+        5
+      ],
       "german": "das Blatt",
       "grammar": "das Blatt, die Blätter",
       "russian": "лист (бумаги, дерева)",
@@ -1519,7 +1754,9 @@ var KB_DATA = {
     },
     {
       "id": "w0161",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "der Bleistift",
       "grammar": "der Bleistift, die Bleistifte",
       "russian": "карандаш",
@@ -1537,7 +1774,9 @@ var KB_DATA = {
     },
     {
       "id": "w0163",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "der/das Blog, die Blogs",
       "grammar": null,
       "russian": "блог",
@@ -1555,7 +1794,9 @@ var KB_DATA = {
     },
     {
       "id": "w0165",
-      "topic_ids": [],
+      "topic_ids": [
+        12
+      ],
       "german": "die Blume",
       "grammar": "die Blume, die Blumen",
       "russian": "цветок",
@@ -1564,7 +1805,9 @@ var KB_DATA = {
     },
     {
       "id": "w0166",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "die Bluse",
       "grammar": "die Bluse, die Blusen",
       "russian": "блузка",
@@ -1573,7 +1816,9 @@ var KB_DATA = {
     },
     {
       "id": "w0167",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "die Bohne",
       "grammar": "die Bohne, die Bohnen",
       "russian": "боб, фасоль",
@@ -1582,7 +1827,9 @@ var KB_DATA = {
     },
     {
       "id": "w0168",
-      "topic_ids": [],
+      "topic_ids": [
+        14
+      ],
       "german": "böse",
       "grammar": null,
       "russian": "злой; сердитый (на кого-то)",
@@ -1591,7 +1838,9 @@ var KB_DATA = {
     },
     {
       "id": "w0169",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "braten",
       "grammar": "brät, hat gebraten",
       "russian": "жарить (на сковороде)",
@@ -1609,7 +1858,9 @@ var KB_DATA = {
     },
     {
       "id": "w0171",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "der Brief",
       "grammar": "der Brief, die Briefe",
       "russian": "письмо",
@@ -1618,7 +1869,9 @@ var KB_DATA = {
     },
     {
       "id": "w0172",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "die Briefmarke",
       "grammar": "die Briefmarke, die Briefmarken",
       "russian": "почтовая марка",
@@ -1627,7 +1880,9 @@ var KB_DATA = {
     },
     {
       "id": "w0173",
-      "topic_ids": [],
+      "topic_ids": [
+        7
+      ],
       "german": "die Brille",
       "grammar": "die Brille, die Brillen",
       "russian": "очки",
@@ -1645,7 +1900,9 @@ var KB_DATA = {
     },
     {
       "id": "w0175",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "das Brot",
       "grammar": "das Brot, die Brote",
       "russian": "хлеб",
@@ -1654,7 +1911,9 @@ var KB_DATA = {
     },
     {
       "id": "w0176",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "das Brötchen",
       "grammar": "das Brötchen, die Brötchen",
       "russian": "булочка",
@@ -1663,7 +1922,10 @@ var KB_DATA = {
     },
     {
       "id": "w0177",
-      "topic_ids": [],
+      "topic_ids": [
+        15,
+        6
+      ],
       "german": "die Brücke",
       "grammar": "die Brücke, die Brücken",
       "russian": "мост",
@@ -1672,7 +1934,10 @@ var KB_DATA = {
     },
     {
       "id": "w0178",
-      "topic_ids": [],
+      "topic_ids": [
+        5,
+        8
+      ],
       "german": "das Buch",
       "grammar": "das Buch, die Bücher",
       "russian": "книга",
@@ -1681,7 +1946,9 @@ var KB_DATA = {
     },
     {
       "id": "w0179",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "buchen",
       "grammar": "bucht, hat gebucht",
       "russian": "бронировать, заказывать (билет, отель)",
@@ -1690,7 +1957,9 @@ var KB_DATA = {
     },
     {
       "id": "w0180",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "der Buchstabe",
       "grammar": "der Buchstabe, die Buchstaben",
       "russian": "буква",
@@ -1699,7 +1968,9 @@ var KB_DATA = {
     },
     {
       "id": "w0181",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "buchstabieren",
       "grammar": "buchstabiert, hat buchstabiert",
       "russian": "произносить по буквам",
@@ -1717,7 +1988,9 @@ var KB_DATA = {
     },
     {
       "id": "w0183",
-      "topic_ids": [],
+      "topic_ids": [
+        4
+      ],
       "german": "das Büro",
       "grammar": "das Büro, die Büros",
       "russian": "офис, бюро",
@@ -1726,7 +1999,9 @@ var KB_DATA = {
     },
     {
       "id": "w0184",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "der Bus",
       "grammar": "der Bus, die Busse",
       "russian": "автобус",
@@ -1735,7 +2010,9 @@ var KB_DATA = {
     },
     {
       "id": "w0185",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "die Butter (Sg.)",
       "grammar": null,
       "russian": "масло (сливочное)",
@@ -1744,7 +2021,10 @@ var KB_DATA = {
     },
     {
       "id": "w0186",
-      "topic_ids": [],
+      "topic_ids": [
+        2,
+        15
+      ],
       "german": "das Café",
       "grammar": "das Café, die Cafés",
       "russian": "кафе",
@@ -1753,7 +2033,10 @@ var KB_DATA = {
     },
     {
       "id": "w0187",
-      "topic_ids": [],
+      "topic_ids": [
+        2,
+        5
+      ],
       "german": "die Cafeteria",
       "grammar": "die Cafeteria, die Cafeterias",
       "russian": "кафетерий, столовая",
@@ -1762,7 +2045,9 @@ var KB_DATA = {
     },
     {
       "id": "w0188",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "chatten",
       "grammar": "chattet, hat gechattet",
       "russian": "общаться в чате",
@@ -1771,7 +2056,9 @@ var KB_DATA = {
     },
     {
       "id": "w0189",
-      "topic_ids": [],
+      "topic_ids": [
+        4
+      ],
       "german": "der Chef",
       "grammar": "der Chef, die Chefs / Chefin, / Chefinnen",
       "russian": "начальник, шеф",
@@ -1780,7 +2067,9 @@ var KB_DATA = {
     },
     {
       "id": "w0190",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "der Club",
       "grammar": "der Club, die Clubs",
       "russian": "клуб",
@@ -1789,7 +2078,9 @@ var KB_DATA = {
     },
     {
       "id": "w0191",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "der/das Comic, die Comics",
       "grammar": null,
       "russian": "комикс",
@@ -1798,7 +2089,9 @@ var KB_DATA = {
     },
     {
       "id": "w0192",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "der Computer",
       "grammar": "der Computer, die Computer",
       "russian": "компьютер",
@@ -1807,7 +2100,9 @@ var KB_DATA = {
     },
     {
       "id": "w0193",
-      "topic_ids": [],
+      "topic_ids": [
+        7
+      ],
       "german": "die Creme",
       "grammar": "die Creme, die Cremes / Cremen",
       "russian": "крем",
@@ -1852,7 +2147,9 @@ var KB_DATA = {
     },
     {
       "id": "w0198",
-      "topic_ids": [],
+      "topic_ids": [
+        13
+      ],
       "german": "damals",
       "grammar": null,
       "russian": "тогда, в то время",
@@ -1906,7 +2203,9 @@ var KB_DATA = {
     },
     {
       "id": "w0204",
-      "topic_ids": [],
+      "topic_ids": [
+        13
+      ],
       "german": "dann",
       "grammar": null,
       "russian": "потом, затем; тогда",
@@ -1924,7 +2223,9 @@ var KB_DATA = {
     },
     {
       "id": "w0206",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "die Datei",
       "grammar": "die Datei, die Dateien",
       "russian": "файл",
@@ -1933,7 +2234,9 @@ var KB_DATA = {
     },
     {
       "id": "w0207",
-      "topic_ids": [],
+      "topic_ids": [
+        13
+      ],
       "german": "das Datum",
       "grammar": "das Datum, die Datumen",
       "russian": "дата",
@@ -1942,7 +2245,9 @@ var KB_DATA = {
     },
     {
       "id": "w0208",
-      "topic_ids": [],
+      "topic_ids": [
+        13
+      ],
       "german": "dauern",
       "grammar": "dauert, hat gedauert",
       "russian": "длиться, продолжаться",
@@ -2014,7 +2319,9 @@ var KB_DATA = {
     },
     {
       "id": "w0216",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "die Disco",
       "grammar": "die Disco, die Discos / Disko, / Diskos",
       "russian": "дискотека",
@@ -2041,7 +2348,9 @@ var KB_DATA = {
     },
     {
       "id": "w0219",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "das Doppelzimmer",
       "grammar": "das Doppelzimmer, die Doppelzimmer",
       "russian": "двухместный номер",
@@ -2050,7 +2359,9 @@ var KB_DATA = {
     },
     {
       "id": "w0220",
-      "topic_ids": [],
+      "topic_ids": [
+        15
+      ],
       "german": "das Dorf",
       "grammar": "das Dorf, die Dörfer",
       "russian": "деревня, село",
@@ -2113,7 +2424,9 @@ var KB_DATA = {
     },
     {
       "id": "w0227",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "drucken",
       "grammar": "druckt, hat gedruckt",
       "russian": "печатать (принтер)",
@@ -2122,7 +2435,9 @@ var KB_DATA = {
     },
     {
       "id": "w0228",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "der Drucker",
       "grammar": "der Drucker, die Drucker",
       "russian": "принтер",
@@ -2176,7 +2491,9 @@ var KB_DATA = {
     },
     {
       "id": "w0234",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "der Durst (Sg.)",
       "grammar": null,
       "russian": "жажда",
@@ -2185,7 +2502,9 @@ var KB_DATA = {
     },
     {
       "id": "w0235",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "die Dusche",
       "grammar": "die Dusche, die Duschen",
       "russian": "душ",
@@ -2194,7 +2513,9 @@ var KB_DATA = {
     },
     {
       "id": "w0236",
-      "topic_ids": [],
+      "topic_ids": [
+        7
+      ],
       "german": "duschen (sich)",
       "grammar": "duscht, hat geduscht",
       "russian": "принимать душ",
@@ -2203,7 +2524,10 @@ var KB_DATA = {
     },
     {
       "id": "w0237",
-      "topic_ids": [],
+      "topic_ids": [
+        11,
+        5
+      ],
       "german": "das E-Book",
       "grammar": "das E-Book, die E-Books",
       "russian": "электронная книга",
@@ -2221,7 +2545,9 @@ var KB_DATA = {
     },
     {
       "id": "w0239",
-      "topic_ids": [],
+      "topic_ids": [
+        15
+      ],
       "german": "die Ecke",
       "grammar": "die Ecke, die Ecken",
       "russian": "угол; перекрёсток",
@@ -2239,7 +2565,9 @@ var KB_DATA = {
     },
     {
       "id": "w0241",
-      "topic_ids": [],
+      "topic_ids": [
+        1
+      ],
       "german": "die Ehefrau",
       "grammar": "die Ehefrau, die Ehefrauen / Ehemänner / Ehepartner",
       "russian": "жена, супруга",
@@ -2248,7 +2576,9 @@ var KB_DATA = {
     },
     {
       "id": "w0242",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "das Ei",
       "grammar": "das Ei, die Eier",
       "russian": "яйцо",
@@ -2275,7 +2605,9 @@ var KB_DATA = {
     },
     {
       "id": "w0245",
-      "topic_ids": [],
+      "topic_ids": [
+        13
+      ],
       "german": "eilig",
       "grammar": null,
       "russian": "срочный; торопиться",
@@ -2293,7 +2625,9 @@ var KB_DATA = {
     },
     {
       "id": "w0247",
-      "topic_ids": [],
+      "topic_ids": [
+        15
+      ],
       "german": "der Eingang",
       "grammar": "der Eingang, die Eingänge",
       "russian": "вход",
@@ -2311,7 +2645,9 @@ var KB_DATA = {
     },
     {
       "id": "w0249",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "einkaufen",
       "grammar": "kauft ein, hat eingekauft",
       "russian": "делать покупки",
@@ -2320,7 +2656,10 @@ var KB_DATA = {
     },
     {
       "id": "w0250",
-      "topic_ids": [],
+      "topic_ids": [
+        10,
+        15
+      ],
       "german": "das Einkaufszentrum",
       "grammar": "das Einkaufszentrum, die Einkaufszentrumen",
       "russian": "торговый центр",
@@ -2329,7 +2668,10 @@ var KB_DATA = {
     },
     {
       "id": "w0251",
-      "topic_ids": [],
+      "topic_ids": [
+        1,
+        8
+      ],
       "german": "einladen",
       "grammar": "lädt ein, hat eingeladen",
       "russian": "приглашать",
@@ -2338,7 +2680,10 @@ var KB_DATA = {
     },
     {
       "id": "w0252",
-      "topic_ids": [],
+      "topic_ids": [
+        1,
+        8
+      ],
       "german": "die Einladung",
       "grammar": "die Einladung, die Einladungen",
       "russian": "приглашение",
@@ -2356,7 +2701,9 @@ var KB_DATA = {
     },
     {
       "id": "w0254",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "einpacken",
       "grammar": "packt ein, hat eingepackt",
       "russian": "упаковывать",
@@ -2365,7 +2712,9 @@ var KB_DATA = {
     },
     {
       "id": "w0255",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "einsteigen",
       "grammar": "steigt ein, ist eingestiegen",
       "russian": "садиться (в транспорт)",
@@ -2374,7 +2723,9 @@ var KB_DATA = {
     },
     {
       "id": "w0256",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "eintragen (sich)",
       "grammar": "trägt ein, hat eingetragen",
       "russian": "вносить в список, записывать",
@@ -2383,7 +2734,9 @@ var KB_DATA = {
     },
     {
       "id": "w0257",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "der Eintritt",
       "grammar": "der Eintritt, die Eintritte",
       "russian": "вход; входной билет",
@@ -2410,7 +2763,9 @@ var KB_DATA = {
     },
     {
       "id": "w0260",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "einziehen",
       "grammar": "zieht ein, ist eingezogen",
       "russian": "въезжать, переезжать",
@@ -2419,7 +2774,10 @@ var KB_DATA = {
     },
     {
       "id": "w0261",
-      "topic_ids": [],
+      "topic_ids": [
+        2,
+        12
+      ],
       "german": "das Eis (Sg.)",
       "grammar": null,
       "russian": "лёд; мороженое",
@@ -2428,7 +2786,9 @@ var KB_DATA = {
     },
     {
       "id": "w0262",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "die (E-)Mail",
       "grammar": "die (E-)Mail, die E-Mails",
       "russian": "электронная почта, имейл",
@@ -2437,7 +2797,9 @@ var KB_DATA = {
     },
     {
       "id": "w0263",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "der Empfänger",
       "grammar": "der Empfänger, die Empfänger",
       "russian": "получатель",
@@ -2446,7 +2808,10 @@ var KB_DATA = {
     },
     {
       "id": "w0264",
-      "topic_ids": [],
+      "topic_ids": [
+        2,
+        8
+      ],
       "german": "empfehlen",
       "grammar": "empfiehlt, hat empfohlen",
       "russian": "рекомендовать, советовать",
@@ -2455,7 +2820,9 @@ var KB_DATA = {
     },
     {
       "id": "w0265",
-      "topic_ids": [],
+      "topic_ids": [
+        13
+      ],
       "german": "das Ende",
       "grammar": "das Ende, die Enden",
       "russian": "конец, край",
@@ -2464,7 +2831,9 @@ var KB_DATA = {
     },
     {
       "id": "w0266",
-      "topic_ids": [],
+      "topic_ids": [
+        13
+      ],
       "german": "enden",
       "grammar": "endet, hat geendet",
       "russian": "заканчиваться",
@@ -2473,7 +2842,9 @@ var KB_DATA = {
     },
     {
       "id": "w0267",
-      "topic_ids": [],
+      "topic_ids": [
+        13
+      ],
       "german": "endlich",
       "grammar": null,
       "russian": "наконец(-то)",
@@ -2509,7 +2880,9 @@ var KB_DATA = {
     },
     {
       "id": "w0271",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "das Erdgeschoss",
       "grammar": "das Erdgeschoss, die Erdgeschosse",
       "russian": "первый этаж (нулевой уровень)",
@@ -2518,7 +2891,9 @@ var KB_DATA = {
     },
     {
       "id": "w0272",
-      "topic_ids": [],
+      "topic_ids": [
+        4
+      ],
       "german": "die Erfahrung",
       "grammar": "die Erfahrung, die Erfahrungen",
       "russian": "опыт",
@@ -2536,7 +2911,9 @@ var KB_DATA = {
     },
     {
       "id": "w0274",
-      "topic_ids": [],
+      "topic_ids": [
+        7
+      ],
       "german": "erkältet sein",
       "grammar": "ist erkältet, war erkältet, ist erkältet gewesen",
       "russian": "быть простуженным",
@@ -2545,7 +2922,9 @@ var KB_DATA = {
     },
     {
       "id": "w0275",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "erklären",
       "grammar": "erklärt, hat erklärt",
       "russian": "объяснять",
@@ -2581,7 +2960,9 @@ var KB_DATA = {
     },
     {
       "id": "w0279",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "die Ermäßigung",
       "grammar": "die Ermäßigung, die Ermäßigungen",
       "russian": "скидка, льгота",
@@ -2626,7 +3007,9 @@ var KB_DATA = {
     },
     {
       "id": "w0284",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "essen",
       "grammar": "isst, hat gegessen",
       "russian": "есть, кушать",
@@ -2635,7 +3018,9 @@ var KB_DATA = {
     },
     {
       "id": "w0285",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "das Essen",
       "grammar": "das Essen, die Essen",
       "russian": "еда; приём пищи",
@@ -2653,7 +3038,9 @@ var KB_DATA = {
     },
     {
       "id": "w0287",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "das Fach",
       "grammar": "das Fach, die Fächer",
       "russian": "предмет (в школе); ячейка, секция",
@@ -2662,7 +3049,9 @@ var KB_DATA = {
     },
     {
       "id": "w0288",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "(ab)fahren",
       "grammar": "fährt (ab), ist (ab)gefahren",
       "russian": "уезжать / отъезжать",
@@ -2671,7 +3060,9 @@ var KB_DATA = {
     },
     {
       "id": "w0289",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "die Abfahrt",
       "grammar": "die Abfahrt, die Abfahrten",
       "russian": "отправление (транспорта)",
@@ -2680,7 +3071,9 @@ var KB_DATA = {
     },
     {
       "id": "w0290",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "die Fahrkarte",
       "grammar": "die Fahrkarte, die Fahrkarten",
       "russian": "билет (на транспорт)",
@@ -2689,7 +3082,9 @@ var KB_DATA = {
     },
     {
       "id": "w0291",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "der Fahrplan",
       "grammar": "der Fahrplan, die Fahrplane",
       "russian": "расписание (транспорта)",
@@ -2698,7 +3093,10 @@ var KB_DATA = {
     },
     {
       "id": "w0292",
-      "topic_ids": [],
+      "topic_ids": [
+        6,
+        9
+      ],
       "german": "das (Fahr)Rad",
       "grammar": "das (Fahr)Rad, die Räder",
       "russian": "велосипед",
@@ -2725,7 +3123,9 @@ var KB_DATA = {
     },
     {
       "id": "w0295",
-      "topic_ids": [],
+      "topic_ids": [
+        1
+      ],
       "german": "die Familie",
       "grammar": "die Familie, die Familien",
       "russian": "семья",
@@ -2734,7 +3134,9 @@ var KB_DATA = {
     },
     {
       "id": "w0296",
-      "topic_ids": [],
+      "topic_ids": [
+        1
+      ],
       "german": "der Familienname",
       "grammar": "der Familienname, die Familiennamen",
       "russian": "фамилия",
@@ -2743,7 +3145,10 @@ var KB_DATA = {
     },
     {
       "id": "w0297",
-      "topic_ids": [],
+      "topic_ids": [
+        8,
+        9
+      ],
       "german": "der Fan",
       "grammar": "der Fan, die Fans",
       "russian": "болельщик, фанат",
@@ -2779,7 +3184,9 @@ var KB_DATA = {
     },
     {
       "id": "w0301",
-      "topic_ids": [],
+      "topic_ids": [
+        14
+      ],
       "german": "faul",
       "grammar": null,
       "russian": "ленивый",
@@ -2797,7 +3204,9 @@ var KB_DATA = {
     },
     {
       "id": "w0303",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "der Fehler",
       "grammar": "der Fehler, die Fehler",
       "russian": "ошибка",
@@ -2806,7 +3215,10 @@ var KB_DATA = {
     },
     {
       "id": "w0304",
-      "topic_ids": [],
+      "topic_ids": [
+        1,
+        8
+      ],
       "german": "die Feier",
       "grammar": "die Feier, die Feiern",
       "russian": "праздник, торжество",
@@ -2815,7 +3227,10 @@ var KB_DATA = {
     },
     {
       "id": "w0305",
-      "topic_ids": [],
+      "topic_ids": [
+        1,
+        8
+      ],
       "german": "feiern",
       "grammar": "feiert, hat gefeiert",
       "russian": "праздновать, отмечать",
@@ -2824,7 +3239,9 @@ var KB_DATA = {
     },
     {
       "id": "w0306",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "das Fenster",
       "grammar": "das Fenster, die Fenster",
       "russian": "окно",
@@ -2833,7 +3250,10 @@ var KB_DATA = {
     },
     {
       "id": "w0307",
-      "topic_ids": [],
+      "topic_ids": [
+        5,
+        6
+      ],
       "german": "die Ferien (Pl.)",
       "grammar": null,
       "russian": "каникулы",
@@ -2842,7 +3262,9 @@ var KB_DATA = {
     },
     {
       "id": "w0308",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "fernsehen",
       "grammar": "sieht fern, hat ferngesehen",
       "russian": "смотреть телевизор",
@@ -2851,7 +3273,10 @@ var KB_DATA = {
     },
     {
       "id": "w0309",
-      "topic_ids": [],
+      "topic_ids": [
+        3,
+        8
+      ],
       "german": "der Fernseher",
       "grammar": "der Fernseher, die Fernseher",
       "russian": "телевизор",
@@ -2869,7 +3294,9 @@ var KB_DATA = {
     },
     {
       "id": "w0311",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "das Fest",
       "grammar": "das Fest, die Feste",
       "russian": "праздник",
@@ -2878,7 +3305,9 @@ var KB_DATA = {
     },
     {
       "id": "w0312",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "das Festival",
       "grammar": "das Festival, die Festivals",
       "russian": "фестиваль",
@@ -2887,7 +3316,9 @@ var KB_DATA = {
     },
     {
       "id": "w0313",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "fett",
       "grammar": null,
       "russian": "жирный",
@@ -2896,7 +3327,9 @@ var KB_DATA = {
     },
     {
       "id": "w0314",
-      "topic_ids": [],
+      "topic_ids": [
+        7
+      ],
       "german": "das Fieber (Sg.)",
       "grammar": null,
       "russian": "жар, высокая температура",
@@ -2905,7 +3338,9 @@ var KB_DATA = {
     },
     {
       "id": "w0315",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "der Film",
       "grammar": "der Film, die Filme",
       "russian": "фильм",
@@ -2923,7 +3358,9 @@ var KB_DATA = {
     },
     {
       "id": "w0317",
-      "topic_ids": [],
+      "topic_ids": [
+        4
+      ],
       "german": "die Firma",
       "grammar": "die Firma, die Firmaen",
       "russian": "фирма, компания",
@@ -2932,7 +3369,9 @@ var KB_DATA = {
     },
     {
       "id": "w0318",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "der Fisch",
       "grammar": "der Fisch, die Fische",
       "russian": "рыба",
@@ -2941,7 +3380,10 @@ var KB_DATA = {
     },
     {
       "id": "w0319",
-      "topic_ids": [],
+      "topic_ids": [
+        9,
+        7
+      ],
       "german": "fit sein",
       "grammar": "ist fit, war fit, ist fit gewesen",
       "russian": "быть в форме",
@@ -2950,7 +3392,9 @@ var KB_DATA = {
     },
     {
       "id": "w0320",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "die Flasche",
       "grammar": "die Flasche, die Flaschen",
       "russian": "бутылка",
@@ -2959,7 +3403,9 @@ var KB_DATA = {
     },
     {
       "id": "w0321",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "das Fleisch (Sg.)",
       "grammar": null,
       "russian": "мясо",
@@ -2968,7 +3414,9 @@ var KB_DATA = {
     },
     {
       "id": "w0322",
-      "topic_ids": [],
+      "topic_ids": [
+        14
+      ],
       "german": "fleißig",
       "grammar": null,
       "russian": "прилежный, старательный",
@@ -2977,7 +3425,9 @@ var KB_DATA = {
     },
     {
       "id": "w0323",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "(ab)fliegen",
       "grammar": "fliegt (ab), ist (ab)geflogen",
       "russian": "улетать / улететь",
@@ -2986,7 +3436,9 @@ var KB_DATA = {
     },
     {
       "id": "w0324",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "der Flohmarkt",
       "grammar": "der Flohmarkt, die Flohmarkte",
       "russian": "блошиный рынок",
@@ -2995,7 +3447,9 @@ var KB_DATA = {
     },
     {
       "id": "w0325",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "der Flug",
       "grammar": "der Flug, die Flüge",
       "russian": "полёт, рейс",
@@ -3004,7 +3458,10 @@ var KB_DATA = {
     },
     {
       "id": "w0326",
-      "topic_ids": [],
+      "topic_ids": [
+        6,
+        15
+      ],
       "german": "der Flughafen",
       "grammar": "der Flughafen, die Flughafene",
       "russian": "аэропорт",
@@ -3013,7 +3470,9 @@ var KB_DATA = {
     },
     {
       "id": "w0327",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "das Flugzeug",
       "grammar": "das Flugzeug, die Flugzeuge",
       "russian": "самолёт",
@@ -3022,7 +3481,9 @@ var KB_DATA = {
     },
     {
       "id": "w0328",
-      "topic_ids": [],
+      "topic_ids": [
+        12
+      ],
       "german": "der Fluss",
       "grammar": "der Fluss, die Flüsse",
       "russian": "река",
@@ -3031,7 +3492,9 @@ var KB_DATA = {
     },
     {
       "id": "w0329",
-      "topic_ids": [],
+      "topic_ids": [
+        4
+      ],
       "german": "das Formular",
       "grammar": "das Formular, die Formulare",
       "russian": "бланк, форма",
@@ -3040,7 +3503,9 @@ var KB_DATA = {
     },
     {
       "id": "w0330",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "der Fotoapparat",
       "grammar": "der Fotoapparat, die Fotoapparate",
       "russian": "фотоаппарат",
@@ -3049,7 +3514,9 @@ var KB_DATA = {
     },
     {
       "id": "w0331",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "fotografieren",
       "grammar": "fotografiert, hat fotografiert",
       "russian": "фотографировать",
@@ -3058,7 +3525,9 @@ var KB_DATA = {
     },
     {
       "id": "w0332",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "das Foto",
       "grammar": "das Foto, die Fotos",
       "russian": "фотография",
@@ -3067,7 +3536,9 @@ var KB_DATA = {
     },
     {
       "id": "w0333",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "die Frage",
       "grammar": "die Frage, die Fragen",
       "russian": "вопрос",
@@ -3085,7 +3556,9 @@ var KB_DATA = {
     },
     {
       "id": "w0335",
-      "topic_ids": [],
+      "topic_ids": [
+        1
+      ],
       "german": "die Frau",
       "grammar": "die Frau, die Frauen",
       "russian": "женщина; жена; госпожа",
@@ -3112,7 +3585,9 @@ var KB_DATA = {
     },
     {
       "id": "w0338",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "die Freizeit (Sg.)",
       "grammar": null,
       "russian": "свободное время, досуг",
@@ -3130,7 +3605,9 @@ var KB_DATA = {
     },
     {
       "id": "w0340",
-      "topic_ids": [],
+      "topic_ids": [
+        14
+      ],
       "german": "freuen (sich)",
       "grammar": "freut, hat gefreut",
       "russian": "радоваться (sich freuen); радовать",
@@ -3139,7 +3616,9 @@ var KB_DATA = {
     },
     {
       "id": "w0341",
-      "topic_ids": [],
+      "topic_ids": [
+        1
+      ],
       "german": "der Freund",
       "grammar": "der Freund, die Freunde / Freundin, / Freundinnen",
       "russian": "друг; парень (партнёр)",
@@ -3148,7 +3627,9 @@ var KB_DATA = {
     },
     {
       "id": "w0342",
-      "topic_ids": [],
+      "topic_ids": [
+        14
+      ],
       "german": "freundlich",
       "grammar": null,
       "russian": "дружелюбный, приветливый",
@@ -3157,7 +3638,9 @@ var KB_DATA = {
     },
     {
       "id": "w0343",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "frisch",
       "grammar": null,
       "russian": "свежий",
@@ -3166,7 +3649,9 @@ var KB_DATA = {
     },
     {
       "id": "w0344",
-      "topic_ids": [],
+      "topic_ids": [
+        14
+      ],
       "german": "froh",
       "grammar": null,
       "russian": "рад, довольный",
@@ -3175,7 +3660,9 @@ var KB_DATA = {
     },
     {
       "id": "w0345",
-      "topic_ids": [],
+      "topic_ids": [
+        13
+      ],
       "german": "früh",
       "grammar": null,
       "russian": "рано; ранний",
@@ -3184,7 +3671,9 @@ var KB_DATA = {
     },
     {
       "id": "w0346",
-      "topic_ids": [],
+      "topic_ids": [
+        13
+      ],
       "german": "früher",
       "grammar": null,
       "russian": "раньше, прежде; более ранний",
@@ -3193,7 +3682,9 @@ var KB_DATA = {
     },
     {
       "id": "w0347",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "das Frühstück (Sg.)",
       "grammar": null,
       "russian": "завтрак",
@@ -3202,7 +3693,9 @@ var KB_DATA = {
     },
     {
       "id": "w0348",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "frühstücken",
       "grammar": "frühstückt, hat gefrühstückt",
       "russian": "завтракать",
@@ -3211,7 +3704,10 @@ var KB_DATA = {
     },
     {
       "id": "w0349",
-      "topic_ids": [],
+      "topic_ids": [
+        7,
+        14
+      ],
       "german": "fühlen (sich)",
       "grammar": "fühlt, hat gefühlt",
       "russian": "чувствовать(ся)",
@@ -3220,7 +3716,9 @@ var KB_DATA = {
     },
     {
       "id": "w0350",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "der Führerschein",
       "grammar": "der Führerschein, die Führerscheine",
       "russian": "водительское удостоверение",
@@ -3229,7 +3727,10 @@ var KB_DATA = {
     },
     {
       "id": "w0351",
-      "topic_ids": [],
+      "topic_ids": [
+        8,
+        6
+      ],
       "german": "die Führung",
       "grammar": "die Führung, die Führungen",
       "russian": "экскурсия с гидом; руководство",
@@ -3238,7 +3739,9 @@ var KB_DATA = {
     },
     {
       "id": "w0352",
-      "topic_ids": [],
+      "topic_ids": [
+        15
+      ],
       "german": "die Fundsachen (Pl.)",
       "grammar": null,
       "russian": "найденные вещи; бюро находок",
@@ -3265,7 +3768,9 @@ var KB_DATA = {
     },
     {
       "id": "w0355",
-      "topic_ids": [],
+      "topic_ids": [
+        7
+      ],
       "german": "der Fuß",
       "grammar": "der Fuß, die Füße",
       "russian": "нога (стопа); пешком",
@@ -3274,7 +3779,9 @@ var KB_DATA = {
     },
     {
       "id": "w0356",
-      "topic_ids": [],
+      "topic_ids": [
+        9
+      ],
       "german": "der Fußball",
       "grammar": "der Fußball, die Fußbälle",
       "russian": "футбол",
@@ -3283,7 +3790,9 @@ var KB_DATA = {
     },
     {
       "id": "w0357",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "die Gabel",
       "grammar": "die Gabel, die Gabeln",
       "russian": "вилка",
@@ -3301,7 +3810,10 @@ var KB_DATA = {
     },
     {
       "id": "w0359",
-      "topic_ids": [],
+      "topic_ids": [
+        3,
+        6
+      ],
       "german": "die Garage",
       "grammar": "die Garage, die Garagen",
       "russian": "гараж",
@@ -3310,7 +3822,10 @@ var KB_DATA = {
     },
     {
       "id": "w0360",
-      "topic_ids": [],
+      "topic_ids": [
+        3,
+        12
+      ],
       "german": "der Garten",
       "grammar": "der Garten, die Gärten",
       "russian": "сад, огород",
@@ -3319,7 +3834,10 @@ var KB_DATA = {
     },
     {
       "id": "w0361",
-      "topic_ids": [],
+      "topic_ids": [
+        1,
+        2
+      ],
       "german": "der Gast",
       "grammar": "der Gast, die Gaste",
       "russian": "гость",
@@ -3337,7 +3855,9 @@ var KB_DATA = {
     },
     {
       "id": "w0363",
-      "topic_ids": [],
+      "topic_ids": [
+        1
+      ],
       "german": "geboren",
       "grammar": null,
       "russian": "рождённый; geboren sein — быть рождённым",
@@ -3346,7 +3866,9 @@ var KB_DATA = {
     },
     {
       "id": "w0364",
-      "topic_ids": [],
+      "topic_ids": [
+        1
+      ],
       "german": "das Geburtsjahr",
       "grammar": "das Geburtsjahr, die Geburtsjahre",
       "russian": "год рождения",
@@ -3355,7 +3877,9 @@ var KB_DATA = {
     },
     {
       "id": "w0365",
-      "topic_ids": [],
+      "topic_ids": [
+        1
+      ],
       "german": "der Geburtsort",
       "grammar": "der Geburtsort, die Geburtsorte",
       "russian": "место рождения",
@@ -3364,7 +3888,10 @@ var KB_DATA = {
     },
     {
       "id": "w0366",
-      "topic_ids": [],
+      "topic_ids": [
+        1,
+        13
+      ],
       "german": "der Geburtstag",
       "grammar": "der Geburtstag, die Geburtstage",
       "russian": "день рождения",
@@ -3391,7 +3918,9 @@ var KB_DATA = {
     },
     {
       "id": "w0369",
-      "topic_ids": [],
+      "topic_ids": [
+        14
+      ],
       "german": "gefallen",
       "grammar": "gefällt, hat gefallen",
       "russian": "нравиться",
@@ -3418,7 +3947,9 @@ var KB_DATA = {
     },
     {
       "id": "w0372",
-      "topic_ids": [],
+      "topic_ids": [
+        15
+      ],
       "german": "gegenüber",
       "grammar": null,
       "russian": "напротив",
@@ -3427,7 +3958,9 @@ var KB_DATA = {
     },
     {
       "id": "w0373",
-      "topic_ids": [],
+      "topic_ids": [
+        4
+      ],
       "german": "das Gehalt",
       "grammar": "das Gehalt, die Gehalter",
       "russian": "зарплата, оклад",
@@ -3454,7 +3987,9 @@ var KB_DATA = {
     },
     {
       "id": "w0376",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "das Geld (Sg.)",
       "grammar": null,
       "russian": "деньги",
@@ -3463,7 +3998,9 @@ var KB_DATA = {
     },
     {
       "id": "w0377",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "die Geldbörse",
       "grammar": "die Geldbörse, die Geldbörsen",
       "russian": "кошелёк",
@@ -3472,7 +4009,9 @@ var KB_DATA = {
     },
     {
       "id": "w0378",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "das Gemüse (Sg.)",
       "grammar": null,
       "russian": "овощи",
@@ -3499,7 +4038,9 @@ var KB_DATA = {
     },
     {
       "id": "w0381",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "das Gepäck (Sg.)",
       "grammar": null,
       "russian": "багаж",
@@ -3517,7 +4058,9 @@ var KB_DATA = {
     },
     {
       "id": "w0383",
-      "topic_ids": [],
+      "topic_ids": [
+        15
+      ],
       "german": "geradeaus",
       "grammar": null,
       "russian": "прямо (вперёд)",
@@ -3526,7 +4069,10 @@ var KB_DATA = {
     },
     {
       "id": "w0384",
-      "topic_ids": [],
+      "topic_ids": [
+        11,
+        3
+      ],
       "german": "das Gerät",
       "grammar": "das Gerät, die Geräte",
       "russian": "устройство, прибор",
@@ -3535,7 +4081,9 @@ var KB_DATA = {
     },
     {
       "id": "w0385",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "das Gericht",
       "grammar": "das Gericht, die Gerichte",
       "russian": "блюдо (еда); суд",
@@ -3553,7 +4101,10 @@ var KB_DATA = {
     },
     {
       "id": "w0387",
-      "topic_ids": [],
+      "topic_ids": [
+        4,
+        10
+      ],
       "german": "das Geschäft",
       "grammar": "das Geschäft, die Geschäfte",
       "russian": "магазин; дело, бизнес",
@@ -3562,7 +4113,9 @@ var KB_DATA = {
     },
     {
       "id": "w0388",
-      "topic_ids": [],
+      "topic_ids": [
+        1
+      ],
       "german": "das Geschenk",
       "grammar": "das Geschenk, die Geschenke",
       "russian": "подарок",
@@ -3571,7 +4124,10 @@ var KB_DATA = {
     },
     {
       "id": "w0389",
-      "topic_ids": [],
+      "topic_ids": [
+        5,
+        8
+      ],
       "german": "die Geschichte",
       "grammar": "die Geschichte, die Geschichten",
       "russian": "история; рассказ",
@@ -3580,7 +4136,10 @@ var KB_DATA = {
     },
     {
       "id": "w0390",
-      "topic_ids": [],
+      "topic_ids": [
+        2,
+        3
+      ],
       "german": "das Geschirr (Sg.)",
       "grammar": null,
       "russian": "посуда",
@@ -3589,7 +4148,9 @@ var KB_DATA = {
     },
     {
       "id": "w0391",
-      "topic_ids": [],
+      "topic_ids": [
+        7
+      ],
       "german": "das Gesicht",
       "grammar": "das Gesicht, die Gesichter",
       "russian": "лицо",
@@ -3598,7 +4159,9 @@ var KB_DATA = {
     },
     {
       "id": "w0392",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "das Gespräch",
       "grammar": "das Gespräch, die Gespräche",
       "russian": "разговор, беседа",
@@ -3607,7 +4170,9 @@ var KB_DATA = {
     },
     {
       "id": "w0393",
-      "topic_ids": [],
+      "topic_ids": [
+        13
+      ],
       "german": "gestern",
       "grammar": null,
       "russian": "вчера",
@@ -3616,7 +4181,9 @@ var KB_DATA = {
     },
     {
       "id": "w0394",
-      "topic_ids": [],
+      "topic_ids": [
+        7
+      ],
       "german": "gesund",
       "grammar": null,
       "russian": "здоровый",
@@ -3625,7 +4192,9 @@ var KB_DATA = {
     },
     {
       "id": "w0395",
-      "topic_ids": [],
+      "topic_ids": [
+        7
+      ],
       "german": "die Gesundheit (Sg.)",
       "grammar": null,
       "russian": "здоровье; Gesundheit! — будьте здоровы!",
@@ -3634,7 +4203,9 @@ var KB_DATA = {
     },
     {
       "id": "w0396",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "das Getränk",
       "grammar": "das Getränk, die Getränke",
       "russian": "напиток",
@@ -3643,7 +4214,9 @@ var KB_DATA = {
     },
     {
       "id": "w0397",
-      "topic_ids": [],
+      "topic_ids": [
+        9
+      ],
       "german": "gewinnen",
       "grammar": "gewinnt, hat gewonnen",
       "russian": "выигрывать, побеждать",
@@ -3652,7 +4225,9 @@ var KB_DATA = {
     },
     {
       "id": "w0398",
-      "topic_ids": [],
+      "topic_ids": [
+        12
+      ],
       "german": "das Gewitter",
       "grammar": "das Gewitter, die Gewitter",
       "russian": "гроза",
@@ -3661,7 +4236,9 @@ var KB_DATA = {
     },
     {
       "id": "w0399",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "die Gitarre",
       "grammar": "die Gitarre, die Gitarren",
       "russian": "гитара",
@@ -3670,7 +4247,9 @@ var KB_DATA = {
     },
     {
       "id": "w0400",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "das Glas",
       "grammar": "das Glas, die Gläser",
       "russian": "стакан; стекло",
@@ -3688,7 +4267,9 @@ var KB_DATA = {
     },
     {
       "id": "w0402",
-      "topic_ids": [],
+      "topic_ids": [
+        13
+      ],
       "german": "gleich",
       "grammar": null,
       "russian": "сразу, сейчас же; одинаковый",
@@ -3697,7 +4278,9 @@ var KB_DATA = {
     },
     {
       "id": "w0403",
-      "topic_ids": [],
+      "topic_ids": [
+        14
+      ],
       "german": "das Glück (Sg.)",
       "grammar": null,
       "russian": "счастье, удача; viel Glück! — удачи!",
@@ -3706,7 +4289,9 @@ var KB_DATA = {
     },
     {
       "id": "w0404",
-      "topic_ids": [],
+      "topic_ids": [
+        14
+      ],
       "german": "glücklich",
       "grammar": null,
       "russian": "счастливый",
@@ -3715,7 +4300,9 @@ var KB_DATA = {
     },
     {
       "id": "w0405",
-      "topic_ids": [],
+      "topic_ids": [
+        1
+      ],
       "german": "der Glückwunsch",
       "grammar": "der Glückwunsch, die Glückwunsche",
       "russian": "поздравление",
@@ -3724,7 +4311,9 @@ var KB_DATA = {
     },
     {
       "id": "w0406",
-      "topic_ids": [],
+      "topic_ids": [
+        1
+      ],
       "german": "gratulieren",
       "grammar": "gratuliert, hat gratuliert",
       "russian": "поздравлять",
@@ -3733,7 +4322,10 @@ var KB_DATA = {
     },
     {
       "id": "w0407",
-      "topic_ids": [],
+      "topic_ids": [
+        2,
+        8
+      ],
       "german": "grillen",
       "grammar": "grillt, hat gegrillt",
       "russian": "жарить на гриле",
@@ -3742,7 +4334,9 @@ var KB_DATA = {
     },
     {
       "id": "w0408",
-      "topic_ids": [],
+      "topic_ids": [
+        7
+      ],
       "german": "die Grippe (Sg.)",
       "grammar": null,
       "russian": "грипп",
@@ -3760,7 +4354,9 @@ var KB_DATA = {
     },
     {
       "id": "w0410",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "die Größe",
       "grammar": "die Größe, die Größen",
       "russian": "размер; рост",
@@ -3787,7 +4383,9 @@ var KB_DATA = {
     },
     {
       "id": "w0413",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "gültig sein",
       "grammar": "ist gültig, war gültig, ist gültig gewesen",
       "russian": "быть действительным (о документе, билете)",
@@ -3796,7 +4394,9 @@ var KB_DATA = {
     },
     {
       "id": "w0414",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "günstig",
       "grammar": null,
       "russian": "выгодный, дешёвый",
@@ -3814,7 +4414,9 @@ var KB_DATA = {
     },
     {
       "id": "w0416",
-      "topic_ids": [],
+      "topic_ids": [
+        7
+      ],
       "german": "das Haar",
       "grammar": "das Haar, die Haare",
       "russian": "волос, волосы",
@@ -3832,7 +4434,9 @@ var KB_DATA = {
     },
     {
       "id": "w0418",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "das Hähnchen",
       "grammar": "das Hähnchen, die Hähnchen",
       "russian": "курочка, цыплёнок (блюдо)",
@@ -3841,7 +4445,10 @@ var KB_DATA = {
     },
     {
       "id": "w0419",
-      "topic_ids": [],
+      "topic_ids": [
+        9,
+        15
+      ],
       "german": "die Halle",
       "grammar": "die Halle, die Hallen",
       "russian": "зал, холл",
@@ -3859,7 +4466,9 @@ var KB_DATA = {
     },
     {
       "id": "w0421",
-      "topic_ids": [],
+      "topic_ids": [
+        7
+      ],
       "german": "der Hals",
       "grammar": "der Hals, die Halse",
       "russian": "шея; горло",
@@ -3868,7 +4477,9 @@ var KB_DATA = {
     },
     {
       "id": "w0422",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "halten",
       "grammar": "hält, hat gehalten",
       "russian": "держать; останавливаться",
@@ -3877,7 +4488,10 @@ var KB_DATA = {
     },
     {
       "id": "w0423",
-      "topic_ids": [],
+      "topic_ids": [
+        6,
+        15
+      ],
       "german": "die Haltestelle",
       "grammar": "die Haltestelle, die Haltestellen",
       "russian": "остановка (транспорта)",
@@ -3886,7 +4500,9 @@ var KB_DATA = {
     },
     {
       "id": "w0424",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "der Hamburger",
       "grammar": "der Hamburger, die Hamburger",
       "russian": "гамбургер",
@@ -3895,7 +4511,9 @@ var KB_DATA = {
     },
     {
       "id": "w0425",
-      "topic_ids": [],
+      "topic_ids": [
+        7
+      ],
       "german": "die Hand",
       "grammar": "die Hand, die Hande",
       "russian": "рука (кисть)",
@@ -3904,7 +4522,9 @@ var KB_DATA = {
     },
     {
       "id": "w0426",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "das Handtuch",
       "grammar": "das Handtuch, die Handtucher",
       "russian": "полотенце",
@@ -3913,7 +4533,9 @@ var KB_DATA = {
     },
     {
       "id": "w0427",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "das Handy",
       "grammar": "das Handy, die Handys",
       "russian": "мобильный телефон",
@@ -3922,7 +4544,9 @@ var KB_DATA = {
     },
     {
       "id": "w0428",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "hängen",
       "grammar": "hängt, hat gehangen / gehängt",
       "russian": "висеть; вешать",
@@ -3949,7 +4573,9 @@ var KB_DATA = {
     },
     {
       "id": "w0431",
-      "topic_ids": [],
+      "topic_ids": [
+        15
+      ],
       "german": "die Hauptstadt",
       "grammar": "die Hauptstadt, die Hauptstadte",
       "russian": "столица",
@@ -3958,7 +4584,9 @@ var KB_DATA = {
     },
     {
       "id": "w0432",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "das Haus",
       "grammar": "das Haus, die Häuser",
       "russian": "дом; nach Hause — домой; zu Hause — дома",
@@ -3967,7 +4595,9 @@ var KB_DATA = {
     },
     {
       "id": "w0433",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "der Haushalt",
       "grammar": "der Haushalt, die Haushalte",
       "russian": "домашнее хозяйство",
@@ -3976,7 +4606,9 @@ var KB_DATA = {
     },
     {
       "id": "w0434",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "das Heft",
       "grammar": "das Heft, die Hefte",
       "russian": "тетрадь",
@@ -3985,7 +4617,9 @@ var KB_DATA = {
     },
     {
       "id": "w0435",
-      "topic_ids": [],
+      "topic_ids": [
+        1
+      ],
       "german": "die Heimat (Sg.)",
       "grammar": null,
       "russian": "родина",
@@ -3994,7 +4628,9 @@ var KB_DATA = {
     },
     {
       "id": "w0436",
-      "topic_ids": [],
+      "topic_ids": [
+        1
+      ],
       "german": "heiraten",
       "grammar": "heiratet, hat geheiratet",
       "russian": "жениться, выходить замуж",
@@ -4003,7 +4639,9 @@ var KB_DATA = {
     },
     {
       "id": "w0437",
-      "topic_ids": [],
+      "topic_ids": [
+        12
+      ],
       "german": "heiß",
       "grammar": null,
       "russian": "горячий; жарко",
@@ -4021,7 +4659,9 @@ var KB_DATA = {
     },
     {
       "id": "w0439",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "die Heizung",
       "grammar": "die Heizung, die Heizungen",
       "russian": "отопление, батарея",
@@ -4039,7 +4679,9 @@ var KB_DATA = {
     },
     {
       "id": "w0441",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "hell",
       "grammar": null,
       "russian": "светлый, яркий",
@@ -4048,7 +4690,9 @@ var KB_DATA = {
     },
     {
       "id": "w0442",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "das Hemd",
       "grammar": "das Hemd, die Hemden",
       "russian": "рубашка",
@@ -4084,7 +4728,9 @@ var KB_DATA = {
     },
     {
       "id": "w0446",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "der Herd",
       "grammar": "der Herd, die Herde",
       "russian": "плита (газовая или электрическая)",
@@ -4102,7 +4748,9 @@ var KB_DATA = {
     },
     {
       "id": "w0448",
-      "topic_ids": [],
+      "topic_ids": [
+        4
+      ],
       "german": "herstellen",
       "grammar": "stellt her, hat hergestellt",
       "russian": "производить, изготавливать",
@@ -4111,7 +4759,9 @@ var KB_DATA = {
     },
     {
       "id": "w0449",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "herunterladen",
       "grammar": "lädt herunter, hat heruntergeladen",
       "russian": "скачивать (файл)",
@@ -4129,7 +4779,9 @@ var KB_DATA = {
     },
     {
       "id": "w0451",
-      "topic_ids": [],
+      "topic_ids": [
+        13
+      ],
       "german": "heute",
       "grammar": null,
       "russian": "сегодня",
@@ -4156,7 +4808,9 @@ var KB_DATA = {
     },
     {
       "id": "w0454",
-      "topic_ids": [],
+      "topic_ids": [
+        12
+      ],
       "german": "der Himmel (Sg.)",
       "grammar": null,
       "russian": "небо; рай",
@@ -4192,7 +4846,9 @@ var KB_DATA = {
     },
     {
       "id": "w0458",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "das Hobby",
       "grammar": "das Hobby, die Hobbys",
       "russian": "хобби, увлечение",
@@ -4210,7 +4866,9 @@ var KB_DATA = {
     },
     {
       "id": "w0460",
-      "topic_ids": [],
+      "topic_ids": [
+        1
+      ],
       "german": "die Hochzeit",
       "grammar": "die Hochzeit, die Hochzeiten",
       "russian": "свадьба",
@@ -4246,7 +4904,9 @@ var KB_DATA = {
     },
     {
       "id": "w0464",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "die Homepage",
       "grammar": "die Homepage, die Homepages",
       "russian": "домашняя страница, сайт",
@@ -4255,7 +4915,9 @@ var KB_DATA = {
     },
     {
       "id": "w0465",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "hören",
       "grammar": "hört, hat gehört",
       "russian": "слышать, слушать",
@@ -4264,7 +4926,9 @@ var KB_DATA = {
     },
     {
       "id": "w0466",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "die Hose",
       "grammar": "die Hose, die Hosen",
       "russian": "брюки",
@@ -4273,7 +4937,9 @@ var KB_DATA = {
     },
     {
       "id": "w0467",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "das Hotel",
       "grammar": "das Hotel, die Hotels",
       "russian": "гостиница, отель",
@@ -4282,7 +4948,9 @@ var KB_DATA = {
     },
     {
       "id": "w0468",
-      "topic_ids": [],
+      "topic_ids": [
+        12
+      ],
       "german": "der Hund",
       "grammar": "der Hund, die Hunde",
       "russian": "собака",
@@ -4291,7 +4959,9 @@ var KB_DATA = {
     },
     {
       "id": "w0469",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "der Hunger (Sg.)",
       "grammar": null,
       "russian": "голод",
@@ -4300,7 +4970,9 @@ var KB_DATA = {
     },
     {
       "id": "w0470",
-      "topic_ids": [],
+      "topic_ids": [
+        7
+      ],
       "german": "husten",
       "grammar": "hustet, hat gehustet",
       "russian": "кашлять",
@@ -4354,7 +5026,10 @@ var KB_DATA = {
     },
     {
       "id": "w0476",
-      "topic_ids": [],
+      "topic_ids": [
+        12,
+        6
+      ],
       "german": "die Insel",
       "grammar": "die Insel, die Inseln",
       "russian": "остров",
@@ -4363,7 +5038,9 @@ var KB_DATA = {
     },
     {
       "id": "w0477",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "das Instrument",
       "grammar": "das Instrument, die Instrumente",
       "russian": "инструмент (музыкальный)",
@@ -4372,7 +5049,9 @@ var KB_DATA = {
     },
     {
       "id": "w0478",
-      "topic_ids": [],
+      "topic_ids": [
+        14
+      ],
       "german": "intelligent",
       "grammar": null,
       "russian": "умный, интеллигентный",
@@ -4381,7 +5060,9 @@ var KB_DATA = {
     },
     {
       "id": "w0479",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "das Interesse",
       "grammar": "das Interesse, die Interessen",
       "russian": "интерес",
@@ -4390,7 +5071,9 @@ var KB_DATA = {
     },
     {
       "id": "w0480",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "interessieren (sich)",
       "grammar": "interessiert, hat interessiert",
       "russian": "интересовать(ся)",
@@ -4417,7 +5100,9 @@ var KB_DATA = {
     },
     {
       "id": "w0483",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "das Internet (Sg.)",
       "grammar": null,
       "russian": "интернет",
@@ -4426,7 +5111,10 @@ var KB_DATA = {
     },
     {
       "id": "w0484",
-      "topic_ids": [],
+      "topic_ids": [
+        4,
+        11
+      ],
       "german": "das Interview",
       "grammar": "das Interview, die Interviews",
       "russian": "интервью",
@@ -4444,7 +5132,9 @@ var KB_DATA = {
     },
     {
       "id": "w0486",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "die Jacke",
       "grammar": "die Jacke, die Jacken",
       "russian": "куртка, жакет",
@@ -4453,7 +5143,9 @@ var KB_DATA = {
     },
     {
       "id": "w0487",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "die Jeans (Pl.)",
       "grammar": null,
       "russian": "джинсы",
@@ -4480,7 +5172,9 @@ var KB_DATA = {
     },
     {
       "id": "w0490",
-      "topic_ids": [],
+      "topic_ids": [
+        13
+      ],
       "german": "jetzt",
       "grammar": null,
       "russian": "сейчас, теперь",
@@ -4489,7 +5183,9 @@ var KB_DATA = {
     },
     {
       "id": "w0491",
-      "topic_ids": [],
+      "topic_ids": [
+        4
+      ],
       "german": "der Job",
       "grammar": "der Job, die Jobs",
       "russian": "работа, подработка",
@@ -4498,7 +5194,9 @@ var KB_DATA = {
     },
     {
       "id": "w0492",
-      "topic_ids": [],
+      "topic_ids": [
+        9
+      ],
       "german": "joggen",
       "grammar": "joggt, ist/hat gejoggt",
       "russian": "бегать трусцой, заниматься джоггингом",
@@ -4507,7 +5205,9 @@ var KB_DATA = {
     },
     {
       "id": "w0493",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "die Jugendherberge",
       "grammar": "die Jugendherberge, die Jugendherbergen",
       "russian": "молодёжный хостел",
@@ -4534,7 +5234,9 @@ var KB_DATA = {
     },
     {
       "id": "w0496",
-      "topic_ids": [],
+      "topic_ids": [
+        1
+      ],
       "german": "der Junge",
       "grammar": "der Junge, die Jungen",
       "russian": "мальчик",
@@ -4543,7 +5245,9 @@ var KB_DATA = {
     },
     {
       "id": "w0497",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "der Kaffee",
       "grammar": "der Kaffee, die Kaffees",
       "russian": "кофе",
@@ -4552,7 +5256,9 @@ var KB_DATA = {
     },
     {
       "id": "w0498",
-      "topic_ids": [],
+      "topic_ids": [
+        13
+      ],
       "german": "der Kalender",
       "grammar": "der Kalender, die Kalender",
       "russian": "календарь",
@@ -4561,7 +5267,9 @@ var KB_DATA = {
     },
     {
       "id": "w0499",
-      "topic_ids": [],
+      "topic_ids": [
+        12
+      ],
       "german": "kalt",
       "grammar": null,
       "russian": "холодный; холодно",
@@ -4570,7 +5278,9 @@ var KB_DATA = {
     },
     {
       "id": "w0500",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "die Kamera",
       "grammar": "die Kamera, die Kameras",
       "russian": "камера, фотоаппарат",
@@ -4588,7 +5298,10 @@ var KB_DATA = {
     },
     {
       "id": "w0502",
-      "topic_ids": [],
+      "topic_ids": [
+        6,
+        10
+      ],
       "german": "die Karte",
       "grammar": "die Karte, die Karten",
       "russian": "карточка, открытка; билет; меню; карта",
@@ -4597,7 +5310,9 @@ var KB_DATA = {
     },
     {
       "id": "w0503",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "die Kartoffel",
       "grammar": "die Kartoffel, die Kartoffeln",
       "russian": "картофель, картошка",
@@ -4606,7 +5321,9 @@ var KB_DATA = {
     },
     {
       "id": "w0504",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "der Käse (Sg.)",
       "grammar": null,
       "russian": "сыр",
@@ -4615,7 +5332,9 @@ var KB_DATA = {
     },
     {
       "id": "w0505",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "die Kasse",
       "grammar": "die Kasse, die Kassen",
       "russian": "касса",
@@ -4624,7 +5343,9 @@ var KB_DATA = {
     },
     {
       "id": "w0506",
-      "topic_ids": [],
+      "topic_ids": [
+        12
+      ],
       "german": "die Katze",
       "grammar": "die Katze, die Katzen",
       "russian": "кошка",
@@ -4633,7 +5354,9 @@ var KB_DATA = {
     },
     {
       "id": "w0507",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "kaufen",
       "grammar": "kauft, hat gekauft",
       "russian": "покупать",
@@ -4642,7 +5365,10 @@ var KB_DATA = {
     },
     {
       "id": "w0508",
-      "topic_ids": [],
+      "topic_ids": [
+        10,
+        15
+      ],
       "german": "das Kaufhaus",
       "grammar": "das Kaufhaus, die Kaufhauser",
       "russian": "универмаг",
@@ -4660,7 +5386,9 @@ var KB_DATA = {
     },
     {
       "id": "w0510",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "der Keller",
       "grammar": "der Keller, die Keller",
       "russian": "подвал, погреб",
@@ -4678,7 +5406,9 @@ var KB_DATA = {
     },
     {
       "id": "w0512",
-      "topic_ids": [],
+      "topic_ids": [
+        1
+      ],
       "german": "kennenlernen",
       "grammar": "lernt kennen, hat kennengelernt",
       "russian": "познакомиться",
@@ -4687,7 +5417,10 @@ var KB_DATA = {
     },
     {
       "id": "w0513",
-      "topic_ids": [],
+      "topic_ids": [
+        4,
+        5
+      ],
       "german": "die Kenntnisse (Pl.)",
       "grammar": null,
       "russian": "знания, навыки",
@@ -4696,7 +5429,9 @@ var KB_DATA = {
     },
     {
       "id": "w0514",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "die Kette",
       "grammar": "die Kette, die Ketten",
       "russian": "цепочка, ожерелье",
@@ -4705,7 +5440,9 @@ var KB_DATA = {
     },
     {
       "id": "w0515",
-      "topic_ids": [],
+      "topic_ids": [
+        1
+      ],
       "german": "das Kind",
       "grammar": "das Kind, die Kinder",
       "russian": "ребёнок",
@@ -4714,7 +5451,10 @@ var KB_DATA = {
     },
     {
       "id": "w0516",
-      "topic_ids": [],
+      "topic_ids": [
+        1,
+        5
+      ],
       "german": "der Kindergarten",
       "grammar": "der Kindergarten, die Kindergärten",
       "russian": "детский сад",
@@ -4723,7 +5463,10 @@ var KB_DATA = {
     },
     {
       "id": "w0517",
-      "topic_ids": [],
+      "topic_ids": [
+        8,
+        15
+      ],
       "german": "das Kino",
       "grammar": "das Kino, die Kinos",
       "russian": "кино, кинотеатр",
@@ -4732,7 +5475,10 @@ var KB_DATA = {
     },
     {
       "id": "w0518",
-      "topic_ids": [],
+      "topic_ids": [
+        10,
+        15
+      ],
       "german": "der Kiosk",
       "grammar": "der Kiosk, die Kioske",
       "russian": "киоск",
@@ -4741,7 +5487,9 @@ var KB_DATA = {
     },
     {
       "id": "w0519",
-      "topic_ids": [],
+      "topic_ids": [
+        15
+      ],
       "german": "die Kirche",
       "grammar": "die Kirche, die Kirchen",
       "russian": "церковь",
@@ -4768,7 +5516,9 @@ var KB_DATA = {
     },
     {
       "id": "w0522",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "das Klavier",
       "grammar": "das Klavier, die Klaviere",
       "russian": "пианино, рояль",
@@ -4777,7 +5527,9 @@ var KB_DATA = {
     },
     {
       "id": "w0523",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "das Kleid",
       "grammar": "das Kleid, die Kleider",
       "russian": "платье",
@@ -4786,7 +5538,9 @@ var KB_DATA = {
     },
     {
       "id": "w0524",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "die Kleidung (Sg.)",
       "grammar": null,
       "russian": "одежда",
@@ -4804,7 +5558,9 @@ var KB_DATA = {
     },
     {
       "id": "w0526",
-      "topic_ids": [],
+      "topic_ids": [
+        14
+      ],
       "german": "klug",
       "grammar": null,
       "russian": "умный, смышлёный",
@@ -4813,7 +5569,9 @@ var KB_DATA = {
     },
     {
       "id": "w0527",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "kochen",
       "grammar": "kocht, hat gekocht",
       "russian": "готовить (еду); кипеть",
@@ -4822,7 +5580,9 @@ var KB_DATA = {
     },
     {
       "id": "w0528",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "der Koffer",
       "grammar": "der Koffer, die Koffer",
       "russian": "чемодан",
@@ -4831,7 +5591,9 @@ var KB_DATA = {
     },
     {
       "id": "w0529",
-      "topic_ids": [],
+      "topic_ids": [
+        4
+      ],
       "german": "der Kollege",
       "grammar": "der Kollege, die Kollegen / Kollegin, / Kolleginnen",
       "russian": "коллега (муж.)",
@@ -4867,7 +5629,10 @@ var KB_DATA = {
     },
     {
       "id": "w0533",
-      "topic_ids": [],
+      "topic_ids": [
+        1,
+        11
+      ],
       "german": "der Kontakt",
       "grammar": "der Kontakt, die Kontakte",
       "russian": "контакт, связь",
@@ -4876,7 +5641,9 @@ var KB_DATA = {
     },
     {
       "id": "w0534",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "das Konto",
       "grammar": "das Konto, die Kontoen",
       "russian": "счёт (банковский)",
@@ -4894,7 +5661,9 @@ var KB_DATA = {
     },
     {
       "id": "w0536",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "das Konzert",
       "grammar": "das Konzert, die Konzerte",
       "russian": "концерт",
@@ -4903,7 +5672,9 @@ var KB_DATA = {
     },
     {
       "id": "w0537",
-      "topic_ids": [],
+      "topic_ids": [
+        7
+      ],
       "german": "der Kopf",
       "grammar": "der Kopf, die Köpfe",
       "russian": "голова",
@@ -4912,7 +5683,9 @@ var KB_DATA = {
     },
     {
       "id": "w0538",
-      "topic_ids": [],
+      "topic_ids": [
+        7
+      ],
       "german": "der Körper",
       "grammar": "der Körper, die Körper",
       "russian": "тело",
@@ -4921,7 +5694,10 @@ var KB_DATA = {
     },
     {
       "id": "w0539",
-      "topic_ids": [],
+      "topic_ids": [
+        7,
+        10
+      ],
       "german": "die Kosmetik (Sg.)",
       "grammar": null,
       "russian": "косметика",
@@ -4930,7 +5706,9 @@ var KB_DATA = {
     },
     {
       "id": "w0540",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "kosten",
       "grammar": "kostet, hat gekostet",
       "russian": "стоить",
@@ -4939,7 +5717,9 @@ var KB_DATA = {
     },
     {
       "id": "w0541",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "kostenlos",
       "grammar": null,
       "russian": "бесплатный, бесплатно",
@@ -4948,7 +5728,9 @@ var KB_DATA = {
     },
     {
       "id": "w0542",
-      "topic_ids": [],
+      "topic_ids": [
+        7
+      ],
       "german": "krank",
       "grammar": null,
       "russian": "больной, нездоровый",
@@ -4957,7 +5739,10 @@ var KB_DATA = {
     },
     {
       "id": "w0543",
-      "topic_ids": [],
+      "topic_ids": [
+        7,
+        15
+      ],
       "german": "das Krankenhaus",
       "grammar": "das Krankenhaus, die Krankenhäuser",
       "russian": "больница",
@@ -4966,7 +5751,9 @@ var KB_DATA = {
     },
     {
       "id": "w0544",
-      "topic_ids": [],
+      "topic_ids": [
+        7
+      ],
       "german": "die Krankenkasse",
       "grammar": "die Krankenkasse, die Krankenkassen",
       "russian": "касса медицинского страхования",
@@ -4975,7 +5762,9 @@ var KB_DATA = {
     },
     {
       "id": "w0545",
-      "topic_ids": [],
+      "topic_ids": [
+        7
+      ],
       "german": "die Krankheit",
       "grammar": "die Krankheit, die Krankheiten",
       "russian": "болезнь",
@@ -4984,7 +5773,9 @@ var KB_DATA = {
     },
     {
       "id": "w0546",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "der Kredit",
       "grammar": "der Kredit, die Kredite",
       "russian": "кредит",
@@ -4993,7 +5784,10 @@ var KB_DATA = {
     },
     {
       "id": "w0547",
-      "topic_ids": [],
+      "topic_ids": [
+        6,
+        15
+      ],
       "german": "die Kreuzung",
       "grammar": "die Kreuzung, die Kreuzungen",
       "russian": "перекрёсток",
@@ -5011,7 +5805,9 @@ var KB_DATA = {
     },
     {
       "id": "w0549",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "der Krimi",
       "grammar": "der Krimi, die Krimis",
       "russian": "детектив (книга/фильм)",
@@ -5020,7 +5816,10 @@ var KB_DATA = {
     },
     {
       "id": "w0550",
-      "topic_ids": [],
+      "topic_ids": [
+        2,
+        3
+      ],
       "german": "die Küche",
       "grammar": "die Küche, die Küchen",
       "russian": "кухня",
@@ -5029,7 +5828,9 @@ var KB_DATA = {
     },
     {
       "id": "w0551",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "der Kuchen",
       "grammar": "der Kuchen, die Kuchen",
       "russian": "торт, пирог",
@@ -5038,7 +5839,9 @@ var KB_DATA = {
     },
     {
       "id": "w0552",
-      "topic_ids": [],
+      "topic_ids": [
+        12
+      ],
       "german": "kühl",
       "grammar": null,
       "russian": "прохладный",
@@ -5047,7 +5850,9 @@ var KB_DATA = {
     },
     {
       "id": "w0553",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "der Kühlschrank",
       "grammar": "der Kühlschrank, die Kühlschranke",
       "russian": "холодильник",
@@ -5056,7 +5861,9 @@ var KB_DATA = {
     },
     {
       "id": "w0554",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "die Kultur",
       "grammar": "die Kultur, die Kulturen",
       "russian": "культура",
@@ -5065,7 +5872,9 @@ var KB_DATA = {
     },
     {
       "id": "w0555",
-      "topic_ids": [],
+      "topic_ids": [
+        1
+      ],
       "german": "kümmern (sich)",
       "grammar": "kümmert, hat gekümmert",
       "russian": "заботиться (sich kümmern um)",
@@ -5074,7 +5883,9 @@ var KB_DATA = {
     },
     {
       "id": "w0556",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "der Kunde",
       "grammar": "der Kunde, die Kunden / Kundin, / Kundinnen",
       "russian": "клиент, покупатель",
@@ -5083,7 +5894,9 @@ var KB_DATA = {
     },
     {
       "id": "w0557",
-      "topic_ids": [],
+      "topic_ids": [
+        4
+      ],
       "german": "kündigen",
       "grammar": "kündigt, hat gekündigt",
       "russian": "увольняться; расторгать договор",
@@ -5092,7 +5905,9 @@ var KB_DATA = {
     },
     {
       "id": "w0558",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "die Kunst",
       "grammar": "die Kunst, die Kunste",
       "russian": "искусство",
@@ -5101,7 +5916,9 @@ var KB_DATA = {
     },
     {
       "id": "w0559",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "der Kurs",
       "grammar": "der Kurs, die Kurse",
       "russian": "курс (занятий); курс (валюты)",
@@ -5119,7 +5936,9 @@ var KB_DATA = {
     },
     {
       "id": "w0561",
-      "topic_ids": [],
+      "topic_ids": [
+        14
+      ],
       "german": "lachen",
       "grammar": "lacht, hat gelacht",
       "russian": "смеяться",
@@ -5128,7 +5947,9 @@ var KB_DATA = {
     },
     {
       "id": "w0562",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "der Laden",
       "grammar": "der Laden, die Läden",
       "russian": "магазин",
@@ -5137,7 +5958,9 @@ var KB_DATA = {
     },
     {
       "id": "w0563",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "die Lampe",
       "grammar": "die Lampe, die Lampen",
       "russian": "лампа",
@@ -5146,7 +5969,10 @@ var KB_DATA = {
     },
     {
       "id": "w0564",
-      "topic_ids": [],
+      "topic_ids": [
+        12,
+        6
+      ],
       "german": "das Land",
       "grammar": "das Land, die Länder",
       "russian": "страна; деревня (в смысле «сельская местность»)",
@@ -5155,7 +5981,9 @@ var KB_DATA = {
     },
     {
       "id": "w0565",
-      "topic_ids": [],
+      "topic_ids": [
+        12
+      ],
       "german": "die Landschaft",
       "grammar": "die Landschaft, die Landschaften",
       "russian": "пейзаж, местность",
@@ -5173,7 +6001,9 @@ var KB_DATA = {
     },
     {
       "id": "w0567",
-      "topic_ids": [],
+      "topic_ids": [
+        13
+      ],
       "german": "lange",
       "grammar": null,
       "russian": "долго",
@@ -5191,7 +6021,9 @@ var KB_DATA = {
     },
     {
       "id": "w0569",
-      "topic_ids": [],
+      "topic_ids": [
+        14
+      ],
       "german": "langweilig",
       "grammar": null,
       "russian": "скучный",
@@ -5200,7 +6032,9 @@ var KB_DATA = {
     },
     {
       "id": "w0570",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "der/das Laptop, die Laptops",
       "grammar": null,
       "russian": "ноутбук",
@@ -5218,7 +6052,9 @@ var KB_DATA = {
     },
     {
       "id": "w0572",
-      "topic_ids": [],
+      "topic_ids": [
+        9
+      ],
       "german": "laufen",
       "grammar": "läuft, ist gelaufen",
       "russian": "бежать, ходить",
@@ -5326,7 +6162,9 @@ var KB_DATA = {
     },
     {
       "id": "w0584",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "lernen",
       "grammar": "lernt, hat gelernt",
       "russian": "учиться, учить",
@@ -5335,7 +6173,10 @@ var KB_DATA = {
     },
     {
       "id": "w0585",
-      "topic_ids": [],
+      "topic_ids": [
+        5,
+        8
+      ],
       "german": "lesen",
       "grammar": "liest, hat gelesen",
       "russian": "читать",
@@ -5344,7 +6185,9 @@ var KB_DATA = {
     },
     {
       "id": "w0586",
-      "topic_ids": [],
+      "topic_ids": [
+        13
+      ],
       "german": "letzt-",
       "grammar": null,
       "russian": "последний",
@@ -5362,7 +6205,9 @@ var KB_DATA = {
     },
     {
       "id": "w0588",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "das Licht",
       "grammar": "das Licht, die Lichter",
       "russian": "свет, освещение",
@@ -5380,7 +6225,10 @@ var KB_DATA = {
     },
     {
       "id": "w0590",
-      "topic_ids": [],
+      "topic_ids": [
+        1,
+        14
+      ],
       "german": "lieben",
       "grammar": "liebt, hat geliebt",
       "russian": "любить",
@@ -5398,7 +6246,9 @@ var KB_DATA = {
     },
     {
       "id": "w0592",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "das Lied",
       "grammar": "das Lied, die Lieder",
       "russian": "песня",
@@ -5407,7 +6257,9 @@ var KB_DATA = {
     },
     {
       "id": "w0593",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "liefern",
       "grammar": "liefert, hat geliefert",
       "russian": "доставлять, привозить",
@@ -5425,7 +6277,9 @@ var KB_DATA = {
     },
     {
       "id": "w0595",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "der Link",
       "grammar": "der Link, die Links",
       "russian": "ссылка (интернет)",
@@ -5434,7 +6288,9 @@ var KB_DATA = {
     },
     {
       "id": "w0596",
-      "topic_ids": [],
+      "topic_ids": [
+        15
+      ],
       "german": "links",
       "grammar": null,
       "russian": "налево, слева",
@@ -5443,7 +6299,9 @@ var KB_DATA = {
     },
     {
       "id": "w0597",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "der Löffel",
       "grammar": "der Löffel, die Löffel",
       "russian": "ложка",
@@ -5452,7 +6310,9 @@ var KB_DATA = {
     },
     {
       "id": "w0598",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "das Lokal",
       "grammar": "das Lokal, die Lokale",
       "russian": "местный; кафе/ресторан (разг.)",
@@ -5479,7 +6339,9 @@ var KB_DATA = {
     },
     {
       "id": "w0601",
-      "topic_ids": [],
+      "topic_ids": [
+        14
+      ],
       "german": "die Lust (Sg.)",
       "grammar": null,
       "russian": "желание, охота; Lust haben — хотеть, иметь желание",
@@ -5488,7 +6350,9 @@ var KB_DATA = {
     },
     {
       "id": "w0602",
-      "topic_ids": [],
+      "topic_ids": [
+        14
+      ],
       "german": "lustig",
       "grammar": null,
       "russian": "весёлый, смешной",
@@ -5506,7 +6370,9 @@ var KB_DATA = {
     },
     {
       "id": "w0604",
-      "topic_ids": [],
+      "topic_ids": [
+        1
+      ],
       "german": "das Mädchen",
       "grammar": "das Mädchen, die Mädchen",
       "russian": "девочка, девушка",
@@ -5515,7 +6381,9 @@ var KB_DATA = {
     },
     {
       "id": "w0605",
-      "topic_ids": [],
+      "topic_ids": [
+        7
+      ],
       "german": "der Magen",
       "grammar": "der Magen, die Mägen",
       "russian": "желудок",
@@ -5524,7 +6392,9 @@ var KB_DATA = {
     },
     {
       "id": "w0606",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "die Mailbox",
       "grammar": "die Mailbox, die Mailboxen",
       "russian": "почтовый ящик (электронный)",
@@ -5542,7 +6412,9 @@ var KB_DATA = {
     },
     {
       "id": "w0608",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "malen",
       "grammar": "malt, hat gemalt",
       "russian": "рисовать",
@@ -5569,7 +6441,9 @@ var KB_DATA = {
     },
     {
       "id": "w0611",
-      "topic_ids": [],
+      "topic_ids": [
+        13
+      ],
       "german": "manchmal",
       "grammar": null,
       "russian": "иногда",
@@ -5578,7 +6452,9 @@ var KB_DATA = {
     },
     {
       "id": "w0612",
-      "topic_ids": [],
+      "topic_ids": [
+        1
+      ],
       "german": "der Mann",
       "grammar": "der Mann, die Manner",
       "russian": "мужчина; муж",
@@ -5596,7 +6472,9 @@ var KB_DATA = {
     },
     {
       "id": "w0614",
-      "topic_ids": [],
+      "topic_ids": [
+        9
+      ],
       "german": "die Mannschaft",
       "grammar": "die Mannschaft, die Mannschaften",
       "russian": "команда (спортивная)",
@@ -5605,7 +6483,9 @@ var KB_DATA = {
     },
     {
       "id": "w0615",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "der Mantel",
       "grammar": "der Mantel, die Mäntel",
       "russian": "пальто",
@@ -5614,7 +6494,10 @@ var KB_DATA = {
     },
     {
       "id": "w0616",
-      "topic_ids": [],
+      "topic_ids": [
+        10,
+        15
+      ],
       "german": "der Markt",
       "grammar": "der Markt, die Märkte",
       "russian": "рынок",
@@ -5623,7 +6506,9 @@ var KB_DATA = {
     },
     {
       "id": "w0617",
-      "topic_ids": [],
+      "topic_ids": [
+        4
+      ],
       "german": "die Maschine",
       "grammar": "die Maschine, die Maschinen",
       "russian": "машина, станок",
@@ -5632,7 +6517,9 @@ var KB_DATA = {
     },
     {
       "id": "w0618",
-      "topic_ids": [],
+      "topic_ids": [
+        7
+      ],
       "german": "das Medikament",
       "grammar": "das Medikament, die Medikamente",
       "russian": "лекарство",
@@ -5641,7 +6528,10 @@ var KB_DATA = {
     },
     {
       "id": "w0619",
-      "topic_ids": [],
+      "topic_ids": [
+        12,
+        6
+      ],
       "german": "das Meer",
       "grammar": "das Meer, die Meere",
       "russian": "море",
@@ -5722,7 +6612,9 @@ var KB_DATA = {
     },
     {
       "id": "w0628",
-      "topic_ids": [],
+      "topic_ids": [
+        4
+      ],
       "german": "die Messe",
       "grammar": "die Messe, die Messen",
       "russian": "ярмарка; выставка",
@@ -5731,7 +6623,9 @@ var KB_DATA = {
     },
     {
       "id": "w0629",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "das Messer",
       "grammar": "das Messer, die Messer",
       "russian": "нож",
@@ -5740,7 +6634,9 @@ var KB_DATA = {
     },
     {
       "id": "w0630",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "die Miete",
       "grammar": "die Miete, die Mieten",
       "russian": "аренда, квартплата",
@@ -5749,7 +6645,9 @@ var KB_DATA = {
     },
     {
       "id": "w0631",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "mieten",
       "grammar": "mietet, hat gemietet",
       "russian": "снимать (квартиру, машину)",
@@ -5758,7 +6656,9 @@ var KB_DATA = {
     },
     {
       "id": "w0632",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "die Milch (Sg.)",
       "grammar": null,
       "russian": "молоко",
@@ -5776,7 +6676,9 @@ var KB_DATA = {
     },
     {
       "id": "w0634",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "das Mineralwasser (Sg.)",
       "grammar": null,
       "russian": "минеральная вода",
@@ -5794,7 +6696,9 @@ var KB_DATA = {
     },
     {
       "id": "w0636",
-      "topic_ids": [],
+      "topic_ids": [
+        4
+      ],
       "german": "der Mitarbeiter",
       "grammar": "der Mitarbeiter, die Mitarbeiter",
       "russian": "сотрудник, коллега",
@@ -5803,7 +6707,9 @@ var KB_DATA = {
     },
     {
       "id": "w0637",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "das Mittagessen",
       "grammar": "das Mittagessen, die Mittagessen",
       "russian": "обед",
@@ -5830,7 +6736,9 @@ var KB_DATA = {
     },
     {
       "id": "w0640",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "die Möbel (Pl.)",
       "grammar": null,
       "russian": "мебель",
@@ -5839,7 +6747,9 @@ var KB_DATA = {
     },
     {
       "id": "w0641",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "das Mobiltelefon",
       "grammar": "das Mobiltelefon, die Mobiltelefone",
       "russian": "мобильный телефон",
@@ -5857,7 +6767,9 @@ var KB_DATA = {
     },
     {
       "id": "w0643",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "die Mode",
       "grammar": "die Mode, die Moden",
       "russian": "мода",
@@ -5893,7 +6805,9 @@ var KB_DATA = {
     },
     {
       "id": "w0647",
-      "topic_ids": [],
+      "topic_ids": [
+        13
+      ],
       "german": "der Moment",
       "grammar": "der Moment, die Momente",
       "russian": "момент, минута",
@@ -5902,7 +6816,9 @@ var KB_DATA = {
     },
     {
       "id": "w0648",
-      "topic_ids": [],
+      "topic_ids": [
+        13
+      ],
       "german": "morgen",
       "grammar": null,
       "russian": "завтра",
@@ -5911,7 +6827,9 @@ var KB_DATA = {
     },
     {
       "id": "w0649",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "der Motor",
       "grammar": "der Motor, die Motoren",
       "russian": "мотор, двигатель",
@@ -5920,7 +6838,9 @@ var KB_DATA = {
     },
     {
       "id": "w0650",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "der Motorroller",
       "grammar": "der Motorroller, die Motorroller",
       "russian": "мотороллер, скутер",
@@ -5929,7 +6849,10 @@ var KB_DATA = {
     },
     {
       "id": "w0651",
-      "topic_ids": [],
+      "topic_ids": [
+        7,
+        14
+      ],
       "german": "müde",
       "grammar": null,
       "russian": "уставший, сонный",
@@ -5938,7 +6861,9 @@ var KB_DATA = {
     },
     {
       "id": "w0652",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "der Müll (Sg.)",
       "grammar": null,
       "russian": "мусор",
@@ -5947,7 +6872,9 @@ var KB_DATA = {
     },
     {
       "id": "w0653",
-      "topic_ids": [],
+      "topic_ids": [
+        7
+      ],
       "german": "der Mund",
       "grammar": "der Mund, die Munder",
       "russian": "рот",
@@ -5956,7 +6883,10 @@ var KB_DATA = {
     },
     {
       "id": "w0654",
-      "topic_ids": [],
+      "topic_ids": [
+        8,
+        15
+      ],
       "german": "das Museum",
       "grammar": "das Museum, die Museumeen",
       "russian": "музей",
@@ -5965,7 +6895,9 @@ var KB_DATA = {
     },
     {
       "id": "w0655",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "die Musik (Sg.)",
       "grammar": null,
       "russian": "музыка",
@@ -5983,7 +6915,9 @@ var KB_DATA = {
     },
     {
       "id": "w0657",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "die Mütze",
       "grammar": "die Mütze, die Mützen",
       "russian": "шапка, шапочка",
@@ -6001,7 +6935,9 @@ var KB_DATA = {
     },
     {
       "id": "w0659",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "der Nachbar",
       "grammar": "der Nachbar, die Nachbarn / Nachbarin, / Nachbarinnen",
       "russian": "сосед (муж.)",
@@ -6010,7 +6946,9 @@ var KB_DATA = {
     },
     {
       "id": "w0660",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "die Nachricht",
       "grammar": "die Nachricht, die Nachrichten",
       "russian": "сообщение, новость",
@@ -6019,7 +6957,9 @@ var KB_DATA = {
     },
     {
       "id": "w0661",
-      "topic_ids": [],
+      "topic_ids": [
+        13
+      ],
       "german": "nächste, -er, -es",
       "grammar": null,
       "russian": "следующий, ближайший",
@@ -6028,7 +6968,9 @@ var KB_DATA = {
     },
     {
       "id": "w0662",
-      "topic_ids": [],
+      "topic_ids": [
+        15
+      ],
       "german": "die Nähe (Sg.)",
       "grammar": null,
       "russian": "близость; in der Nähe — поблизости, рядом",
@@ -6046,7 +6988,9 @@ var KB_DATA = {
     },
     {
       "id": "w0664",
-      "topic_ids": [],
+      "topic_ids": [
+        12
+      ],
       "german": "nass",
       "grammar": null,
       "russian": "мокрый, влажный",
@@ -6055,7 +6999,9 @@ var KB_DATA = {
     },
     {
       "id": "w0665",
-      "topic_ids": [],
+      "topic_ids": [
+        12
+      ],
       "german": "die Natur (Sg.)",
       "grammar": null,
       "russian": "природа",
@@ -6082,7 +7028,9 @@ var KB_DATA = {
     },
     {
       "id": "w0668",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "nebenan",
       "grammar": null,
       "russian": "по соседству, рядом",
@@ -6091,7 +7039,9 @@ var KB_DATA = {
     },
     {
       "id": "w0669",
-      "topic_ids": [],
+      "topic_ids": [
+        12
+      ],
       "german": "neblig",
       "grammar": null,
       "russian": "туманный",
@@ -6127,7 +7077,9 @@ var KB_DATA = {
     },
     {
       "id": "w0673",
-      "topic_ids": [],
+      "topic_ids": [
+        14
+      ],
       "german": "nervös",
       "grammar": null,
       "russian": "нервный, нервничать",
@@ -6136,7 +7088,9 @@ var KB_DATA = {
     },
     {
       "id": "w0674",
-      "topic_ids": [],
+      "topic_ids": [
+        14
+      ],
       "german": "nett",
       "grammar": null,
       "russian": "милый, приятный",
@@ -6217,7 +7171,9 @@ var KB_DATA = {
     },
     {
       "id": "w0683",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "die Note",
       "grammar": "die Note, die Noten",
       "russian": "оценка (школьная); нота",
@@ -6226,7 +7182,9 @@ var KB_DATA = {
     },
     {
       "id": "w0684",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "notieren",
       "grammar": "notiert, hat notiert",
       "russian": "записывать, отмечать",
@@ -6235,7 +7193,9 @@ var KB_DATA = {
     },
     {
       "id": "w0685",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "die Notiz",
       "grammar": "die Notiz, die Notizen",
       "russian": "заметка, запись",
@@ -6253,7 +7213,9 @@ var KB_DATA = {
     },
     {
       "id": "w0687",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "die Nudel",
       "grammar": "die Nudel, die Nudeln",
       "russian": "лапша, макароны",
@@ -6325,7 +7287,9 @@ var KB_DATA = {
     },
     {
       "id": "w0695",
-      "topic_ids": [],
+      "topic_ids": [
+        7
+      ],
       "german": "das Ohr",
       "grammar": "das Ohr, die Ohren",
       "russian": "ухо",
@@ -6334,7 +7298,9 @@ var KB_DATA = {
     },
     {
       "id": "w0696",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "das Öl",
       "grammar": "das Öl, die Öle",
       "russian": "масло (растительное, моторное)",
@@ -6343,7 +7309,9 @@ var KB_DATA = {
     },
     {
       "id": "w0697",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "online",
       "grammar": null,
       "russian": "онлайн",
@@ -6352,7 +7320,9 @@ var KB_DATA = {
     },
     {
       "id": "w0698",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "die Orange",
       "grammar": "die Orange, die Orangen",
       "russian": "апельсин",
@@ -6379,7 +7349,9 @@ var KB_DATA = {
     },
     {
       "id": "w0701",
-      "topic_ids": [],
+      "topic_ids": [
+        15
+      ],
       "german": "der Ort",
       "grammar": "der Ort, die Orte",
       "russian": "место, населённый пункт",
@@ -6388,7 +7360,9 @@ var KB_DATA = {
     },
     {
       "id": "w0702",
-      "topic_ids": [],
+      "topic_ids": [
+        1
+      ],
       "german": "das Paar",
       "grammar": "das Paar, die Paare",
       "russian": "пара",
@@ -6406,7 +7380,9 @@ var KB_DATA = {
     },
     {
       "id": "w0704",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "packen",
       "grammar": "packt, hat gepackt",
       "russian": "паковать, укладывать",
@@ -6415,7 +7391,9 @@ var KB_DATA = {
     },
     {
       "id": "w0705",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "das Paket",
       "grammar": "das Paket, die Pakete",
       "russian": "посылка, пакет",
@@ -6424,7 +7402,9 @@ var KB_DATA = {
     },
     {
       "id": "w0706",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "das Papier",
       "grammar": "das Papier, die Papiere",
       "russian": "бумага; Papiere — документы",
@@ -6442,7 +7422,9 @@ var KB_DATA = {
     },
     {
       "id": "w0708",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "das Parfum",
       "grammar": "das Parfum, die Parfums",
       "russian": "духи",
@@ -6451,7 +7433,10 @@ var KB_DATA = {
     },
     {
       "id": "w0709",
-      "topic_ids": [],
+      "topic_ids": [
+        15,
+        12
+      ],
       "german": "der Park",
       "grammar": "der Park, die Parks",
       "russian": "парк",
@@ -6460,7 +7445,9 @@ var KB_DATA = {
     },
     {
       "id": "w0710",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "parken",
       "grammar": "parkt, hat geparkt",
       "russian": "парковать(ся)",
@@ -6469,7 +7456,9 @@ var KB_DATA = {
     },
     {
       "id": "w0711",
-      "topic_ids": [],
+      "topic_ids": [
+        1
+      ],
       "german": "der Partner",
       "grammar": "der Partner, die Partner / Partnerin, / Partnerinnen",
       "russian": "партнёр",
@@ -6478,7 +7467,10 @@ var KB_DATA = {
     },
     {
       "id": "w0712",
-      "topic_ids": [],
+      "topic_ids": [
+        8,
+        1
+      ],
       "german": "die Party",
       "grammar": "die Party, die Partys",
       "russian": "вечеринка",
@@ -6487,7 +7479,9 @@ var KB_DATA = {
     },
     {
       "id": "w0713",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "der Pass",
       "grammar": "der Pass, die Passe",
       "russian": "паспорт; горный перевал",
@@ -6496,7 +7490,9 @@ var KB_DATA = {
     },
     {
       "id": "w0714",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "passen",
       "grammar": "passt, hat gepasst",
       "russian": "подходить, подходить по размеру; соответствовать",
@@ -6514,7 +7510,9 @@ var KB_DATA = {
     },
     {
       "id": "w0716",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "das Passwort",
       "grammar": "das Passwort, die Passwörter",
       "russian": "пароль",
@@ -6523,7 +7521,10 @@ var KB_DATA = {
     },
     {
       "id": "w0717",
-      "topic_ids": [],
+      "topic_ids": [
+        4,
+        5
+      ],
       "german": "die Pause",
       "grammar": "die Pause, die Pausen",
       "russian": "перерыв, пауза",
@@ -6541,7 +7542,9 @@ var KB_DATA = {
     },
     {
       "id": "w0719",
-      "topic_ids": [],
+      "topic_ids": [
+        12
+      ],
       "german": "das Pferd",
       "grammar": "das Pferd, die Pferde",
       "russian": "лошадь",
@@ -6550,7 +7553,10 @@ var KB_DATA = {
     },
     {
       "id": "w0720",
-      "topic_ids": [],
+      "topic_ids": [
+        12,
+        3
+      ],
       "german": "die Pflanze",
       "grammar": "die Pflanze, die Pflanzen",
       "russian": "растение",
@@ -6559,7 +7565,9 @@ var KB_DATA = {
     },
     {
       "id": "w0721",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "die Pizza",
       "grammar": "die Pizza, die Pizzas / Pizzen",
       "russian": "пицца",
@@ -6595,7 +7603,9 @@ var KB_DATA = {
     },
     {
       "id": "w0725",
-      "topic_ids": [],
+      "topic_ids": [
+        15
+      ],
       "german": "der Platz",
       "grammar": "der Platz, die Plätze",
       "russian": "место, площадь",
@@ -6613,7 +7623,9 @@ var KB_DATA = {
     },
     {
       "id": "w0727",
-      "topic_ids": [],
+      "topic_ids": [
+        15
+      ],
       "german": "die Polizei (Sg.)",
       "grammar": null,
       "russian": "полиция",
@@ -6622,7 +7634,9 @@ var KB_DATA = {
     },
     {
       "id": "w0728",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "die Pommes frites (Pl.)",
       "grammar": null,
       "russian": "картофель фри",
@@ -6631,7 +7645,9 @@ var KB_DATA = {
     },
     {
       "id": "w0729",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "die Portion",
       "grammar": "die Portion, die Portionen",
       "russian": "порция",
@@ -6640,7 +7656,10 @@ var KB_DATA = {
     },
     {
       "id": "w0730",
-      "topic_ids": [],
+      "topic_ids": [
+        11,
+        15
+      ],
       "german": "die Post (Sg.)",
       "grammar": null,
       "russian": "почта",
@@ -6649,7 +7668,9 @@ var KB_DATA = {
     },
     {
       "id": "w0731",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "das Poster",
       "grammar": "das Poster, die Poster",
       "russian": "постер, плакат",
@@ -6658,7 +7679,10 @@ var KB_DATA = {
     },
     {
       "id": "w0732",
-      "topic_ids": [],
+      "topic_ids": [
+        6,
+        11
+      ],
       "german": "die Postkarte",
       "grammar": "die Postkarte, die Postkarten",
       "russian": "открытка",
@@ -6667,7 +7691,9 @@ var KB_DATA = {
     },
     {
       "id": "w0733",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "die Postleitzahl",
       "grammar": "die Postleitzahl, die Postleitzahlen",
       "russian": "почтовый индекс",
@@ -6676,7 +7702,9 @@ var KB_DATA = {
     },
     {
       "id": "w0734",
-      "topic_ids": [],
+      "topic_ids": [
+        4
+      ],
       "german": "das Praktikum",
       "grammar": "das Praktikum, die Praktikuma",
       "russian": "практика, стажировка",
@@ -6694,7 +7722,9 @@ var KB_DATA = {
     },
     {
       "id": "w0736",
-      "topic_ids": [],
+      "topic_ids": [
+        7
+      ],
       "german": "die Praxis",
       "grammar": "die Praxis, die Praxisen",
       "russian": "практика; врачебный кабинет",
@@ -6703,7 +7733,9 @@ var KB_DATA = {
     },
     {
       "id": "w0737",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "der Preis",
       "grammar": "der Preis, die Preise",
       "russian": "цена; приз",
@@ -6712,7 +7744,9 @@ var KB_DATA = {
     },
     {
       "id": "w0738",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "preiswert",
       "grammar": null,
       "russian": "выгодный, недорогой",
@@ -6739,7 +7773,9 @@ var KB_DATA = {
     },
     {
       "id": "w0741",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "probieren",
       "grammar": "probiert, hat probiert",
       "russian": "пробовать",
@@ -6757,7 +7793,9 @@ var KB_DATA = {
     },
     {
       "id": "w0743",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "das Produkt",
       "grammar": "das Produkt, die Produkte",
       "russian": "продукт, товар",
@@ -6766,7 +7804,10 @@ var KB_DATA = {
     },
     {
       "id": "w0744",
-      "topic_ids": [],
+      "topic_ids": [
+        8,
+        11
+      ],
       "german": "das Programm",
       "grammar": "das Programm, die Programme",
       "russian": "программа",
@@ -6775,7 +7816,10 @@ var KB_DATA = {
     },
     {
       "id": "w0745",
-      "topic_ids": [],
+      "topic_ids": [
+        4,
+        5
+      ],
       "german": "das Projekt",
       "grammar": "das Projekt, die Projekte",
       "russian": "проект",
@@ -6784,7 +7828,9 @@ var KB_DATA = {
     },
     {
       "id": "w0746",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "der Prospekt",
       "grammar": "der Prospekt, die Prospekte",
       "russian": "проспект, брошюра",
@@ -6793,7 +7839,9 @@ var KB_DATA = {
     },
     {
       "id": "w0747",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "prüfen",
       "grammar": "prüft, hat geprüft",
       "russian": "проверять",
@@ -6802,7 +7850,9 @@ var KB_DATA = {
     },
     {
       "id": "w0748",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "die Prüfung",
       "grammar": "die Prüfung, die Prüfungen",
       "russian": "экзамен, зачёт",
@@ -6811,7 +7861,9 @@ var KB_DATA = {
     },
     {
       "id": "w0749",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "der Pullover",
       "grammar": "der Pullover, die Pullover",
       "russian": "пуловер, свитер",
@@ -6820,7 +7872,10 @@ var KB_DATA = {
     },
     {
       "id": "w0750",
-      "topic_ids": [],
+      "topic_ids": [
+        13,
+        6
+      ],
       "german": "pünktlich",
       "grammar": null,
       "russian": "пунктуальный, вовремя",
@@ -6829,7 +7884,9 @@ var KB_DATA = {
     },
     {
       "id": "w0751",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "putzen",
       "grammar": "putzt, hat geputzt",
       "russian": "чистить, убирать",
@@ -6838,7 +7895,9 @@ var KB_DATA = {
     },
     {
       "id": "w0752",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "die Qualität",
       "grammar": "die Qualität, die Qualitäten",
       "russian": "качество",
@@ -6847,7 +7906,10 @@ var KB_DATA = {
     },
     {
       "id": "w0753",
-      "topic_ids": [],
+      "topic_ids": [
+        8,
+        5
+      ],
       "german": "das Quiz (Sg.)",
       "grammar": null,
       "russian": "викторина",
@@ -6856,7 +7918,9 @@ var KB_DATA = {
     },
     {
       "id": "w0754",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "das Radio",
       "grammar": "das Radio, die Radios",
       "russian": "радио",
@@ -6874,7 +7938,9 @@ var KB_DATA = {
     },
     {
       "id": "w0756",
-      "topic_ids": [],
+      "topic_ids": [
+        15
+      ],
       "german": "das Rathaus",
       "grammar": "das Rathaus, die Rathäuser",
       "russian": "ратуша, мэрия",
@@ -6883,7 +7949,9 @@ var KB_DATA = {
     },
     {
       "id": "w0757",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "das Rätsel",
       "grammar": "das Rätsel, die Rätsel",
       "russian": "загадка, головоломка",
@@ -6892,7 +7960,9 @@ var KB_DATA = {
     },
     {
       "id": "w0758",
-      "topic_ids": [],
+      "topic_ids": [
+        7
+      ],
       "german": "rauchen",
       "grammar": "raucht, hat geraucht",
       "russian": "курить",
@@ -6901,7 +7971,9 @@ var KB_DATA = {
     },
     {
       "id": "w0759",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "der Raum",
       "grammar": "der Raum, die Räume",
       "russian": "комната; помещение; пространство",
@@ -6910,7 +7982,9 @@ var KB_DATA = {
     },
     {
       "id": "w0760",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "rechnen",
       "grammar": "rechnet, hat gerechnet",
       "russian": "считать (арифметика)",
@@ -6919,7 +7993,9 @@ var KB_DATA = {
     },
     {
       "id": "w0761",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "die Rechnung",
       "grammar": "die Rechnung, die Rechnungen",
       "russian": "счёт (в ресторане); счёт (к оплате)",
@@ -6937,7 +8013,9 @@ var KB_DATA = {
     },
     {
       "id": "w0763",
-      "topic_ids": [],
+      "topic_ids": [
+        15
+      ],
       "german": "rechts",
       "grammar": null,
       "russian": "направо, справа",
@@ -6955,7 +8033,9 @@ var KB_DATA = {
     },
     {
       "id": "w0765",
-      "topic_ids": [],
+      "topic_ids": [
+        12
+      ],
       "german": "der Regen (Sg.)",
       "grammar": null,
       "russian": "дождь",
@@ -6964,7 +8044,9 @@ var KB_DATA = {
     },
     {
       "id": "w0766",
-      "topic_ids": [],
+      "topic_ids": [
+        12
+      ],
       "german": "regnen",
       "grammar": "regnet, hat geregnet",
       "russian": "идти (о дожде)",
@@ -6982,7 +8064,9 @@ var KB_DATA = {
     },
     {
       "id": "w0768",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "der Reifen",
       "grammar": "der Reifen, die Reifen",
       "russian": "шина (автомобильная)",
@@ -7000,7 +8084,9 @@ var KB_DATA = {
     },
     {
       "id": "w0770",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "die Reinigung",
       "grammar": "die Reinigung, die Reinigungen",
       "russian": "химчистка; уборка",
@@ -7009,7 +8095,9 @@ var KB_DATA = {
     },
     {
       "id": "w0771",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "der Reis (Sg.)",
       "grammar": null,
       "russian": "рис",
@@ -7018,7 +8106,9 @@ var KB_DATA = {
     },
     {
       "id": "w0772",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "die Reise",
       "grammar": "die Reise, die Reisen",
       "russian": "путешествие, поездка",
@@ -7027,7 +8117,10 @@ var KB_DATA = {
     },
     {
       "id": "w0773",
-      "topic_ids": [],
+      "topic_ids": [
+        6,
+        15
+      ],
       "german": "das Reisebüro",
       "grammar": "das Reisebüro, die Reisebüros",
       "russian": "туристическое агентство",
@@ -7036,7 +8129,9 @@ var KB_DATA = {
     },
     {
       "id": "w0774",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "der Reiseführer",
       "grammar": "der Reiseführer, die Reiseführer",
       "russian": "путеводитель; гид",
@@ -7045,7 +8140,9 @@ var KB_DATA = {
     },
     {
       "id": "w0775",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "reisen",
       "grammar": "reist, ist gereist",
       "russian": "путешествовать",
@@ -7054,7 +8151,9 @@ var KB_DATA = {
     },
     {
       "id": "w0776",
-      "topic_ids": [],
+      "topic_ids": [
+        9
+      ],
       "german": "reiten",
       "grammar": "reitet, ist geritten",
       "russian": "ехать верхом, кататься на лошади",
@@ -7063,7 +8162,9 @@ var KB_DATA = {
     },
     {
       "id": "w0777",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "renovieren",
       "grammar": "renoviert, hat renoviert",
       "russian": "ремонтировать, делать ремонт",
@@ -7072,7 +8173,9 @@ var KB_DATA = {
     },
     {
       "id": "w0778",
-      "topic_ids": [],
+      "topic_ids": [
+        4
+      ],
       "german": "der Rentner",
       "grammar": "der Rentner, die Rentner / Rentnerin, / Rentnerinnen",
       "russian": "пенсионер",
@@ -7099,7 +8202,10 @@ var KB_DATA = {
     },
     {
       "id": "w0781",
-      "topic_ids": [],
+      "topic_ids": [
+        6,
+        2
+      ],
       "german": "reservieren",
       "grammar": "reserviert, hat reserviert",
       "russian": "резервировать, бронировать",
@@ -7117,7 +8223,10 @@ var KB_DATA = {
     },
     {
       "id": "w0783",
-      "topic_ids": [],
+      "topic_ids": [
+        2,
+        15
+      ],
       "german": "das Restaurant",
       "grammar": "das Restaurant, die Restaurants",
       "russian": "ресторан",
@@ -7126,7 +8235,10 @@ var KB_DATA = {
     },
     {
       "id": "w0784",
-      "topic_ids": [],
+      "topic_ids": [
+        2,
+        7
+      ],
       "german": "das Rezept",
       "grammar": "das Rezept, die Rezepte",
       "russian": "рецепт (кулинарный); рецепт (медицинский)",
@@ -7135,7 +8247,9 @@ var KB_DATA = {
     },
     {
       "id": "w0785",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "die Rezeption",
       "grammar": "die Rezeption, die Rezeptionen",
       "russian": "ресепшн, стойка регистрации",
@@ -7162,7 +8276,9 @@ var KB_DATA = {
     },
     {
       "id": "w0788",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "das Rind",
       "grammar": null,
       "russian": "говядина; крупный рогатый скот",
@@ -7171,7 +8287,10 @@ var KB_DATA = {
     },
     {
       "id": "w0789",
-      "topic_ids": [],
+      "topic_ids": [
+        1,
+        10
+      ],
       "german": "der Ring",
       "grammar": "der Ring, die Ringe",
       "russian": "кольцо",
@@ -7180,7 +8299,9 @@ var KB_DATA = {
     },
     {
       "id": "w0790",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "der Rock",
       "grammar": "der Rock, die Röcke",
       "russian": "юбка",
@@ -7189,7 +8310,10 @@ var KB_DATA = {
     },
     {
       "id": "w0791",
-      "topic_ids": [],
+      "topic_ids": [
+        1,
+        14
+      ],
       "german": "romantisch",
       "grammar": null,
       "russian": "романтичный",
@@ -7198,7 +8322,9 @@ var KB_DATA = {
     },
     {
       "id": "w0792",
-      "topic_ids": [],
+      "topic_ids": [
+        12
+      ],
       "german": "die Rose",
       "grammar": "die Rose, die Rosen",
       "russian": "роза",
@@ -7207,7 +8333,9 @@ var KB_DATA = {
     },
     {
       "id": "w0793",
-      "topic_ids": [],
+      "topic_ids": [
+        7
+      ],
       "german": "der Rücken",
       "grammar": "der Rücken, die Rücken",
       "russian": "спина",
@@ -7216,7 +8344,9 @@ var KB_DATA = {
     },
     {
       "id": "w0794",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "der Rucksack",
       "grammar": "der Rucksack, die Rucksäcke",
       "russian": "рюкзак",
@@ -7234,7 +8364,9 @@ var KB_DATA = {
     },
     {
       "id": "w0796",
-      "topic_ids": [],
+      "topic_ids": [
+        14
+      ],
       "german": "die Ruhe (Sg.)",
       "grammar": null,
       "russian": "покой, тишина, спокойствие",
@@ -7243,7 +8375,9 @@ var KB_DATA = {
     },
     {
       "id": "w0797",
-      "topic_ids": [],
+      "topic_ids": [
+        14
+      ],
       "german": "ruhig",
       "grammar": null,
       "russian": "спокойный, тихий",
@@ -7261,7 +8395,10 @@ var KB_DATA = {
     },
     {
       "id": "w0799",
-      "topic_ids": [],
+      "topic_ids": [
+        8,
+        6
+      ],
       "german": "der Rundgang",
       "grammar": "der Rundgang, die Rundgänge",
       "russian": "обход, экскурсия по кругу",
@@ -7279,7 +8416,9 @@ var KB_DATA = {
     },
     {
       "id": "w0801",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "der Saft",
       "grammar": "der Saft, die Säfte",
       "russian": "сок",
@@ -7297,7 +8436,9 @@ var KB_DATA = {
     },
     {
       "id": "w0803",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "der Salat",
       "grammar": "der Salat, die Salate",
       "russian": "салат",
@@ -7306,7 +8447,9 @@ var KB_DATA = {
     },
     {
       "id": "w0804",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "das Salz",
       "grammar": "das Salz, die Salze",
       "russian": "соль",
@@ -7315,7 +8458,9 @@ var KB_DATA = {
     },
     {
       "id": "w0805",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "sammeln",
       "grammar": "sammelt, hat gesammelt",
       "russian": "собирать, коллекционировать",
@@ -7324,7 +8469,9 @@ var KB_DATA = {
     },
     {
       "id": "w0806",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "der Satz",
       "grammar": "der Satz, die Sätze",
       "russian": "предложение (грам.); фраза",
@@ -7333,7 +8480,9 @@ var KB_DATA = {
     },
     {
       "id": "w0807",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "sauber",
       "grammar": null,
       "russian": "чистый",
@@ -7342,7 +8491,10 @@ var KB_DATA = {
     },
     {
       "id": "w0808",
-      "topic_ids": [],
+      "topic_ids": [
+        2,
+        14
+      ],
       "german": "sauer",
       "grammar": null,
       "russian": "кислый; сердитый (разг.)",
@@ -7360,7 +8512,9 @@ var KB_DATA = {
     },
     {
       "id": "w0810",
-      "topic_ids": [],
+      "topic_ids": [
+        7
+      ],
       "german": "schädlich",
       "grammar": null,
       "russian": "вредный",
@@ -7378,7 +8532,9 @@ var KB_DATA = {
     },
     {
       "id": "w0812",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "der Schalter",
       "grammar": "der Schalter, die Schalter",
       "russian": "стойка (касса, окно обслуживания); выключатель",
@@ -7387,7 +8543,9 @@ var KB_DATA = {
     },
     {
       "id": "w0813",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "scharf",
       "grammar": null,
       "russian": "острый; пряный",
@@ -7396,7 +8554,9 @@ var KB_DATA = {
     },
     {
       "id": "w0814",
-      "topic_ids": [],
+      "topic_ids": [
+        12
+      ],
       "german": "scheinen",
       "grammar": "scheint, hat geschienen",
       "russian": "светить; казаться",
@@ -7405,7 +8565,9 @@ var KB_DATA = {
     },
     {
       "id": "w0815",
-      "topic_ids": [],
+      "topic_ids": [
+        1
+      ],
       "german": "schenken",
       "grammar": "schenkt, hat geschenkt",
       "russian": "дарить",
@@ -7414,7 +8576,9 @@ var KB_DATA = {
     },
     {
       "id": "w0816",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "die Schere",
       "grammar": "die Schere, die Scheren",
       "russian": "ножницы",
@@ -7423,7 +8587,9 @@ var KB_DATA = {
     },
     {
       "id": "w0817",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "schicken",
       "grammar": "schickt, hat geschickt",
       "russian": "посылать, отправлять",
@@ -7432,7 +8598,9 @@ var KB_DATA = {
     },
     {
       "id": "w0818",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "das Schiff",
       "grammar": "das Schiff, die Schiffe",
       "russian": "корабль, судно",
@@ -7441,7 +8609,10 @@ var KB_DATA = {
     },
     {
       "id": "w0819",
-      "topic_ids": [],
+      "topic_ids": [
+        15,
+        6
+      ],
       "german": "das Schild",
       "grammar": "das Schild, die Schilder",
       "russian": "знак, табличка, вывеска",
@@ -7459,7 +8630,9 @@ var KB_DATA = {
     },
     {
       "id": "w0821",
-      "topic_ids": [],
+      "topic_ids": [
+        12
+      ],
       "german": "der Schirm",
       "grammar": "der Schirm, die Schirme",
       "russian": "зонт(ик); экран",
@@ -7477,7 +8650,9 @@ var KB_DATA = {
     },
     {
       "id": "w0823",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "das Schlafzimmer",
       "grammar": "das Schlafzimmer, die Schlafzimmer",
       "russian": "спальня",
@@ -7513,7 +8688,9 @@ var KB_DATA = {
     },
     {
       "id": "w0827",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "das Schloss",
       "grammar": "das Schloss, die Schlösser",
       "russian": "замок (архитектурный); замок (дверной)",
@@ -7531,7 +8708,9 @@ var KB_DATA = {
     },
     {
       "id": "w0829",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "der Schlüssel",
       "grammar": "der Schlüssel, die Schlüssel",
       "russian": "ключ",
@@ -7540,7 +8719,9 @@ var KB_DATA = {
     },
     {
       "id": "w0830",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "schmecken",
       "grammar": "schmeckt, hat geschmeckt",
       "russian": "иметь вкус; быть вкусным",
@@ -7549,7 +8730,9 @@ var KB_DATA = {
     },
     {
       "id": "w0831",
-      "topic_ids": [],
+      "topic_ids": [
+        7
+      ],
       "german": "der Schmerz",
       "grammar": "der Schmerz, die Schmerzen",
       "russian": "боль",
@@ -7558,7 +8741,9 @@ var KB_DATA = {
     },
     {
       "id": "w0832",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "schmutzig",
       "grammar": null,
       "russian": "грязный",
@@ -7567,7 +8752,9 @@ var KB_DATA = {
     },
     {
       "id": "w0833",
-      "topic_ids": [],
+      "topic_ids": [
+        12
+      ],
       "german": "der Schnee (Sg.)",
       "grammar": null,
       "russian": "снег",
@@ -7576,7 +8763,10 @@ var KB_DATA = {
     },
     {
       "id": "w0834",
-      "topic_ids": [],
+      "topic_ids": [
+        2,
+        7
+      ],
       "german": "schneiden (sich)",
       "grammar": "schneidet, hat geschnitten",
       "russian": "резать; порезаться",
@@ -7585,7 +8775,9 @@ var KB_DATA = {
     },
     {
       "id": "w0835",
-      "topic_ids": [],
+      "topic_ids": [
+        12
+      ],
       "german": "schneien",
       "grammar": "schneit, hat geschneit",
       "russian": "идти (о снеге)",
@@ -7603,7 +8795,9 @@ var KB_DATA = {
     },
     {
       "id": "w0837",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "die Schokolade (Sg.)",
       "grammar": null,
       "russian": "шоколад",
@@ -7630,7 +8824,9 @@ var KB_DATA = {
     },
     {
       "id": "w0840",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "der Schrank",
       "grammar": "der Schrank, die Schränke",
       "russian": "шкаф",
@@ -7648,7 +8844,10 @@ var KB_DATA = {
     },
     {
       "id": "w0842",
-      "topic_ids": [],
+      "topic_ids": [
+        5,
+        11
+      ],
       "german": "schreiben",
       "grammar": "schreibt, hat geschrieben",
       "russian": "писать",
@@ -7657,7 +8856,9 @@ var KB_DATA = {
     },
     {
       "id": "w0843",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "schriftlich",
       "grammar": null,
       "russian": "письменный, письменно",
@@ -7666,7 +8867,9 @@ var KB_DATA = {
     },
     {
       "id": "w0844",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "der Schuh",
       "grammar": "der Schuh, die Schuhe",
       "russian": "ботинок, туфля, обувь",
@@ -7675,7 +8878,9 @@ var KB_DATA = {
     },
     {
       "id": "w0845",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "die Schule",
       "grammar": "die Schule, die Schulen",
       "russian": "школа",
@@ -7684,7 +8889,9 @@ var KB_DATA = {
     },
     {
       "id": "w0846",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "der Schüler",
       "grammar": "der Schüler, die Schüler / Schülerin, / Schülerinnen",
       "russian": "ученик",
@@ -7702,7 +8909,10 @@ var KB_DATA = {
     },
     {
       "id": "w0848",
-      "topic_ids": [],
+      "topic_ids": [
+        1,
+        7
+      ],
       "german": "schwanger",
       "grammar": null,
       "russian": "беременная",
@@ -7711,7 +8921,9 @@ var KB_DATA = {
     },
     {
       "id": "w0849",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "das Schwein",
       "grammar": "das Schwein, die Schweine",
       "russian": "свинья",
@@ -7738,7 +8950,10 @@ var KB_DATA = {
     },
     {
       "id": "w0852",
-      "topic_ids": [],
+      "topic_ids": [
+        9,
+        15
+      ],
       "german": "das Schwimmbad",
       "grammar": "das Schwimmbad, die Schwimmbäder",
       "russian": "плавательный бассейн",
@@ -7747,7 +8962,9 @@ var KB_DATA = {
     },
     {
       "id": "w0853",
-      "topic_ids": [],
+      "topic_ids": [
+        9
+      ],
       "german": "schwimmen",
       "grammar": "schwimmt, ist geschwommen",
       "russian": "плавать",
@@ -7756,7 +8973,9 @@ var KB_DATA = {
     },
     {
       "id": "w0854",
-      "topic_ids": [],
+      "topic_ids": [
+        12
+      ],
       "german": "der See",
       "grammar": "der See, die Seen",
       "russian": "озеро (der See); море (die See)",
@@ -7765,7 +8984,10 @@ var KB_DATA = {
     },
     {
       "id": "w0855",
-      "topic_ids": [],
+      "topic_ids": [
+        12,
+        6
+      ],
       "german": "die See (Sg.)",
       "grammar": null,
       "russian": "озеро",
@@ -7783,7 +9005,10 @@ var KB_DATA = {
     },
     {
       "id": "w0857",
-      "topic_ids": [],
+      "topic_ids": [
+        8,
+        6
+      ],
       "german": "die Sehenswürdigkeit",
       "grammar": "die Sehenswürdigkeit, die Sehenswürdigkeiten",
       "russian": "достопримечательность",
@@ -7801,7 +9026,9 @@ var KB_DATA = {
     },
     {
       "id": "w0859",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "die Seife",
       "grammar": "die Seife, die Seifen",
       "russian": "мыло",
@@ -7819,7 +9046,9 @@ var KB_DATA = {
     },
     {
       "id": "w0861",
-      "topic_ids": [],
+      "topic_ids": [
+        13
+      ],
       "german": "seit",
       "grammar": null,
       "russian": "с (момента), в течение (предлог)",
@@ -7828,7 +9057,9 @@ var KB_DATA = {
     },
     {
       "id": "w0862",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "die Seite",
       "grammar": "die Seite, die Seiten",
       "russian": "страница; сторона",
@@ -7846,7 +9077,9 @@ var KB_DATA = {
     },
     {
       "id": "w0864",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "die Sendung",
       "grammar": "die Sendung, die Sendungen",
       "russian": "передача (ТВ, радио); отправление (посылка)",
@@ -7882,7 +9115,9 @@ var KB_DATA = {
     },
     {
       "id": "w0868",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "singen",
       "grammar": "singt, hat gesungen",
       "russian": "петь",
@@ -7909,7 +9144,9 @@ var KB_DATA = {
     },
     {
       "id": "w0871",
-      "topic_ids": [],
+      "topic_ids": [
+        9
+      ],
       "german": "der Ski",
       "grammar": "der Ski, die Ski / Skier",
       "russian": "лыжа, лыжи",
@@ -7927,7 +9164,9 @@ var KB_DATA = {
     },
     {
       "id": "w0873",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "das Sofa",
       "grammar": "das Sofa, die Sofas",
       "russian": "диван",
@@ -7936,7 +9175,9 @@ var KB_DATA = {
     },
     {
       "id": "w0874",
-      "topic_ids": [],
+      "topic_ids": [
+        13
+      ],
       "german": "sofort",
       "grammar": null,
       "russian": "сразу, немедленно",
@@ -7963,7 +9204,9 @@ var KB_DATA = {
     },
     {
       "id": "w0877",
-      "topic_ids": [],
+      "topic_ids": [
+        12
+      ],
       "german": "die Sonne",
       "grammar": "die Sonne, die Sonnen",
       "russian": "солнце",
@@ -7972,7 +9215,9 @@ var KB_DATA = {
     },
     {
       "id": "w0878",
-      "topic_ids": [],
+      "topic_ids": [
+        12
+      ],
       "german": "sonnig",
       "grammar": null,
       "russian": "солнечный",
@@ -7990,7 +9235,9 @@ var KB_DATA = {
     },
     {
       "id": "w0880",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "spannend",
       "grammar": null,
       "russian": "захватывающий, напряжённый",
@@ -7999,7 +9246,9 @@ var KB_DATA = {
     },
     {
       "id": "w0881",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "sparen",
       "grammar": "spart, hat gespart",
       "russian": "экономить, откладывать (деньги)",
@@ -8008,7 +9257,10 @@ var KB_DATA = {
     },
     {
       "id": "w0882",
-      "topic_ids": [],
+      "topic_ids": [
+        8,
+        14
+      ],
       "german": "der Spaß (Sg.)",
       "grammar": null,
       "russian": "веселье; Spaß machen — быть весёлым; viel Spaß! — желаю веселья!",
@@ -8017,7 +9269,9 @@ var KB_DATA = {
     },
     {
       "id": "w0883",
-      "topic_ids": [],
+      "topic_ids": [
+        13
+      ],
       "german": "spät",
       "grammar": null,
       "russian": "поздний; поздно",
@@ -8026,7 +9280,9 @@ var KB_DATA = {
     },
     {
       "id": "w0884",
-      "topic_ids": [],
+      "topic_ids": [
+        13
+      ],
       "german": "später",
       "grammar": null,
       "russian": "позже",
@@ -8035,7 +9291,10 @@ var KB_DATA = {
     },
     {
       "id": "w0885",
-      "topic_ids": [],
+      "topic_ids": [
+        8,
+        9
+      ],
       "german": "spazieren gehen",
       "grammar": "geht spazieren, ist spazieren gegangen",
       "russian": "гулять, идти на прогулку",
@@ -8044,7 +9303,10 @@ var KB_DATA = {
     },
     {
       "id": "w0886",
-      "topic_ids": [],
+      "topic_ids": [
+        8,
+        9
+      ],
       "german": "der Spaziergang",
       "grammar": "der Spaziergang, die Spaziergänge",
       "russian": "прогулка",
@@ -8053,7 +9315,9 @@ var KB_DATA = {
     },
     {
       "id": "w0887",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "speichern",
       "grammar": "speichert, hat gespeichert",
       "russian": "сохранять (файл)",
@@ -8062,7 +9326,9 @@ var KB_DATA = {
     },
     {
       "id": "w0888",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "die Speisekarte",
       "grammar": "die Speisekarte, die Speisekarten",
       "russian": "меню",
@@ -8071,7 +9337,10 @@ var KB_DATA = {
     },
     {
       "id": "w0889",
-      "topic_ids": [],
+      "topic_ids": [
+        8,
+        9
+      ],
       "german": "das Spiel",
       "grammar": "das Spiel, die Spiele",
       "russian": "игра",
@@ -8080,7 +9349,10 @@ var KB_DATA = {
     },
     {
       "id": "w0890",
-      "topic_ids": [],
+      "topic_ids": [
+        8,
+        9
+      ],
       "german": "spielen",
       "grammar": "spielt, hat gespielt",
       "russian": "играть",
@@ -8089,7 +9361,9 @@ var KB_DATA = {
     },
     {
       "id": "w0891",
-      "topic_ids": [],
+      "topic_ids": [
+        9
+      ],
       "german": "der Sport (Sg.)",
       "grammar": null,
       "russian": "спорт",
@@ -8098,7 +9372,9 @@ var KB_DATA = {
     },
     {
       "id": "w0892",
-      "topic_ids": [],
+      "topic_ids": [
+        9
+      ],
       "german": "sportlich",
       "grammar": null,
       "russian": "спортивный",
@@ -8107,7 +9383,10 @@ var KB_DATA = {
     },
     {
       "id": "w0893",
-      "topic_ids": [],
+      "topic_ids": [
+        9,
+        15
+      ],
       "german": "der Sportplatz",
       "grammar": "der Sportplatz, die Sportplätze",
       "russian": "спортивная площадка",
@@ -8116,7 +9395,9 @@ var KB_DATA = {
     },
     {
       "id": "w0894",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "die Sprache",
       "grammar": "die Sprache, die Sprachen",
       "russian": "язык (речь, иностранный язык)",
@@ -8125,7 +9406,9 @@ var KB_DATA = {
     },
     {
       "id": "w0895",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "sprechen",
       "grammar": "spricht, hat gesprochen",
       "russian": "говорить, разговаривать",
@@ -8134,7 +9417,10 @@ var KB_DATA = {
     },
     {
       "id": "w0896",
-      "topic_ids": [],
+      "topic_ids": [
+        7,
+        4
+      ],
       "german": "die Sprechstunde",
       "grammar": "die Sprechstunde, die Sprechstunden",
       "russian": "приёмные часы (врача)",
@@ -8143,7 +9429,9 @@ var KB_DATA = {
     },
     {
       "id": "w0897",
-      "topic_ids": [],
+      "topic_ids": [
+        15
+      ],
       "german": "die Stadt",
       "grammar": "die Stadt, die Städte",
       "russian": "город",
@@ -8152,7 +9440,10 @@ var KB_DATA = {
     },
     {
       "id": "w0898",
-      "topic_ids": [],
+      "topic_ids": [
+        15,
+        6
+      ],
       "german": "der Stadtplan",
       "grammar": "der Stadtplan, die Stadtpläne",
       "russian": "план города, карта города",
@@ -8161,7 +9452,9 @@ var KB_DATA = {
     },
     {
       "id": "w0899",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "der Star",
       "grammar": "der Star, die Stars",
       "russian": "звезда (знаменитость)",
@@ -8197,7 +9490,9 @@ var KB_DATA = {
     },
     {
       "id": "w0903",
-      "topic_ids": [],
+      "topic_ids": [
+        4
+      ],
       "german": "die Stelle",
       "grammar": "die Stelle, die Stellen",
       "russian": "место (работы); место (в тексте)",
@@ -8224,7 +9519,9 @@ var KB_DATA = {
     },
     {
       "id": "w0906",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "der Stiefel",
       "grammar": "der Stiefel, die Stiefel",
       "russian": "сапог",
@@ -8233,7 +9530,9 @@ var KB_DATA = {
     },
     {
       "id": "w0907",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "der Stift",
       "grammar": "der Stift, die Stifte",
       "russian": "ручка, карандаш; стержень",
@@ -8242,7 +9541,9 @@ var KB_DATA = {
     },
     {
       "id": "w0908",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "das Stipendium",
       "grammar": "das Stipendium, die Stipendiumen",
       "russian": "стипендия",
@@ -8251,7 +9552,9 @@ var KB_DATA = {
     },
     {
       "id": "w0909",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "der Stock",
       "grammar": "der Stock, die Stöcke / Stockwerke",
       "russian": "этаж (im ersten Stock — на первом этаже)",
@@ -8269,7 +9572,10 @@ var KB_DATA = {
     },
     {
       "id": "w0911",
-      "topic_ids": [],
+      "topic_ids": [
+        12,
+        6
+      ],
       "german": "der Strand",
       "grammar": "der Strand, die Strände",
       "russian": "пляж",
@@ -8278,7 +9584,10 @@ var KB_DATA = {
     },
     {
       "id": "w0912",
-      "topic_ids": [],
+      "topic_ids": [
+        15,
+        6
+      ],
       "german": "die Straße",
       "grammar": "die Straße, die Straßen",
       "russian": "улица",
@@ -8287,7 +9596,9 @@ var KB_DATA = {
     },
     {
       "id": "w0913",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "die Straßenbahn",
       "grammar": "die Straßenbahn, die Straßenbahnen",
       "russian": "трамвай",
@@ -8296,7 +9607,10 @@ var KB_DATA = {
     },
     {
       "id": "w0914",
-      "topic_ids": [],
+      "topic_ids": [
+        1,
+        14
+      ],
       "german": "streiten (sich)",
       "grammar": "streitet, hat gestritten",
       "russian": "ссориться, спорить",
@@ -8314,7 +9628,10 @@ var KB_DATA = {
     },
     {
       "id": "w0916",
-      "topic_ids": [],
+      "topic_ids": [
+        14,
+        4
+      ],
       "german": "der Stress (Sg.)",
       "grammar": null,
       "russian": "стресс",
@@ -8323,7 +9640,10 @@ var KB_DATA = {
     },
     {
       "id": "w0917",
-      "topic_ids": [],
+      "topic_ids": [
+        14,
+        4
+      ],
       "german": "stressig",
       "grammar": null,
       "russian": "напряжённый, стрессовый",
@@ -8332,7 +9652,9 @@ var KB_DATA = {
     },
     {
       "id": "w0918",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "das Stück",
       "grammar": "das Stück, die Stücke",
       "russian": "кусок, штука",
@@ -8341,7 +9663,9 @@ var KB_DATA = {
     },
     {
       "id": "w0919",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "der Student",
       "grammar": "der Student, die Studenten / Studentin, / Studentinnen",
       "russian": "студент",
@@ -8350,7 +9674,9 @@ var KB_DATA = {
     },
     {
       "id": "w0920",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "studieren",
       "grammar": "studiert, hat studiert",
       "russian": "учиться в университете, изучать",
@@ -8359,7 +9685,9 @@ var KB_DATA = {
     },
     {
       "id": "w0921",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "das Studium (Sg.)",
       "grammar": null,
       "russian": "учёба в вузе, обучение",
@@ -8368,7 +9696,9 @@ var KB_DATA = {
     },
     {
       "id": "w0922",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "der Stuhl",
       "grammar": "der Stuhl, die Stühle",
       "russian": "стул",
@@ -8395,7 +9725,10 @@ var KB_DATA = {
     },
     {
       "id": "w0925",
-      "topic_ids": [],
+      "topic_ids": [
+        10,
+        15
+      ],
       "german": "der Supermarkt",
       "grammar": "der Supermarkt, die Supermärkte",
       "russian": "супермаркет",
@@ -8404,7 +9737,9 @@ var KB_DATA = {
     },
     {
       "id": "w0926",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "die Suppe",
       "grammar": "die Suppe, die Suppen",
       "russian": "суп",
@@ -8413,7 +9748,10 @@ var KB_DATA = {
     },
     {
       "id": "w0927",
-      "topic_ids": [],
+      "topic_ids": [
+        9,
+        11
+      ],
       "german": "surfen",
       "grammar": "surft, hat/ist gesurft",
       "russian": "сёрфить (в интернете или на волнах)",
@@ -8431,7 +9769,9 @@ var KB_DATA = {
     },
     {
       "id": "w0929",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "die Süßigkeiten (Pl.)",
       "grammar": null,
       "russian": "сладости, конфеты",
@@ -8440,7 +9780,9 @@ var KB_DATA = {
     },
     {
       "id": "w0930",
-      "topic_ids": [],
+      "topic_ids": [
+        14
+      ],
       "german": "sympathisch",
       "grammar": null,
       "russian": "симпатичный, приятный",
@@ -8449,7 +9791,9 @@ var KB_DATA = {
     },
     {
       "id": "w0931",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "das Tablet",
       "grammar": "das Tablet, die Tablets",
       "russian": "планшет",
@@ -8458,7 +9802,9 @@ var KB_DATA = {
     },
     {
       "id": "w0932",
-      "topic_ids": [],
+      "topic_ids": [
+        7
+      ],
       "german": "die Tablette",
       "grammar": "die Tablette, die Tabletten",
       "russian": "таблетка",
@@ -8467,7 +9813,9 @@ var KB_DATA = {
     },
     {
       "id": "w0933",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "die Tafel",
       "grammar": "die Tafel, die Tafeln",
       "russian": "доска (школьная); информационный стенд",
@@ -8476,7 +9824,9 @@ var KB_DATA = {
     },
     {
       "id": "w0934",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "tanzen",
       "grammar": "tanzt, hat getanzt",
       "russian": "танцевать",
@@ -8485,7 +9835,9 @@ var KB_DATA = {
     },
     {
       "id": "w0935",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "die Tasche",
       "grammar": "die Tasche, die Taschen",
       "russian": "сумка; карман",
@@ -8494,7 +9846,10 @@ var KB_DATA = {
     },
     {
       "id": "w0936",
-      "topic_ids": [],
+      "topic_ids": [
+        10,
+        1
+      ],
       "german": "das Taschengeld (Sg.)",
       "grammar": null,
       "russian": "карманные деньги",
@@ -8503,7 +9858,9 @@ var KB_DATA = {
     },
     {
       "id": "w0937",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "die Tasse",
       "grammar": "die Tasse, die Tassen",
       "russian": "чашка",
@@ -8512,7 +9869,9 @@ var KB_DATA = {
     },
     {
       "id": "w0938",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "(aus)tauschen",
       "grammar": "tauscht (aus), hat (aus)getauscht",
       "russian": "обменивать(ся), менять",
@@ -8521,7 +9880,9 @@ var KB_DATA = {
     },
     {
       "id": "w0939",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "das Taxi",
       "grammar": "das Taxi, die Taxis",
       "russian": "такси",
@@ -8530,7 +9891,10 @@ var KB_DATA = {
     },
     {
       "id": "w0940",
-      "topic_ids": [],
+      "topic_ids": [
+        4,
+        9
+      ],
       "german": "das Team",
       "grammar": "das Team, die Teams",
       "russian": "команда, коллектив",
@@ -8539,7 +9903,9 @@ var KB_DATA = {
     },
     {
       "id": "w0941",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "der Tee",
       "grammar": "der Tee, die Tees",
       "russian": "чай",
@@ -8566,7 +9932,9 @@ var KB_DATA = {
     },
     {
       "id": "w0944",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "das Telefon",
       "grammar": "das Telefon, die Telefone",
       "russian": "телефон",
@@ -8575,7 +9943,9 @@ var KB_DATA = {
     },
     {
       "id": "w0945",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "telefonieren",
       "grammar": "telefoniert, hat telefoniert",
       "russian": "разговаривать по телефону",
@@ -8584,7 +9954,9 @@ var KB_DATA = {
     },
     {
       "id": "w0946",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "der Teller",
       "grammar": "der Teller, die Teller",
       "russian": "тарелка",
@@ -8593,7 +9965,9 @@ var KB_DATA = {
     },
     {
       "id": "w0947",
-      "topic_ids": [],
+      "topic_ids": [
+        9
+      ],
       "german": "das Tennis (Sg.)",
       "grammar": null,
       "russian": "теннис",
@@ -8602,7 +9976,10 @@ var KB_DATA = {
     },
     {
       "id": "w0948",
-      "topic_ids": [],
+      "topic_ids": [
+        7,
+        4
+      ],
       "german": "der Termin",
       "grammar": "der Termin, die Termine",
       "russian": "запись (к врачу), назначенное время",
@@ -8611,7 +9988,9 @@ var KB_DATA = {
     },
     {
       "id": "w0949",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "teuer",
       "grammar": null,
       "russian": "дорогой",
@@ -8620,7 +9999,10 @@ var KB_DATA = {
     },
     {
       "id": "w0950",
-      "topic_ids": [],
+      "topic_ids": [
+        5,
+        11
+      ],
       "german": "der Text",
       "grammar": "der Text, die Texte",
       "russian": "текст",
@@ -8629,7 +10011,10 @@ var KB_DATA = {
     },
     {
       "id": "w0951",
-      "topic_ids": [],
+      "topic_ids": [
+        8,
+        15
+      ],
       "german": "das Theater",
       "grammar": "das Theater, die Theater",
       "russian": "театр",
@@ -8647,7 +10032,10 @@ var KB_DATA = {
     },
     {
       "id": "w0953",
-      "topic_ids": [],
+      "topic_ids": [
+        6,
+        8
+      ],
       "german": "das Ticket",
       "grammar": "das Ticket, die Tickets",
       "russian": "билет",
@@ -8665,7 +10053,9 @@ var KB_DATA = {
     },
     {
       "id": "w0955",
-      "topic_ids": [],
+      "topic_ids": [
+        12
+      ],
       "german": "das Tier",
       "grammar": "das Tier, die Tiere",
       "russian": "животное",
@@ -8683,7 +10073,10 @@ var KB_DATA = {
     },
     {
       "id": "w0957",
-      "topic_ids": [],
+      "topic_ids": [
+        2,
+        3
+      ],
       "german": "der Tisch",
       "grammar": "der Tisch, die Tische",
       "russian": "стол",
@@ -8701,7 +10094,9 @@ var KB_DATA = {
     },
     {
       "id": "w0959",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "die Toilette",
       "grammar": "die Toilette, die Toiletten",
       "russian": "туалет",
@@ -8719,7 +10114,9 @@ var KB_DATA = {
     },
     {
       "id": "w0961",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "die Tomate",
       "grammar": "die Tomate, die Tomaten",
       "russian": "помидор",
@@ -8728,7 +10125,9 @@ var KB_DATA = {
     },
     {
       "id": "w0962",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "der Topf",
       "grammar": "der Topf, die Töpfe",
       "russian": "кастрюля, горшок",
@@ -8737,7 +10136,9 @@ var KB_DATA = {
     },
     {
       "id": "w0963",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "die Torte",
       "grammar": "die Torte, die Torten",
       "russian": "торт",
@@ -8764,7 +10165,10 @@ var KB_DATA = {
     },
     {
       "id": "w0966",
-      "topic_ids": [],
+      "topic_ids": [
+        8,
+        6
+      ],
       "german": "die Tour",
       "grammar": "die Tour, die Touren",
       "russian": "тур, поездка",
@@ -8773,7 +10177,9 @@ var KB_DATA = {
     },
     {
       "id": "w0967",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "der Tourist",
       "grammar": "der Tourist, die Touristen / Touristin, / Touristinnen",
       "russian": "турист",
@@ -8782,7 +10188,9 @@ var KB_DATA = {
     },
     {
       "id": "w0968",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "tragen",
       "grammar": "trägt, hat getragen",
       "russian": "нести; носить (одежду)",
@@ -8791,7 +10199,9 @@ var KB_DATA = {
     },
     {
       "id": "w0969",
-      "topic_ids": [],
+      "topic_ids": [
+        9
+      ],
       "german": "trainieren",
       "grammar": "trainiert, hat trainiert",
       "russian": "тренироваться",
@@ -8800,7 +10210,9 @@ var KB_DATA = {
     },
     {
       "id": "w0970",
-      "topic_ids": [],
+      "topic_ids": [
+        9
+      ],
       "german": "das Training",
       "grammar": "das Training, die Trainings",
       "russian": "тренировка",
@@ -8809,7 +10221,9 @@ var KB_DATA = {
     },
     {
       "id": "w0971",
-      "topic_ids": [],
+      "topic_ids": [
+        14
+      ],
       "german": "der Traum",
       "grammar": "der Traum, die Träume",
       "russian": "мечта; сон",
@@ -8818,7 +10232,9 @@ var KB_DATA = {
     },
     {
       "id": "w0972",
-      "topic_ids": [],
+      "topic_ids": [
+        14
+      ],
       "german": "träumen",
       "grammar": "träumt, hat geträumt",
       "russian": "мечтать; видеть сны",
@@ -8827,7 +10243,9 @@ var KB_DATA = {
     },
     {
       "id": "w0973",
-      "topic_ids": [],
+      "topic_ids": [
+        14
+      ],
       "german": "traurig",
       "grammar": null,
       "russian": "грустный, печальный",
@@ -8836,7 +10254,9 @@ var KB_DATA = {
     },
     {
       "id": "w0974",
-      "topic_ids": [],
+      "topic_ids": [
+        1
+      ],
       "german": "treffen (sich)",
       "grammar": "trifft, hat getroffen",
       "russian": "встречать(ся)",
@@ -8845,7 +10265,9 @@ var KB_DATA = {
     },
     {
       "id": "w0975",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "die Treppe",
       "grammar": "die Treppe, die Treppen",
       "russian": "лестница",
@@ -8854,7 +10276,9 @@ var KB_DATA = {
     },
     {
       "id": "w0976",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "trinken",
       "grammar": "trinkt, hat getrunken",
       "russian": "пить",
@@ -8863,7 +10287,9 @@ var KB_DATA = {
     },
     {
       "id": "w0977",
-      "topic_ids": [],
+      "topic_ids": [
+        12
+      ],
       "german": "trocken",
       "grammar": null,
       "russian": "сухой",
@@ -8881,7 +10307,9 @@ var KB_DATA = {
     },
     {
       "id": "w0979",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "das T-Shirt",
       "grammar": "das T-Shirt, die T-Shirts",
       "russian": "футболка",
@@ -8899,7 +10327,9 @@ var KB_DATA = {
     },
     {
       "id": "w0981",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "die Tür",
       "grammar": "die Tür, die Türen",
       "russian": "дверь",
@@ -8917,7 +10347,10 @@ var KB_DATA = {
     },
     {
       "id": "w0983",
-      "topic_ids": [],
+      "topic_ids": [
+        5,
+        9
+      ],
       "german": "üben",
       "grammar": "übt, hat geübt",
       "russian": "тренироваться, упражняться",
@@ -8944,7 +10377,9 @@ var KB_DATA = {
     },
     {
       "id": "w0986",
-      "topic_ids": [],
+      "topic_ids": [
+        13
+      ],
       "german": "übermorgen",
       "grammar": null,
       "russian": "послезавтра",
@@ -8953,7 +10388,9 @@ var KB_DATA = {
     },
     {
       "id": "w0987",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "übernachten",
       "grammar": "übernachtet, hat übernachtet",
       "russian": "ночевать",
@@ -8962,7 +10399,9 @@ var KB_DATA = {
     },
     {
       "id": "w0988",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "übersetzen",
       "grammar": "übersetzt, hat übersetzt",
       "russian": "переводить",
@@ -8971,7 +10410,9 @@ var KB_DATA = {
     },
     {
       "id": "w0989",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "die Übersetzung",
       "grammar": "die Übersetzung, die Übersetzungen",
       "russian": "перевод",
@@ -8980,7 +10421,9 @@ var KB_DATA = {
     },
     {
       "id": "w0990",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "überweisen",
       "grammar": "überweist, hat überwiesen",
       "russian": "переводить (деньги)",
@@ -8989,7 +10432,9 @@ var KB_DATA = {
     },
     {
       "id": "w0991",
-      "topic_ids": [],
+      "topic_ids": [
+        13
+      ],
       "german": "die Uhr",
       "grammar": "die Uhr, die Uhren",
       "russian": "часы; час (Uhr = час)",
@@ -8998,7 +10443,9 @@ var KB_DATA = {
     },
     {
       "id": "w0992",
-      "topic_ids": [],
+      "topic_ids": [
+        13
+      ],
       "german": "um",
       "grammar": null,
       "russian": "в (который час); вокруг; чтобы (um ... zu)",
@@ -9007,7 +10454,9 @@ var KB_DATA = {
     },
     {
       "id": "w0993",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "umsteigen",
       "grammar": "steigt um, ist umgestiegen",
       "russian": "пересаживаться (в транспорте)",
@@ -9016,7 +10465,9 @@ var KB_DATA = {
     },
     {
       "id": "w0994",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "umziehen",
       "grammar": "zieht um, ist umgezogen",
       "russian": "переезжать; переодеваться",
@@ -9025,7 +10476,9 @@ var KB_DATA = {
     },
     {
       "id": "w0995",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "der Umzug",
       "grammar": "der Umzug, die Umzüge",
       "russian": "переезд",
@@ -9052,7 +10505,10 @@ var KB_DATA = {
     },
     {
       "id": "w0998",
-      "topic_ids": [],
+      "topic_ids": [
+        6,
+        7
+      ],
       "german": "der Unfall",
       "grammar": "der Unfall, die Unfälle",
       "russian": "авария, несчастный случай",
@@ -9061,7 +10517,10 @@ var KB_DATA = {
     },
     {
       "id": "w0999",
-      "topic_ids": [],
+      "topic_ids": [
+        5,
+        15
+      ],
       "german": "die Universität",
       "grammar": "die Universität, die Universitäten",
       "russian": "университет",
@@ -9088,7 +10547,9 @@ var KB_DATA = {
     },
     {
       "id": "w1002",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "unterhalten (sich)",
       "grammar": "unterhält, hat unterhalten",
       "russian": "развлекать(ся); разговаривать",
@@ -9097,7 +10558,9 @@ var KB_DATA = {
     },
     {
       "id": "w1003",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "die Unterkunft",
       "grammar": "die Unterkunft, die Unterkünfte",
       "russian": "жильё, ночлег",
@@ -9106,7 +10569,9 @@ var KB_DATA = {
     },
     {
       "id": "w1004",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "unternehmen",
       "grammar": "unternimmt, hat unternommen",
       "russian": "предпринимать, заниматься чем-то",
@@ -9115,7 +10580,9 @@ var KB_DATA = {
     },
     {
       "id": "w1005",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "der Unterricht (Sg.)",
       "grammar": null,
       "russian": "урок, занятие",
@@ -9133,7 +10600,9 @@ var KB_DATA = {
     },
     {
       "id": "w1007",
-      "topic_ids": [],
+      "topic_ids": [
+        4
+      ],
       "german": "unterschreiben",
       "grammar": "unterschreibt, hat unterschrieben",
       "russian": "подписывать",
@@ -9142,7 +10611,9 @@ var KB_DATA = {
     },
     {
       "id": "w1008",
-      "topic_ids": [],
+      "topic_ids": [
+        4
+      ],
       "german": "die Unterschrift",
       "grammar": "die Unterschrift, die Unterschriften",
       "russian": "подпись",
@@ -9151,7 +10622,9 @@ var KB_DATA = {
     },
     {
       "id": "w1009",
-      "topic_ids": [],
+      "topic_ids": [
+        7
+      ],
       "german": "untersuchen",
       "grammar": "untersucht, hat untersucht",
       "russian": "обследовать, исследовать",
@@ -9160,7 +10633,9 @@ var KB_DATA = {
     },
     {
       "id": "w1010",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "unterwegs sein",
       "grammar": "ist unterwegs, war unterwegs, ist unterwegs gewesen",
       "russian": "быть в пути, находиться где-то",
@@ -9169,7 +10644,10 @@ var KB_DATA = {
     },
     {
       "id": "w1011",
-      "topic_ids": [],
+      "topic_ids": [
+        6,
+        8
+      ],
       "german": "der Urlaub",
       "grammar": "der Urlaub, die Urlaube",
       "russian": "отпуск",
@@ -9178,7 +10656,9 @@ var KB_DATA = {
     },
     {
       "id": "w1012",
-      "topic_ids": [],
+      "topic_ids": [
+        1
+      ],
       "german": "verabredet sein",
       "grammar": "ist verabredet, war verabredet, ist verabredet gewesen",
       "russian": "иметь договорённость, быть занятым",
@@ -9187,7 +10667,9 @@ var KB_DATA = {
     },
     {
       "id": "w1013",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "die Veranstaltung",
       "grammar": "die Veranstaltung, die Veranstaltungen",
       "russian": "мероприятие",
@@ -9205,7 +10687,9 @@ var KB_DATA = {
     },
     {
       "id": "w1015",
-      "topic_ids": [],
+      "topic_ids": [
+        4
+      ],
       "german": "verdienen",
       "grammar": "verdient, hat verdient",
       "russian": "зарабатывать",
@@ -9214,7 +10698,10 @@ var KB_DATA = {
     },
     {
       "id": "w1016",
-      "topic_ids": [],
+      "topic_ids": [
+        9,
+        8
+      ],
       "german": "der Verein",
       "grammar": "der Verein, die Vereine",
       "russian": "клуб, организация, общество",
@@ -9223,7 +10710,9 @@ var KB_DATA = {
     },
     {
       "id": "w1017",
-      "topic_ids": [],
+      "topic_ids": [
+        4
+      ],
       "german": "vereinbaren",
       "grammar": "vereinbart, hat vereinbart",
       "russian": "договариваться",
@@ -9241,7 +10730,9 @@ var KB_DATA = {
     },
     {
       "id": "w1019",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "vergleichen",
       "grammar": "vergleicht, hat verglichen",
       "russian": "сравнивать",
@@ -9250,7 +10741,9 @@ var KB_DATA = {
     },
     {
       "id": "w1020",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "verkaufen",
       "grammar": "verkauft, hat verkauft",
       "russian": "продавать",
@@ -9259,7 +10752,9 @@ var KB_DATA = {
     },
     {
       "id": "w1021",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "der Verkehr (Sg.)",
       "grammar": null,
       "russian": "дорожное движение, транспорт",
@@ -9268,7 +10763,9 @@ var KB_DATA = {
     },
     {
       "id": "w1022",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "das Verkehrsmittel",
       "grammar": "das Verkehrsmittel, die Verkehrsmittel",
       "russian": "транспортное средство",
@@ -9277,7 +10774,10 @@ var KB_DATA = {
     },
     {
       "id": "w1023",
-      "topic_ids": [],
+      "topic_ids": [
+        7,
+        9
+      ],
       "german": "verletzen (sich)",
       "grammar": "verletzt, hat verletzt",
       "russian": "ранить(ся), травмировать(ся)",
@@ -9286,7 +10786,10 @@ var KB_DATA = {
     },
     {
       "id": "w1024",
-      "topic_ids": [],
+      "topic_ids": [
+        1,
+        14
+      ],
       "german": "verlieben (sich)",
       "grammar": "verliebt, hat verliebt",
       "russian": "влюбляться",
@@ -9295,7 +10798,9 @@ var KB_DATA = {
     },
     {
       "id": "w1025",
-      "topic_ids": [],
+      "topic_ids": [
+        9
+      ],
       "german": "verlieren",
       "grammar": "verliert, hat verloren",
       "russian": "терять",
@@ -9304,7 +10809,9 @@ var KB_DATA = {
     },
     {
       "id": "w1026",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "vermieten",
       "grammar": "vermietet, hat vermietet",
       "russian": "сдавать в аренду",
@@ -9313,7 +10820,9 @@ var KB_DATA = {
     },
     {
       "id": "w1027",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "der Vermieter",
       "grammar": "der Vermieter, die Vermieter / Vermieterin, / Vermieterinnen",
       "russian": "арендодатель",
@@ -9322,7 +10831,9 @@ var KB_DATA = {
     },
     {
       "id": "w1028",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "verpassen",
       "grammar": "verpasst, hat verpasst",
       "russian": "пропускать, опаздывать",
@@ -9331,7 +10842,9 @@ var KB_DATA = {
     },
     {
       "id": "w1029",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "verreisen",
       "grammar": "verreist, ist verreist",
       "russian": "уезжать (в поездку)",
@@ -9340,7 +10853,9 @@ var KB_DATA = {
     },
     {
       "id": "w1030",
-      "topic_ids": [],
+      "topic_ids": [
+        13
+      ],
       "german": "verschieben",
       "grammar": "verschiebt, hat verschoben",
       "russian": "переносить (на другое время)",
@@ -9358,7 +10873,9 @@ var KB_DATA = {
     },
     {
       "id": "w1032",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "die Verspätung",
       "grammar": "die Verspätung, die Verspätungen",
       "russian": "опоздание, задержка",
@@ -9367,7 +10884,9 @@ var KB_DATA = {
     },
     {
       "id": "w1033",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "verstehen",
       "grammar": "versteht, hat verstanden",
       "russian": "понимать",
@@ -9385,7 +10904,9 @@ var KB_DATA = {
     },
     {
       "id": "w1035",
-      "topic_ids": [],
+      "topic_ids": [
+        4
+      ],
       "german": "der Vertrag",
       "grammar": "der Vertrag, die Verträge",
       "russian": "договор, контракт",
@@ -9412,7 +10933,9 @@ var KB_DATA = {
     },
     {
       "id": "w1038",
-      "topic_ids": [],
+      "topic_ids": [
+        12
+      ],
       "german": "der Vogel",
       "grammar": "der Vogel, die Vögel",
       "russian": "птица",
@@ -9430,7 +10953,9 @@ var KB_DATA = {
     },
     {
       "id": "w1040",
-      "topic_ids": [],
+      "topic_ids": [
+        9
+      ],
       "german": "der Volleyball",
       "grammar": "der Volleyball, die Volleybälle",
       "russian": "волейбол",
@@ -9466,7 +10991,10 @@ var KB_DATA = {
     },
     {
       "id": "w1044",
-      "topic_ids": [],
+      "topic_ids": [
+        5,
+        4
+      ],
       "german": "vorbereiten",
       "grammar": "bereitet vor, hat vorbereitet",
       "russian": "подготавливать(ся)",
@@ -9475,7 +11003,9 @@ var KB_DATA = {
     },
     {
       "id": "w1045",
-      "topic_ids": [],
+      "topic_ids": [
+        13
+      ],
       "german": "vorgestern",
       "grammar": null,
       "russian": "позавчера",
@@ -9484,7 +11014,9 @@ var KB_DATA = {
     },
     {
       "id": "w1046",
-      "topic_ids": [],
+      "topic_ids": [
+        13
+      ],
       "german": "vorher",
       "grammar": null,
       "russian": "раньше, до этого",
@@ -9502,7 +11034,9 @@ var KB_DATA = {
     },
     {
       "id": "w1048",
-      "topic_ids": [],
+      "topic_ids": [
+        1
+      ],
       "german": "der Vorname",
       "grammar": "der Vorname, die Vornamen",
       "russian": "имя (имя, не фамилия)",
@@ -9529,7 +11063,9 @@ var KB_DATA = {
     },
     {
       "id": "w1051",
-      "topic_ids": [],
+      "topic_ids": [
+        1
+      ],
       "german": "vorstellen (sich)",
       "grammar": "stellt vor, hat vorgestellt",
       "russian": "представлять(ся); sich etwas vorstellen — представлять себе",
@@ -9556,7 +11092,9 @@ var KB_DATA = {
     },
     {
       "id": "w1054",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "der Wagen",
       "grammar": "der Wagen, die Wagen",
       "russian": "автомобиль, вагон",
@@ -9592,7 +11130,9 @@ var KB_DATA = {
     },
     {
       "id": "w1058",
-      "topic_ids": [],
+      "topic_ids": [
+        12
+      ],
       "german": "der Wald",
       "grammar": "der Wald, die Wälder",
       "russian": "лес",
@@ -9601,7 +11141,10 @@ var KB_DATA = {
     },
     {
       "id": "w1059",
-      "topic_ids": [],
+      "topic_ids": [
+        9,
+        12
+      ],
       "german": "wandern",
       "grammar": "wandert, ist gewandert",
       "russian": "ходить пешком, совершать пешие прогулки",
@@ -9610,7 +11153,9 @@ var KB_DATA = {
     },
     {
       "id": "w1060",
-      "topic_ids": [],
+      "topic_ids": [
+        13
+      ],
       "german": "wann",
       "grammar": null,
       "russian": "когда",
@@ -9619,7 +11164,9 @@ var KB_DATA = {
     },
     {
       "id": "w1061",
-      "topic_ids": [],
+      "topic_ids": [
+        12
+      ],
       "german": "warm",
       "grammar": null,
       "russian": "тёплый; тепло",
@@ -9655,7 +11202,9 @@ var KB_DATA = {
     },
     {
       "id": "w1065",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "die Wäsche",
       "grammar": "die Wäsche, die Wäschen",
       "russian": "бельё (постельное, нижнее); стирка",
@@ -9664,7 +11213,9 @@ var KB_DATA = {
     },
     {
       "id": "w1066",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "waschen (sich)",
       "grammar": "wäscht, hat gewaschen",
       "russian": "мыть, стирать",
@@ -9673,7 +11224,9 @@ var KB_DATA = {
     },
     {
       "id": "w1067",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "das Wasser (Sg.)",
       "grammar": null,
       "russian": "вода",
@@ -9682,7 +11235,9 @@ var KB_DATA = {
     },
     {
       "id": "w1068",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "die Webseite",
       "grammar": "die Webseite, die Webseiten",
       "russian": "веб-страница, сайт",
@@ -9691,7 +11246,9 @@ var KB_DATA = {
     },
     {
       "id": "w1069",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "wechseln",
       "grammar": "wechselt, hat gewechselt",
       "russian": "менять, обменивать",
@@ -9718,7 +11275,9 @@ var KB_DATA = {
     },
     {
       "id": "w1072",
-      "topic_ids": [],
+      "topic_ids": [
+        15
+      ],
       "german": "der Weg",
       "grammar": "der Weg, die Wege",
       "russian": "дорога, путь; маршрут",
@@ -9736,7 +11295,9 @@ var KB_DATA = {
     },
     {
       "id": "w1074",
-      "topic_ids": [],
+      "topic_ids": [
+        7
+      ],
       "german": "wehtun",
       "grammar": "tut weh, hat wehgetan",
       "russian": "болеть, причинять боль",
@@ -9772,7 +11333,9 @@ var KB_DATA = {
     },
     {
       "id": "w1078",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "der Wein",
       "grammar": "der Wein, die Weine",
       "russian": "вино",
@@ -9781,7 +11344,9 @@ var KB_DATA = {
     },
     {
       "id": "w1079",
-      "topic_ids": [],
+      "topic_ids": [
+        14
+      ],
       "german": "weinen",
       "grammar": "weint, hat geweint",
       "russian": "плакать",
@@ -9871,7 +11436,9 @@ var KB_DATA = {
     },
     {
       "id": "w1089",
-      "topic_ids": [],
+      "topic_ids": [
+        4
+      ],
       "german": "die Werkstatt",
       "grammar": "die Werkstatt, die Werkstatten",
       "russian": "мастерская; авторемонтная мастерская",
@@ -9880,7 +11447,10 @@ var KB_DATA = {
     },
     {
       "id": "w1090",
-      "topic_ids": [],
+      "topic_ids": [
+        9,
+        5
+      ],
       "german": "der Wettbewerb",
       "grammar": "der Wettbewerb, die Wettbewerbe",
       "russian": "соревнование, конкурс",
@@ -9889,7 +11459,9 @@ var KB_DATA = {
     },
     {
       "id": "w1091",
-      "topic_ids": [],
+      "topic_ids": [
+        12
+      ],
       "german": "das Wetter (Sg.)",
       "grammar": null,
       "russian": "погода",
@@ -9934,7 +11506,9 @@ var KB_DATA = {
     },
     {
       "id": "w1096",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "wiederholen",
       "grammar": "wiederholt, hat wiederholt",
       "russian": "повторять",
@@ -9943,7 +11517,9 @@ var KB_DATA = {
     },
     {
       "id": "w1097",
-      "topic_ids": [],
+      "topic_ids": [
+        11
+      ],
       "german": "das Wiederhören",
       "grammar": "das Wiederhören, die Wiederhören",
       "russian": "до свидания (по телефону: auf Wiederhören)",
@@ -9970,7 +11546,9 @@ var KB_DATA = {
     },
     {
       "id": "w1100",
-      "topic_ids": [],
+      "topic_ids": [
+        12
+      ],
       "german": "der Wind",
       "grammar": "der Wind, die Winde",
       "russian": "ветер",
@@ -9979,7 +11557,9 @@ var KB_DATA = {
     },
     {
       "id": "w1101",
-      "topic_ids": [],
+      "topic_ids": [
+        12
+      ],
       "german": "windig",
       "grammar": null,
       "russian": "ветреный",
@@ -10006,7 +11586,9 @@ var KB_DATA = {
     },
     {
       "id": "w1104",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "der Witz",
       "grammar": "der Witz, die Witze",
       "russian": "анекдот, шутка",
@@ -10015,7 +11597,9 @@ var KB_DATA = {
     },
     {
       "id": "w1105",
-      "topic_ids": [],
+      "topic_ids": [
+        14
+      ],
       "german": "witzig",
       "grammar": null,
       "russian": "смешной, остроумный",
@@ -10051,7 +11635,9 @@ var KB_DATA = {
     },
     {
       "id": "w1109",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "wohnen",
       "grammar": "wohnt, hat gewohnt",
       "russian": "жить, проживать",
@@ -10060,7 +11646,9 @@ var KB_DATA = {
     },
     {
       "id": "w1110",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "die Wohnung",
       "grammar": "die Wohnung, die Wohnungen",
       "russian": "квартира",
@@ -10069,7 +11657,9 @@ var KB_DATA = {
     },
     {
       "id": "w1111",
-      "topic_ids": [],
+      "topic_ids": [
+        3
+      ],
       "german": "das Wohnzimmer",
       "grammar": "das Wohnzimmer, die Wohnzimmer",
       "russian": "гостиная",
@@ -10078,7 +11668,9 @@ var KB_DATA = {
     },
     {
       "id": "w1112",
-      "topic_ids": [],
+      "topic_ids": [
+        12
+      ],
       "german": "die Wolke",
       "grammar": "die Wolke, die Wolken",
       "russian": "облако",
@@ -10096,7 +11688,10 @@ var KB_DATA = {
     },
     {
       "id": "w1114",
-      "topic_ids": [],
+      "topic_ids": [
+        4,
+        5
+      ],
       "german": "der Workshop",
       "grammar": "der Workshop, die Workshops",
       "russian": "мастер-класс, воркшоп",
@@ -10105,7 +11700,9 @@ var KB_DATA = {
     },
     {
       "id": "w1115",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "das Wort",
       "grammar": "das Wort, die Wörter",
       "russian": "слово",
@@ -10141,7 +11738,9 @@ var KB_DATA = {
     },
     {
       "id": "w1119",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "die Wurst",
       "grammar": "die Wurst, die Würste",
       "russian": "колбаса, сосиска",
@@ -10150,7 +11749,9 @@ var KB_DATA = {
     },
     {
       "id": "w1120",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "die Zahl",
       "grammar": "die Zahl, die Zahlen",
       "russian": "число, цифра",
@@ -10159,7 +11760,9 @@ var KB_DATA = {
     },
     {
       "id": "w1121",
-      "topic_ids": [],
+      "topic_ids": [
+        10
+      ],
       "german": "zahlen",
       "grammar": "zahlt, hat gezahlt",
       "russian": "платить",
@@ -10168,7 +11771,9 @@ var KB_DATA = {
     },
     {
       "id": "w1122",
-      "topic_ids": [],
+      "topic_ids": [
+        7
+      ],
       "german": "der Zahn",
       "grammar": "der Zahn, die Zähne",
       "russian": "зуб",
@@ -10177,7 +11782,9 @@ var KB_DATA = {
     },
     {
       "id": "w1123",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "zeichnen",
       "grammar": "zeichnet, hat gezeichnet",
       "russian": "рисовать (карандашом)",
@@ -10195,7 +11802,9 @@ var KB_DATA = {
     },
     {
       "id": "w1125",
-      "topic_ids": [],
+      "topic_ids": [
+        13
+      ],
       "german": "die Zeit",
       "grammar": "die Zeit, die Zeiten",
       "russian": "время",
@@ -10204,7 +11813,9 @@ var KB_DATA = {
     },
     {
       "id": "w1126",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "die Zeitschrift",
       "grammar": "die Zeitschrift, die Zeitschriften",
       "russian": "журнал",
@@ -10213,7 +11824,9 @@ var KB_DATA = {
     },
     {
       "id": "w1127",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "die Zeitung",
       "grammar": "die Zeitung, die Zeitungen",
       "russian": "газета",
@@ -10222,7 +11835,9 @@ var KB_DATA = {
     },
     {
       "id": "w1128",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "das Zelt",
       "grammar": "das Zelt, die Zelte",
       "russian": "палатка",
@@ -10231,7 +11846,9 @@ var KB_DATA = {
     },
     {
       "id": "w1129",
-      "topic_ids": [],
+      "topic_ids": [
+        15
+      ],
       "german": "das Zentrum",
       "grammar": "das Zentrum, die Zentrumen",
       "russian": "центр",
@@ -10240,7 +11857,9 @@ var KB_DATA = {
     },
     {
       "id": "w1130",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "der Zettel",
       "grammar": "der Zettel, die Zettel",
       "russian": "листок бумаги, записка",
@@ -10249,7 +11868,9 @@ var KB_DATA = {
     },
     {
       "id": "w1131",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "das Zeugnis",
       "grammar": "das Zeugnis, die Zeugnisse",
       "russian": "аттестат, свидетельство, справка",
@@ -10258,7 +11879,10 @@ var KB_DATA = {
     },
     {
       "id": "w1132",
-      "topic_ids": [],
+      "topic_ids": [
+        10,
+        3
+      ],
       "german": "(an-) / (aus-)ziehen",
       "grammar": "zieht (an/aus), hat (an/aus)gezogen",
       "russian": "надевать / снимать (одежду); переезжать",
@@ -10267,7 +11891,9 @@ var KB_DATA = {
     },
     {
       "id": "w1133",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "das Ziel",
       "grammar": "das Ziel, die Ziele",
       "russian": "цель; финиш",
@@ -10276,7 +11902,10 @@ var KB_DATA = {
     },
     {
       "id": "w1134",
-      "topic_ids": [],
+      "topic_ids": [
+        3,
+        6
+      ],
       "german": "das Zimmer",
       "grammar": "das Zimmer, die Zimmer",
       "russian": "комната",
@@ -10285,7 +11914,9 @@ var KB_DATA = {
     },
     {
       "id": "w1135",
-      "topic_ids": [],
+      "topic_ids": [
+        8
+      ],
       "german": "der Zirkus",
       "grammar": "der Zirkus, die Zirkusse",
       "russian": "цирк",
@@ -10294,7 +11925,9 @@ var KB_DATA = {
     },
     {
       "id": "w1136",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "die Zitrone",
       "grammar": "die Zitrone, die Zitronen",
       "russian": "лимон",
@@ -10303,7 +11936,10 @@ var KB_DATA = {
     },
     {
       "id": "w1137",
-      "topic_ids": [],
+      "topic_ids": [
+        8,
+        15
+      ],
       "german": "der Zoo",
       "grammar": "der Zoo, die Zoos",
       "russian": "зоопарк",
@@ -10321,7 +11957,9 @@ var KB_DATA = {
     },
     {
       "id": "w1139",
-      "topic_ids": [],
+      "topic_ids": [
+        2
+      ],
       "german": "der Zucker (Sg.)",
       "grammar": null,
       "russian": "сахар",
@@ -10339,7 +11977,9 @@ var KB_DATA = {
     },
     {
       "id": "w1141",
-      "topic_ids": [],
+      "topic_ids": [
+        14
+      ],
       "german": "zufrieden",
       "grammar": null,
       "russian": "доволен, удовлетворён",
@@ -10348,7 +11988,9 @@ var KB_DATA = {
     },
     {
       "id": "w1142",
-      "topic_ids": [],
+      "topic_ids": [
+        6
+      ],
       "german": "der Zug",
       "grammar": "der Zug, die Züge",
       "russian": "поезд",
@@ -10357,7 +11999,9 @@ var KB_DATA = {
     },
     {
       "id": "w1143",
-      "topic_ids": [],
+      "topic_ids": [
+        5
+      ],
       "german": "zuhören",
       "grammar": "hört zu, hat zugehört",
       "russian": "слушать (кого-то)",

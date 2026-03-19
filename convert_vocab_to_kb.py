@@ -61,7 +61,7 @@ def convert():
         grammar = make_grammar(w)
         entry = {
             "id":                 w['id'],
-            "topic_ids":          [],
+            "topic_ids":          w.get('topic_ids', []),
             "german":             german,
             "grammar":            grammar,
             "russian":            w.get('translation_ru') or '',
