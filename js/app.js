@@ -82,12 +82,6 @@ App.setDirection = function (dir) {
   });
 };
 
-App._updateTopicHint = function () {
-  var hint = el('topic-hint');
-  if (!hint) return;
-  hint.textContent = 'Содержит ' + App.Data.getVocabCount(App.state.topicId) + ' слов';
-};
-
 /* ════════════════════════════════════════════════════════════════════
    SESSION MANAGEMENT
 ═══════════════════════════════════════════════════════════════════ */
