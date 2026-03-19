@@ -9,8 +9,8 @@ var App = window.App || {};
 ═══════════════════════════════════════════════════════════════════ */
 App.state = {
   screen:    'home',
-  mode:      'vocabulary',   // 'vocabulary' | 'sentences'
-  topicId:   1,              // 0 = all topics
+  mode:      'vocabulary',
+  topicId:   0,              // 0 = all topics
   direction: 'de-to-ru',    // 'de-to-ru' | 'ru-to-de'
   session:   null
 };
@@ -65,14 +65,6 @@ App._populateTopicSelect = function () {
   } catch(e) {}
 };
 
-App.setMode = function (mode) {
-  App.state.mode = mode;
-  document.querySelectorAll('#mode-group .btn-toggle').forEach(function (b) {
-    b.classList.toggle('active', b.dataset.mode === mode);
-  });
-  App._updateTopicHint();
-};
-
 App.setTopic = function (topicId) {
   App.state.topicId = parseInt(topicId, 10) || 0;
   try { localStorage.setItem('ru_last_topic', App.state.topicId); } catch(e) {}
@@ -89,27 +81,15 @@ App.setDirection = function (dir) {
 App._updateTopicHint = function () {
   var hint = el('topic-hint');
   if (!hint) return;
-  var tid = App.state.topicId;
-  if (App.state.mode === 'vocabulary') {
-    hint.textContent = 'Содержит ' + App.Data.getVocabCount(tid) + ' слов';
-  } else {
-    hint.textContent = 'Содержит ' + App.Data.getSentenceCount(tid) + ' предложений';
-  }
+  hint.textContent = 'Содержит ' + App.Data.getVocabCount(App.state.topicId) + ' слов';
 };
 
 /* ════════════════════════════════════════════════════════════════════
    SESSION MANAGEMENT
 ═══════════════════════════════════════════════════════════════════ */
 App.startSession = function () {
-  var mode    = App.state.mode;
   var topicId = App.state.topicId;
-  var items;
-
-  if (mode === 'vocabulary') {
-    items = App.Data.getVocabulary(topicId);
-  } else {
-    items = App.Data.getSentences(topicId);
-  }
+  var items   = App.Data.getVocabulary(topicId);
 
   if (!items || items.length === 0) {
     App.Celebration.showToast('\u26A0\uFE0F Записей не найдено', 'info');
@@ -118,7 +98,7 @@ App.startSession = function () {
 
   var progressMap = {};
   var allProgress = App.Data.getAllProgress();
-  var section     = (mode === 'vocabulary' ? allProgress.vocabulary : allProgress.sentences) || {};
+  var section     = allProgress.vocabulary || {};
   items.forEach(function (item) {
     progressMap[item.id] = section[item.id] || null;
   });
@@ -127,7 +107,7 @@ App.startSession = function () {
   var largeSet = items.length > 50;
 
   App.state.session = {
-    mode:        mode,
+    mode:        'vocabulary',
     topicId:     topicId,
     direction:   App.state.direction,
     items:       items,
@@ -231,23 +211,16 @@ App._showNextItem = function () {
   el('ph-total').textContent   = s.correct + s.wrong;
   el('ph-xp').textContent      = s.xpEarned;
 
-  var isVocab = s.mode === 'vocabulary';
-  var dir     = s.direction;
+  var dir = s.direction;
 
   el('q-direction').textContent = dir === 'de-to-ru' ? 'DE \u2192 RU' : 'RU \u2192 DE';
 
-  if (isVocab) {
-    if (dir === 'de-to-ru') {
-      el('q-text').textContent = item.german || '';
-      el('q-grammar').textContent = item.grammar ? '(' + item.grammar + ')' : '';
-      el('q-grammar').classList.toggle('hidden', !item.grammar);
-    } else {
-      el('q-text').textContent = item.russian || '';
-      el('q-grammar').textContent = '';
-      el('q-grammar').classList.add('hidden');
-    }
+  if (dir === 'de-to-ru') {
+    el('q-text').textContent = item.german || '';
+    el('q-grammar').textContent = item.grammar ? '(' + item.grammar + ')' : '';
+    el('q-grammar').classList.toggle('hidden', !item.grammar);
   } else {
-    el('q-text').textContent = dir === 'de-to-ru' ? (item.german || '') : (item.russian || '');
+    el('q-text').textContent = item.russian || '';
     el('q-grammar').textContent = '';
     el('q-grammar').classList.add('hidden');
   }
@@ -256,17 +229,10 @@ App._showNextItem = function () {
   el('q-hint-line').classList.add('hidden');
   el('hint-btn').disabled = false;
 
-  if (isVocab) {
-    showPhase('input');
-    var inp = el('answer-input');
-    inp.value = '';
-    setTimeout(function () { inp.focus(); }, 80);
-  } else {
-    showPhase('sentence-input');
-    var sinp = el('sentence-input');
-    sinp.value = '';
-    setTimeout(function () { sinp.focus(); }, 80);
-  }
+  showPhase('input');
+  var inp = el('answer-input');
+  inp.value = '';
+  setTimeout(function () { inp.focus(); }, 80);
 };
 
 /* ── Vocabulary: check answer ─────────────────────────────────── */
@@ -362,62 +328,6 @@ App.checkAnswer = function () {
 };
 
 App.nextWord = function () {
-  App._showNextItem();
-};
-
-/* ── Sentences: reveal & self-grade ──────────────────────────── */
-App.revealSentence = function () {
-  var s    = App.state.session;
-  var item = s.currentItem;
-  var inp  = el('sentence-input');
-
-  el('sg-attempt').textContent = inp.value.trim() || '(нет ввода)';
-
-  var answerStr = s.direction === 'de-to-ru' ? item.russian : item.german;
-  el('sg-answer').textContent = answerStr;
-
-  // Show transliteration for Russian answers
-  var sgTranslit = el('sg-translit');
-  if (s.direction === 'de-to-ru' && item.russian) {
-    sgTranslit.textContent = App.Checker.displayTranslit(item.russian);
-    sgTranslit.classList.remove('hidden');
-  } else {
-    sgTranslit.classList.add('hidden');
-  }
-
-  showPhase('selfgrade');
-};
-
-App.skipSentence = function () {
-  App.selfGrade(0);
-};
-
-App.selfGrade = function (score) {
-  var s    = App.state.session;
-  var item = s.currentItem;
-
-  App.Data.updateWordProgress('sentences', item.id, score);
-  s.progressMap[item.id] = App.Data.getWordProgress('sentences', item.id);
-
-  var xp = [0, 5, 10][score] + (s.streak >= 5 ? 2 : 0);
-  s.xpEarned += xp;
-
-  if (score >= 1) {
-    s.correct++;
-    s.streak++;
-  } else {
-    s.wrong++;
-    if (s.missedItems.indexOf(item) === -1) s.missedItems.push(item);
-    s.streak = 0;
-  }
-  if (s.streak > s.bestStreak) s.bestStreak = s.streak;
-
-  el('ph-streak').textContent  = s.streak;
-  el('ph-correct').textContent = s.correct;
-  el('ph-total').textContent   = s.correct + s.wrong;
-  el('ph-xp').textContent      = s.xpEarned;
-
-  App.Celebration.onStreakUpdate(s.streak);
   App._showNextItem();
 };
 
@@ -549,7 +459,7 @@ function esc(str) {
 }
 
 function showPhase(name) {
-  ['input','feedback','selfgrade','sentence-input'].forEach(function(n) {
+  ['input','feedback'].forEach(function(n) {
     var ph = el('phase-' + n);
     if (ph) {
       if (n === name) ph.classList.add('active');
@@ -564,7 +474,6 @@ function showPhase(name) {
    BOOT
 ═══════════════════════════════════════════════════════════════════ */
 document.addEventListener('DOMContentLoaded', function () {
-  App.setMode('vocabulary');
   App.setDirection('de-to-ru');
 
   // Restore last direction

@@ -3,15 +3,12 @@
 parse_vocab.py  –  Goethe A2 vocabulary parser
 Reads : Deutsch_Russisch_Cut.txt
 Writes: vocabulary.json
-
-Requirements: pip install deep-translator
 """
 
-import json, re, sys, time, os
+import json, re, sys, os
 
 TXT_FILE = "Deutsch_Russisch_Cut.txt"
 OUT_FILE = "vocabulary.json"
-CACHE_FILE = "translation_cache.json"  # persists between runs
 
 # ── TOPICS ────────────────────────────────────────────────────────────────────
 TOPICS = [
@@ -388,50 +385,6 @@ def assign_topics(word, sentences, wg_topic=None):
     return result or [1]
 
 
-# ── TRANSLATION ───────────────────────────────────────────────────────────────
-def load_cache(path):
-    if os.path.exists(path):
-        with open(path, encoding="utf-8") as f:
-            return json.load(f)
-    return {}
-
-
-def save_cache(path, cache):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(cache, f, ensure_ascii=False, indent=2)
-
-
-def translate_texts(texts, cache):
-    try:
-        from deep_translator import GoogleTranslator
-        translator = GoogleTranslator(source="de", target="ru")
-    except ImportError:
-        print("  deep-translator not installed – translations will be null", file=sys.stderr)
-        print("  Run: pip install deep-translator", file=sys.stderr)
-        return [None] * len(texts)
-
-    results = []
-    new_count = 0
-    for i, text in enumerate(texts):
-        if not text or not text.strip():
-            results.append(None)
-            continue
-        if text in cache:
-            results.append(cache[text])
-            continue
-        try:
-            translated = translator.translate(text)
-            cache[text] = translated
-            results.append(translated)
-            new_count += 1
-            if new_count % 100 == 0:
-                print(f"    {new_count} new translations done…")
-                save_cache(CACHE_FILE, cache)
-            time.sleep(0.05)
-        except Exception as e:
-            print(f"  translate error '{text[:40]}': {e}", file=sys.stderr)
-            results.append(None)
-    return results
 
 
 # ── DEDUPLICATE ───────────────────────────────────────────────────────────────
@@ -473,49 +426,18 @@ def main():
     for e in all_entries:
         e["topic_ids"] = assign_topics(e["word"], e["sentences"], e.get("_wg_topic"))
 
-    print("Loading translation cache …")
-    cache = load_cache(CACHE_FILE)
-
-    word_texts = [e["word"] for e in all_entries]
-
-    # Build flat sentence list with back-references
-    all_sentence_texts = []
-    sentence_entry_map = []  # (entry_idx, sent_idx)
-    for ei, e in enumerate(all_entries):
-        for si, s in enumerate(e["sentences"]):
-            all_sentence_texts.append(s)
-            sentence_entry_map.append((ei, si))
-
-    total = len(word_texts) + len(all_sentence_texts)
-    cached = sum(1 for t in word_texts + all_sentence_texts if t in cache)
-    print(f"  {total} texts total, {cached} cached, {total - cached} new")
-
-    print("Translating words …")
-    word_ru = translate_texts(word_texts, cache)
-
-    print("Translating sentences …")
-    sent_ru = translate_texts(all_sentence_texts, cache)
-
-    print("Saving cache …")
-    save_cache(CACHE_FILE, cache)
-
     # Assemble output
     vocab_out = []
     sentence_out = []
     sent_id = 1
 
-    # Build a lookup: (entry_idx, sent_idx) -> flat_idx
-    flat_lookup = {(eid, sid): k for k, (eid, sid) in enumerate(sentence_entry_map)}
-
     for ei, e in enumerate(all_entries):
         entry_sent_ids = []
         for si, s in enumerate(e["sentences"]):
-            flat_idx = flat_lookup.get((ei, si))
-            ru = sent_ru[flat_idx] if flat_idx is not None else None
             sentence_out.append({
                 "id": sent_id,
                 "text_de": s,
-                "text_ru": ru,
+                "text_ru": None,
                 "topic_ids": e["topic_ids"],
             })
             entry_sent_ids.append(sent_id)
@@ -525,7 +447,7 @@ def main():
             "id": ei + 1,
             "word_de": e["word"],
             "grammar": e["grammar"],
-            "word_ru": word_ru[ei],
+            "word_ru": None,
             "topic_ids": e["topic_ids"],
             "sentence_ids": entry_sent_ids,
         })

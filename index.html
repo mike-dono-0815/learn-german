@@ -52,15 +52,6 @@
 
       <main class="home-main">
 
-        <!-- MODE -->
-        <div class="setting-group">
-          <label class="setting-label">Режим</label>
-          <div class="btn-group" id="mode-group">
-            <button class="btn-toggle active" data-mode="vocabulary" onclick="App.setMode('vocabulary')">Слова</button>
-            <button class="btn-toggle"        data-mode="sentences"  onclick="App.setMode('sentences')">Предложения</button>
-          </div>
-        </div>
-
         <!-- TOPIC -->
         <div class="setting-group">
           <label class="setting-label">Тема</label>
@@ -165,36 +156,6 @@
           <div id="fb-grammar"  class="fb-grammar hidden"></div>
           <div id="fb-alts"     class="fb-alts hidden"></div>
           <button class="btn-primary" onclick="App.nextWord()">Далее →</button>
-        </div>
-
-        <!-- ── PHASE: Sentence input ── -->
-        <div id="phase-sentence-input" class="practice-phase">
-          <textarea
-            id="sentence-input"
-            class="sentence-input"
-            placeholder="Ваш перевод …"
-            rows="3"
-            autocomplete="off"
-            autocorrect="off"
-            autocapitalize="off"
-            spellcheck="false"
-          ></textarea>
-          <button class="btn-primary" onclick="App.revealSentence()">Показать ответ</button>
-          <button class="btn-ghost btn-sm" onclick="App.skipSentence()">Пропустить</button>
-        </div>
-
-        <!-- ── PHASE: Self-grade (sentences) ── -->
-        <div id="phase-selfgrade" class="practice-phase">
-          <div class="sg-label">Ваш ответ:</div>
-          <div id="sg-attempt"  class="sg-attempt"></div>
-          <div class="sg-divider">✦ Правильный ответ:</div>
-          <div id="sg-answer"   class="sg-answer"></div>
-          <div id="sg-translit" class="sg-translit hidden"></div>
-          <div class="sg-buttons">
-            <button class="btn-grade btn-wrong"   onclick="App.selfGrade(0)">❌ Неверно</button>
-            <button class="btn-grade btn-partial" onclick="App.selfGrade(1)">⚠️ Почти</button>
-            <button class="btn-grade btn-right"   onclick="App.selfGrade(2)">✅ Верно</button>
-          </div>
         </div>
 
       </main>
