@@ -1746,7 +1746,7 @@ var KB_DATA = {
       "id": "w0186",
       "topic_ids": [],
       "german": "das Café",
-      "grammar": "das Café",
+      "grammar": "das Café, die Cafés",
       "russian": "кафе",
       "alternates_german": [],
       "alternates_russian": []
@@ -2430,7 +2430,7 @@ var KB_DATA = {
       "id": "w0262",
       "topic_ids": [],
       "german": "die (E-)Mail",
-      "grammar": "die (E-)Mail",
+      "grammar": "die (E-)Mail, die E-Mails",
       "russian": "электронная почта, имейл",
       "alternates_german": [],
       "alternates_russian": []
@@ -2700,7 +2700,7 @@ var KB_DATA = {
       "id": "w0292",
       "topic_ids": [],
       "german": "das (Fahr)Rad",
-      "grammar": "das (Fahr)Rad",
+      "grammar": "das (Fahr)Rad, die Räder",
       "russian": "велосипед",
       "alternates_german": [],
       "alternates_russian": []

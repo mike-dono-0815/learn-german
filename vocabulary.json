@@ -1848,7 +1848,7 @@
     {
       "word": "Café",
       "article": "das",
-      "plural": null,
+      "plural": "Cafés",
       "forms": [],
       "type": "noun",
       "translation_ru": "кафе",
@@ -2590,7 +2590,7 @@
     {
       "word": "(E-)Mail",
       "article": "die",
-      "plural": null,
+      "plural": "E-Mails",
       "forms": [],
       "type": "noun",
       "translation_ru": "электронная почта, имейл",
@@ -2898,7 +2898,7 @@
     {
       "word": "(Fahr)Rad",
       "article": "das",
-      "plural": null,
+      "plural": "Räder",
       "forms": [],
       "type": "noun",
       "translation_ru": "велосипед",
